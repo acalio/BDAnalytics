@@ -1,0 +1,657 @@
+
+#+title: Introduction to SBT
+#+author: 
+#+email:     
+#+date:      
+#+description: 
+#+keywords: 
+#+language:  en
+#+options:   H:2 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+options:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+
+#+startup: beamer latexpreview hidestars 
+
+#+infojs_opt: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:https://orgmode.org/org-info.js
+#+export_select_tags: export
+#+export_exclude_tags: noexport
+
+# === Latex Settings =======================
+#+LaTeX_CLASS: beamer
+#+LATEX_CLASS_OPTIONS: [presentation, aspectratio=169]
+#+LATEX_HEADER: \RequirePackage{fancyvrb}
+#+LATEX_HEADER: \usepackage[margin=0.5in]{geometry}
+#+LaTeX_HEADER:\usepackage[backend=bibtex]{biblatex}
+#+LaTeX_HEADER: \addbibresource{./../biblio.bib}
+
+# === Title Page Setting =================== 
+#+LATEX_HEADER: \author[A. Caliò]{Antonio Caliò\inst{1}}
+#+BEAMER_HEADER:\institute{\inst{1}DIMES Dept., University of Calabria\\ Rende (CS), IT \\ a.calio@unical.it\\ Big Data Analytics - Computer Engineering for the IoT}
+#+BEAMER_HEADER: \titlegraphic{\begin{picture}(0,0) \put(200,200){\makebox(0,0)[rt]{\includegraphics[width=3cm]{./img/logo_dimes.jpg}}} \end{picture}}}
+#+BEAMER_HEADER: \AtBeginSection[]{\begin{frame}<beamer>\frametitle{Presentation agenda}\tableofcontents[currentsection]\end{frame}}
+
+#+BEAMER_FRAME_LEVEL: 2
+#+COLUMNS: %40ITEM %10BEAMER_env(Env) %9BEAMER_envargs(Env Args) %4BEAMER_col(Col) %10BEAMER_extra(Extra)
+
+* Introduction
+** Why?
+*** Why a Build System?  
+- As your project grows in complexity, compiling your source code "by hand" will soon become a nightmare!
+  For this reason you need a smart system to build your entire project.
+
+*** Why SBT?
+- It is  specifically built for java and scala projects. It represents the build tool of choice
+  for more  than 90% of all Scala projects
+- It is typesafe and parallel
+- The compilation process is incremental 
+- You can easily declare /watches/ over source file, so that they are compiled as  soon as SBT detects a change in the code
+- It can be extended with a number of community-driven plugins
+
+
+* Getting Started
+
+** sbt by example 
+   - First you need to download and install SBT following  [[https://www.scala-sbt.org/1.x/docs/index.html][*this*]] link
+   - Create the root directory for your project 
+     #+BEGIN_SRC bash
+     mkdir proot
+     cd proot # move inside the folder
+     touch build.sbt # create the build file
+     #+END_SRC
+   - One way of building the project is by opening an interactive folder inside the project main folder
+     #+BEGIN_SRC bash
+     sbt
+     sbt:proot> compile
+     #+END_SRC
+     The above command will build your project accordingly to what it is specified inside the file =build.sbt=
+  - You can create /watches/ over the files composing your project as follows:
+    #+BEGIN_SRC 
+    sbt:proot> ~compile
+    #+END_SRC
+    With the above instruction SBT will re-compile the project if anything change on disk
+
+** Create a source file
+
+*** Col left                                                          :BMCOL:
+   :PROPERTIES:
+   :BEAMER_col: 0.45
+   :END:
+   - The tree structure of your SBT project must adhere to the following structure:
+
+     #+caption: sbt project dir structure
+     #+attr_latex: :width 3cm :height 4cm
+     #+name: fig:dir-structure
+     [[./img/dir-structure.png]]
+
+*** Col right                                                         :BMCOL:
+   :PROPERTIES:
+   :BEAMER_col: 0.45
+   :END:
+   - All the scala source file goes into the src/main/scala subdirectory
+     
+   - Add the following class to that directory
+
+     #+BEGIN_SRC scala
+       package example
+
+       object Hello extends App {
+	 println("Hello")
+       }
+     #+END_SRC
+
+     
+** Run your App
+   - first run =compile= once again
+   - then issue the command =run= and you should be able to see the output of your program
+     #+caption: sbt run
+     #+name: fig:sbt-run
+     #+attr_latex: :width 150px
+      [[./img/sbt-run.png]]
+
+** Setting the build.sbt file
+- First, you assign a name to your project. 
+-  A good start for the build sbt file would be the following:
+\tiny
+#+BEGIN_SRC scala
+ThisBuild / scalaVersion := "2.12.7"
+ThisBuild / organization := "com.example"
+
+lazy val hello = (project in file("."))
+  .settings(
+    name := "Hello"
+  )
+#+END_SRC
+\large
+- Every time you update the sbt file you should call =reload= on the interactive shell in order
+  the updates to take effect
+
+  #+caption: sbt reload
+  #+name: fig:label
+  #+attr_latex: :width 200px :height 50px
+  [[./img/sbt-reload.png]]
+
+** Enable testing
+- Change the build.sbt as follows
+\tiny
+#+BEGIN_SRC scala
+ThisBuild / scalaVersion := "2.12.7"
+ThisBuild / organization := "com.example"
+
+lazy val hello = (project in file("."))
+  .settings(
+    name := "Hello",
+    libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.5" % Test,
+ )
+#+END_SRC
+\large
+- then for running the tests:
+\tiny
+#+BEGIN_SRC bash
+sbt:Hello> reload
+sbt:Hello> test
+sbt:Hello> ~testQuick
+#+END_SRC
+
+** Writing a test
+- Under the /src/ folder create a test folder and save the following file:
+\tiny
+#+BEGIN_SRC scala
+import org.scalatest._
+
+class HelloSpec extends FunSuite with DiagrammedAssertions {
+  test("Hello should start with H") {
+    assert("hello".startsWith("H"))
+  }
+}
+#+END_SRC
+\large
+- Then you can reload the project an run the tests once again
+** Add a library dependency
+- Dependencies are defined in the =build.sbt=  file. 
+\tiny
+#+BEGIN_SRC scala
+ThisBuild / scalaVersion := "2.12.7"
+ThisBuild / organization := "com.example"
+
+lazy val hello = (project in file("."))
+  .settings(
+    name := "Hello",
+    libraryDependencies += "com.typesafe.play" %% "play-json" % "2.6.9",
+    libraryDependencies += "com.eed3si9n" %% "gigahorse-okhttp" % "0.3.1",
+    libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.5" % Test,
+  )
+#+END_SRC
+
+** Make a subproject
+- You can include subproject inside your main one. 
+\tiny
+#+BEGIN_SRC scala
+ThisBuild / scalaVersion := "2.12.7"
+ThisBuild / organization := "com.example"
+
+lazy val hello = (project in file("."))
+  .settings(
+    name := "Hello",
+    libraryDependencies += "com.eed3si9n" %% "gigahorse-okhttp" % "0.3.1",
+    libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.5" % Test,
+  )
+
+lazy val helloCore = (project in file("core"))
+  .settings(
+    name := "Hello Core",
+  )
+
+#+END_SRC
+
+** Add ScalaTest to the subproject
+- Change the build.sbt as follows:
+\tiny
+#+BEGIN_SRC scala
+ThisBuild / scalaVersion := "2.12.7"
+ThisBuild / organization := "com.example"
+
+val scalaTest = "org.scalatest" %% "scalatest" % "3.0.5"
+
+lazy val hello = (project in file("."))
+  .settings(
+    name := "Hello",
+    libraryDependencies += "com.eed3si9n" %% "gigahorse-okhttp" % "0.3.1",
+    libraryDependencies += scalaTest % Test,
+  )
+
+lazy val helloCore = (project in file("core"))
+  .settings(
+    name := "Hello Core",
+    libraryDependencies += scalaTest % Test,
+  )
+#+END_SRC
+
+** Broadcast Commands
+- If you want any command sent to =hello= to be broadcaster to the =hellocore= project you can use the 
+  =aggregate= function. 
+\tiny
+#+BEGIN_SRC scala
+ThisBuild / scalaVersion := "2.12.7"
+ThisBuild / organization := "com.example"
+
+val scalaTest = "org.scalatest" %% "scalatest" % "3.0.5"
+
+lazy val hello = (project in file("."))
+  .aggregate(helloCore)
+  .settings(
+    name := "Hello",
+    libraryDependencies += "com.eed3si9n" %% "gigahorse-okhttp" % "0.3.1",
+    libraryDependencies += scalaTest % Test,
+  )
+
+lazy val helloCore = (project in file("core"))
+  .settings(
+    name := "Hello Core",
+    libraryDependencies += scalaTest % Test,
+  )
+#+END_SRC
+
+** Define dependencies
+- if you want to define a dependency for a project you must use the =.dependsOn= function as follows:
+\tiny
+#+BEGIN_SRC scala
+ThisBuild / scalaVersion := "2.12.7"
+ThisBuild / organization := "com.example"
+
+val scalaTest = "org.scalatest" %% "scalatest" % "3.0.5"
+
+lazy val hello = (project in file("."))
+  .aggregate(helloCore)
+  .dependsOn(helloCore)
+  .settings(
+    name := "Hello",
+    libraryDependencies += scalaTest % Test,
+  )
+
+lazy val helloCore = (project in file("core"))
+  .settings(
+    name := "Hello Core",
+    libraryDependencies += "com.eed3si9n" %% "gigahorse-okhttp" % "0.3.1",
+    libraryDependencies += scalaTest % Test,
+  )
+#+END_SRC
+
+** Add the Play-Json dependency
+\tiny
+#+BEGIN_SRC scala
+ThisBuild / scalaVersion := "2.12.7"
+ThisBuild / organization := "com.example"
+
+val scalaTest = "org.scalatest" %% "scalatest" % "3.0.5"
+val gigahorse = "com.eed3si9n" %% "gigahorse-okhttp" % "0.3.1"
+val playJson  = "com.typesafe.play" %% "play-json" % "2.6.9"
+
+lazy val hello = (project in file("."))
+  .aggregate(helloCore)
+  .dependsOn(helloCore)
+  .settings(
+    name := "Hello",
+    libraryDependencies += scalaTest % Test,
+  )
+
+lazy val helloCore = (project in file("core"))
+  .settings(
+    name := "Hello Core",
+    libraryDependencies ++= Seq(gigahorse, playJson),
+    libraryDependencies += scalaTest % Test,
+  )
+
+#+END_SRC
+
+** Add another source file
+- Add a new source file under the folder /core/src/main/scala/example/, name it =Wheater.scala=
+\tiny
+#+BEGIN_SRC scala
+package example.core
+
+import gigahorse._, support.okhttp.Gigahorse
+import scala.concurrent._, duration._
+import play.api.libs.json._
+
+object Weather {
+  lazy val http = Gigahorse.http(Gigahorse.config)
+
+  def weather: Future[String] = {
+    val baseUrl = "https://www.metaweather.com/api/location"
+    val locUrl = baseUrl + "/search/"
+    val weatherUrl = baseUrl + "/%s/"
+    val rLoc = Gigahorse.url(locUrl).get.
+      addQueryString("query" -> "New York")
+    import ExecutionContext.Implicits.global
+    for {
+      loc <- http.run(rLoc, parse)
+      woeid = (loc \ 0  \ "woeid").get
+      rWeather = Gigahorse.url(weatherUrl format woeid).get
+      weather <- http.run(rWeather, parse)
+    } yield (weather \\ "weather_state_name")(0).as[String].toLowerCase
+  }
+
+  private def parse = Gigahorse.asString andThen Json.parse
+}
+#+END_SRC
+
+** Update the main class
+- Create the file =Hello.scala= under =src/main/scala/example/Hello.scala=, then run the app.
+\tiny
+#+BEGIN_SRC scala
+package example
+
+import scala.concurrent._, duration._
+import core.Weather
+
+object Hello extends App {
+  val w = Await.result(Weather.weather, 10.seconds)
+  println(s"Hello! The weather in New York is $w.")
+  Weather.http.close()
+}
+#+END_SRC
+
+** Add a plugin
+- To add a plugin you must add a file =plugins.sbt= under the =project= folder.
+  Here we add the =sbt-native-packager= plugin. It is very useful as it 
+#+BEGIN_SRC scala
+addSbtPlugin("com.typesafe.sbt" % "sbt-native-packager" % "1.3.4")
+#+END_SRC
+
+** Enable a plugin
+- Change the =build.sbt= file as follows
+#+BEGIN_SRC scala
+ThisBuild / scalaVersion := "2.12.7"
+ThisBuild / organization := "com.example"
+
+val scalaTest = "org.scalatest" %% "scalatest" % "3.0.5"
+val gigahorse = "com.eed3si9n" %% "gigahorse-okhttp" % "0.3.1"
+val playJson  = "com.typesafe.play" %% "play-json" % "2.6.9"
+
+lazy val hello = (project in file("."))
+  .aggregate(helloCore)
+  .dependsOn(helloCore)
+  .enablePlugins(JavaAppPackaging)
+  .settings(
+    name := "Hello",
+    libraryDependencies += scalaTest % Test,
+  )
+
+lazy val helloCore = (project in file("core"))
+  .settings(
+    name := "Hello Core",
+    libraryDependencies ++= Seq(gigahorse, playJson),
+    libraryDependencies += scalaTest % Test,
+  )
+#+END_SRC
+
+** Distribute your project
+- once you enabled the packager plugin, you can create:
+  1. a .zip distribution. You just need to run: *dist* inside the console
+  2. a docker image. You just need to tun *Docker/publishLocal* inside the console
+     
+     
+* Build Structure
+
+** Create a new project
+- You can create a new project with the =sbt new= command 
+  (you need at least the version 0.13.13 of sbt).
+  #+caption: Sbt-new 
+  #+name: fig:sbt-new
+  [[./img/sbt-new.png]]
+  
+- =socala/scala-seed.g8= is a template that will initialize the directory structure of you project.
+  There are several templates, but this is always a good starting point for most of the projects
+
+** Understanding the directory structure
+*** Col left                                                          :BMCOL:
+   :PROPERTIES:
+   :BEAMER_col: 0.45
+   :END:
+   - In sbt's terminology, the base directory is where the build.sbt is located.
+     This can be regarded as root folder of your project
+   - Source Code directory. The source code structure resembles the one of Maven. 
+     Every path is relative to the source base directory
+
+*** Col right                                                         :BMCOL:
+   :PROPERTIES:
+   :BEAMER_col: 0.45
+   :END:
+     #+caption: Source Directory
+     #+name: fig:dir-structure
+     #+attr_latex: :width 10px
+
+     [[./img/dir-structure.png]]
+
+    
+** Build definition files
+*** Col left                                                          :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.45
+    :END:
+- The main file is the =build.sbt=
+- There are other support files located in other sub-directories of the base directory.
+  For instance we can have the =Dependencies.scala= under the project subdirectory.
+- Under the project directory you can also have a =plugins.sbt= file where you define the 
+  plugin involved in the process of building your project
+*** Col Right                                                         :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+    #+caption: Dependencies file
+    #+name: fig:dep-file
+    [[./img/dep-file.png]]
+
+
+* Build Definition
+
+** What is a build definition?
+   A build definition is defined in the =build.sbt= file and it consists of a collection of subprojects.
+   A subproject is declared as follows:
+\tiny
+   #+BEGIN_SRC scala
+   lazy val root = (project in file("."))
+     .settings(
+       name := "Hello",
+       scalaVersion := "2.12.7"
+     )
+   #+END_SRC
+\large   
+   A subproject is represented by a series of key/value pairs, listed under the =.settings()= method.
+
+** How to defines settings
+- a key-value pair is called /setting expression/. A /setting expression/ has the following structure:
+  #+caption: Setting Expression
+  #+name: fig:label
+  #+attr_latex: :width 100px
+  [[./img/setting-expression.png]]
+ 
+- There are three parts:
+  1. Left-hand side: *key*
+  2. *Operator*
+  3. Right-hand side: *body*
+
+** COMMENT  What is a Key?
+- A key is an instance of: =SettingKey[T]=, =TaskKey[T]= or =InputKey[T]=, where =T= is the expected value type
+- For instance, the key =name= is of the type =SettingKey[String]=, thus it expects a =String=
+
+*** =SettingKey[T]=
+    A key for a value computed once -- when the subproject is loaded
+
+*** =TaskKey[T]= 
+    A key for a value, task, that has to be recomputed each time, potentially with side effects
+
+*** =InputKey=
+    A key for a task that has command line argument as input
+
+** COMMENT Defining Tasks and settings
+- With the =:== operator you assign values to a setting or computations to a task.
+- If you  define a setting, then the value you are defining will be evaluated exactly once, at loading time
+- If you define a task, the computation you assign to that task will be evaluated each time that task is executed
+\tiny
+*** Col left                                                          :BMCOL:
+   :PROPERTIES:
+   :BEAMER_col: 0.45
+   :END:
+#+BEGIN_SRC scala
+lazy val hello = taskKey[Unit]("An example task") // task declaration
+
+lazy val root = (project in file("."))
+  .settings(
+    hello := { println("Hello!") } //task definition
+  )
+#+END_SRC
+*** Col right                                                         :BMCOL:
+   :PROPERTIES:
+   :BEAMER_col: 0.45
+   :END:
+#+BEGIN_SRC scala
+lazy val root = (project in file("."))
+  .settings(
+    hello := "Hello!"
+  )
+#+END_SRC
+
+
+
+
+
+* COMMENT Task Graph
+
+** Definition
+- Instead of thinking about settings as simple key/value pairs a better analogy would be to think or it  
+ as a directed acyclic graph. The edges of such graph denote what happens-before
+- We can declare dependen
+
+
+** Declaring dependency to other tasks
+- In the build.sbt file, we use .value method to express the dependency to another task or setting.
+  The value method is special, it may only be called in the argument to these operators: =:==, =+== or =++==.
+
+- As an example consider the following definition of scalacOptions, that depends on the update and clean tasks.
+
+#+BEGIN_SRC scala
+val scalacOptions = taskKey[Seq[String]]("Options for the Scala compiler.")
+val update = taskKey[UpdateReport]("Resolves and optionally retrieves dependencies, producing a report.")
+val clean = taskKey[Unit]("Deletes files produced by the build, such as generated sources, compiled classes, and task caches.")
+
+scalacOptions := {
+  val ur = update.value  // update task happens-before scalacOptions
+  val x = clean.value    // clean task happens-before scalacOptions
+  // ---- scalacOptions begins here ----
+  ur.allConfigurations.take(3)
+}
+
+#+END_SRC
+- the =update.value= and =clean.value= denote a task dependency, while 
+  =ur.allConfigurations.take(3)=
+
+* COMMENT Scopes
+
+* Library Dependencies
+** Adding library dependencies
+- To depend on third-party libraries there are two options.
+  1. Drop the jars into =lib/= folder -- so you would have an /unmanaged/ dependency
+  2. Express the dependency in the =build.sbt= file -- so you would have a /managed/ dependency
+#+BEGIN_SRC scala
+
+val derby = "org.apache.derby" % "derby" % "10.4.1.3"
+
+ThisBuild / organization := "com.example"
+ThisBuild / scalaVersion := "2.12.10"
+ThisBuild / version      := "0.1.0-SNAPSHOT"
+
+lazy val root = (project in file("."))
+  .settings(
+    name := "Hello",
+    libraryDependencies += derby
+  )
+
+#+END_SRC
+
+** Types of dependency
+There are two type of dependencies:
+- /unmanaged/ - if you just drop a jar file inside the =lib= folder
+- /managed/ - if you download the dependency from a respository
+** Unmmanaged dependency
+- Unmanaged dependencies work like this: add jars to lib and they will be placed on the project classpath
+- Dependencies in lib go on all the classpaths (for compile, test, run, and console). 
+  If you wanted to change the classpath for just one of those, 
+  you would adjust Compile / dependencyClasspath or Runtime / dependencyClasspath for example. 
+- You do not need to change anything in the =build.sbt= file in order to use unmanaged dependencies,
+  unless you want to override some configuration, for instance changing the base directory for the 
+  unmanaged dependencies:
+  #+BEGIN_SRC scala
+  unmanagedBased := baseDirectory.value / "custom_lib_direcotry"
+  #+END_SRC
+
+** Managed dependency
+- You define a managed dependency via the =libraryDependencies= key
+- A new dependency looks like this: 
+\tiny
+  #+BEGIN_SRC scala
+  libraryDependencies += groupId % artifactId % revision [% configurataion]
+  #+END_SRC
+\large
+- You can also define a sequence of dependencies and add them with the ++= operator, like this:
+\tiny
+#+BEGIN_SRC scala
+libraryDependencies ++= Seq(
+  groupID % artifactID % revision,
+  groupID % otherID % otherRevision
+)
+#+END_SRC
+
+** Getting the right Scala version with %%
+- When you use the definition: "organization %% moduleName % version" as opposed to "organization % moduleName % version",
+  sbt will add the Scala version to the artifact name.
+- Therefore the following definition:
+\tiny
+#+BEGIN_SRC scala
+libraryDependencies += "org.scala-tools" % "scala-stm_2.11" % "0.3"
+#+END_SRC
+\large
+is equivalent to:
+\tiny
+#+BEGIN_SRC scala
+libraryDependencies += "org.scala-tools" %% "scala-stm" % "0.3"
+#+END_SRC
+\large
+- The %% operator is very useful as many Scala libraries are compiled for multiple Scala versions. 
+  In this way you can select the version that better fits your project
+** COMMENT Ivy Revisions 
+
+- The =version= in =organization % moduleName % version=
+  does not have to be a single fixed version. 
+  Ivy -- the dependency manager --  can select the latest revision of a module according to constraints you specify.
+  Instead of a fixed revision like "1.6.1", you specify "latest.integration", "2.9.+", or "[1.0,)"
+
+** Resolvers
+   
+- Not all the packages live on the same server. sbt uses Maven2 repository by default. But if your dependency is 
+  on another repository you need to add a /resolver/ inside your build.sbt file, so that Ivy can find the dependency.
+
+- To add a resolver, here is the syntax:
+\tiny
+  #+BEGIN_SRC scala
+// resolvers += name at location
+resolvers += "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots"
+// if you have a local maven repository
+resolvers += "Local Maven Repository" at "file://"+Path.userHome.absolutePath+"/.m2/repository"
+  #+END_SRC
+
+
+** COMMENT Per-configuration dependencies
+- Often a dependency is used by your test code (in src/test/scala, which is compiled by the Test configuration) but not your main code. 
+
+#+BEGIN_SRC scala
+libraryDependencies += "org.apache.derby" % "derby" % "10.4.1.3" % "test"
+#+END_SRC
+  or
+#+BEGIN_SRC scala
+libraryDependencies += "org.apache.derby" % "derby" % "10.4.1.3" % Test
+#+END_SRC
+
+- Now, if you type show compile:dependencyClasspath at the sbt interactive prompt, you should not see the derby jar. But if you type show test:dependencyClasspath, you should see the derby jar in the list
+
+
+
