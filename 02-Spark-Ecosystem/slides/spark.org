@@ -57,24 +57,18 @@
 
 
 
-** MapReduce vs Spark                                             :B_columns:
-   :PROPERTIES:
-   :BEAMER_env: columns
-   :BEAMER_opt: t
-   :END:
-
+** MapReduce vs Spark                                             
 
 *** Col left                                                          :BMCOL:
     :PROPERTIES:
     :BEAMER_col: 0.5
-    :BEAMER_envargs: c[t]
     :END:
     - Iterative jobs
       #+caption: M/R 
       #+name: fig:scala-console
       [[./img/mr-iterative.png]]
-     n#+caption: Spark 
-      #+name: fig:spark-iterative
+     #+caption: Spark 
+     #+name: fig:spark-iterative
       [[./img/spark-iterative.png]]
 
 *** Col right                                                         :BMCOL:
@@ -85,9 +79,9 @@
       #+caption: M/R 
       #+name: fig:scala-console
       [[./img/map-multiple.png]]
-    #+caption: Spark 
-    #+name: fig:spark iterative
-    [[./img/spark-multiple.png]]
+      #+caption: Spark 
+      #+name: fig:spark iterative
+      [[./img/spark-multiple.png]]
 
 * Spark Key Concepts
 
