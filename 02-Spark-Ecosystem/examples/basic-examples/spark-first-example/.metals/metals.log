@@ -1,0 +1,1307 @@
+2020.09.09 10:21:46 INFO  started: Metals version 0.9.3 in workspace '/home/antonio/Garbage/sparktuto' for client emacs.
+2020.09.09 10:21:47 INFO  time: initialize in 0.33s
+2020.09.09 10:21:48 INFO  no build target: using presentation compiler with only scala-library
+2020.09.09 10:21:49 WARN  no build target for: /home/antonio/Garbage/sparktuto/src/main/scala/SimpleApp.scala
+Sep 09, 2020 10:21:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Sep 09, 2020 10:21:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Sep 09, 2020 10:21:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+Sep 09, 2020 10:21:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+Sep 09, 2020 10:21:49 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+2020.09.09 10:21:51 INFO  running '/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.265.b01-1.fc32.x86_64/jre/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals7037075550228662595/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.09.09 10:21:54 INFO  [info] welcome to sbt 1.3.13 (Red Hat, Inc Java 1.8.0_265)
+2020.09.09 10:21:57 INFO  [info] loading settings for project sparktuto-build-build from metals.sbt ...
+2020.09.09 10:21:57 INFO  [info] loading project definition from /home/antonio/Garbage/sparktuto/project/project
+2020.09.09 10:21:59 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+2020.09.09 10:22:01 INFO  [info] loading settings for project sparktuto-build from metals.sbt ...
+2020.09.09 10:22:01 INFO  [info] loading project definition from /home/antonio/Garbage/sparktuto/project
+2020.09.09 10:22:02 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+2020.09.09 10:22:02 INFO  [success] Generated .bloop/sparktuto-build.json
+2020.09.09 10:22:03 INFO  [success] Total time: 2 s, completed Sep 9, 2020 10:22:03 AM
+2020.09.09 10:22:05 INFO  [info] loading settings for project sparktuto from build.sbt ...
+2020.09.09 10:22:05 INFO  [info] set current project to Simple Project (in build file:/home/antonio/Garbage/sparktuto/)
+2020.09.09 10:22:09 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+2020.09.09 10:22:09 INFO  [success] Generated .bloop/sparktuto.json
+2020.09.09 10:22:09 INFO  [success] Generated .bloop/sparktuto-test.json
+2020.09.09 10:22:09 INFO  [success] Total time: 4 s, completed Sep 9, 2020 10:22:09 AM
+2020.09.09 10:22:09 INFO  build tool exit: 0
+2020.09.09 10:22:10 INFO  time: ran 'sbt bloopInstall' in 18s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher4051615475960725111/bsp.socket'...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.3-23-550c6c0a...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading 2 projects from '/home/antonio/Garbage/sparktuto/.bloop'...
+[0m[32m[D][0m Loading project from '/home/antonio/Garbage/sparktuto/.bloop/sparktuto-test.json'
+[0m[32m[D][0m Loading project from '/home/antonio/Garbage/sparktuto/.bloop/sparktuto.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.10.
+[0m[32m[D][0m   => /home/antonio/.sbt/boot/scala-2.12.10/lib/jansi.jar
+[0m[32m[D][0m   => /home/antonio/.sbt/boot/scala-2.12.10/lib/jline.jar
+[0m[32m[D][0m   => /home/antonio/.sbt/boot/scala-2.12.10/lib/scala-compiler.jar
+[0m[32m[D][0m   => /home/antonio/.sbt/boot/scala-2.12.10/lib/scala-library.jar
+[0m[32m[D][0m   => /home/antonio/.sbt/boot/scala-2.12.10/lib/scala-reflect.jar
+[0m[32m[D][0m   => /home/antonio/.sbt/boot/scala-2.12.10/lib/scala-xml_2.12.jar
+[0m[32m[D][0m Missing analysis file for project 'sparktuto-test'
+[0m[32m[D][0m Missing analysis file for project 'sparktuto'
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher4051615475960725111/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher4051615475960725111/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.09.09 10:22:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/antonio/.cache/metals/bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher4975742814644482482/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher4975742814644482482/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher4975742814644482482/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.09.09 10:22:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/antonio/.cache/metals/bsp.trace.json
+2020.09.09 10:22:13 INFO  time: connected to build server in 3.47s
+2020.09.09 10:22:13 INFO  Connected to Build server v1.4.3-23-550c6c0a
+2020.09.09 10:22:13 INFO  time: imported build in 0.2s
+2020.09.09 10:22:15 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.09.09 10:22:18 INFO  time: indexed workspace in 4.43s
+2020.09.09 10:22:19 INFO  compiling sparktuto (1 scala source)
+2020.09.09 10:22:37 INFO  time: compiled sparktuto in 17s
+Sep 09, 2020 10:32:50 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 98
+Sep 09, 2020 10:32:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 107
+Sep 09, 2020 10:32:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 110
+Sep 09, 2020 10:32:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 108
+Sep 09, 2020 10:32:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 114
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+2020.09.09 14:50:38 INFO  started: Metals version 0.9.3 in workspace '/home/antonio/Garbage/sparktuto' for client emacs.
+2020.09.09 14:50:38 INFO  time: initialize in 0.43s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher3169706410480769445/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.09.09 14:50:39 INFO  no build target: using presentation compiler with only scala-library
+2020.09.09 14:50:39 INFO  skipping build import with status 'Installed'
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+2020.09.09 14:50:42 WARN  no build target for: /home/antonio/Garbage/sparktuto/src/main/scala/SimpleApp.scala
+Waiting for the bsp connection to come up...
+Sep 09, 2020 2:50:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Sep 09, 2020 2:50:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+Sep 09, 2020 2:50:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+Sep 09, 2020 2:50:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Sep 09, 2020 2:50:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+Sep 09, 2020 2:50:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+Sep 09, 2020 2:50:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.3-23-550c6c0a...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/antonio/Garbage/sparktuto/.bloop'...
+[0m[32m[D][0m Loading project from '/home/antonio/Garbage/sparktuto/.bloop/sparktuto-test.json'
+[0m[32m[D][0m Loading project from '/home/antonio/Garbage/sparktuto/.bloop/sparktuto.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.10.
+[0m[32m[D][0m   => /home/antonio/.sbt/boot/scala-2.12.10/lib/jansi.jar
+[0m[32m[D][0m   => /home/antonio/.sbt/boot/scala-2.12.10/lib/jline.jar
+[0m[32m[D][0m   => /home/antonio/.sbt/boot/scala-2.12.10/lib/scala-compiler.jar
+[0m[32m[D][0m   => /home/antonio/.sbt/boot/scala-2.12.10/lib/scala-library.jar
+[0m[32m[D][0m   => /home/antonio/.sbt/boot/scala-2.12.10/lib/scala-reflect.jar
+[0m[32m[D][0m   => /home/antonio/.sbt/boot/scala-2.12.10/lib/scala-xml_2.12.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'sparktuto', 'sparktuto-test'
+[0m[32m[D][0m Missing analysis file for project 'sparktuto-test'
+[0m[32m[D][0m Loading previous analysis for 'sparktuto' from '/home/antonio/Garbage/sparktuto/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher3169706410480769445/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher3169706410480769445/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.09.09 14:50:44 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/antonio/.cache/metals/bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher4825746893922325424/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher4825746893922325424/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher4825746893922325424/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.09.09 14:50:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/antonio/.cache/metals/bsp.trace.json
+2020.09.09 14:50:45 INFO  time: connected to build server in 6.07s
+2020.09.09 14:50:45 INFO  Connected to Build server v1.4.3-23-550c6c0a
+2020.09.09 14:50:45 INFO  time: imported build in 0.23s
+2020.09.09 14:50:47 WARN  Could not find java sources in None. Java symbols will not be available.
+Sep 09, 2020 2:50:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21
+Sep 09, 2020 2:50:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22
+2020.09.09 14:50:48 INFO  time: indexed workspace in 3.32s
+2020.09.21 14:36:38 INFO  started: Metals version 0.9.3 in workspace '/home/antonio/Garbage/sparktuto' for client emacs.
+2020.09.21 14:36:39 INFO  time: initialize in 0.65s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher459133010094758034/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.09.21 14:36:39 INFO  no build target: using presentation compiler with only scala-library
+2020.09.21 14:36:40 INFO  skipping build import with status 'Installed'
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+2020.09.21 14:36:43 WARN  no build target for: /home/antonio/Garbage/sparktuto/src/main/scala/SimpleApp.scala
+Sep 21, 2020 2:36:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Sep 21, 2020 2:36:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21
+Sep 21, 2020 2:36:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 22
+Sep 21, 2020 2:36:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.3-23-550c6c0a...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/antonio/Garbage/sparktuto/.bloop'...
+[0m[32m[D][0m Loading project from '/home/antonio/Garbage/sparktuto/.bloop/sparktuto.json'
+[0m[32m[D][0m Loading project from '/home/antonio/Garbage/sparktuto/.bloop/sparktuto-test.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.10.
+[0m[32m[D][0m   => /home/antonio/.sbt/boot/scala-2.12.10/lib/jansi.jar
+[0m[32m[D][0m   => /home/antonio/.sbt/boot/scala-2.12.10/lib/jline.jar
+[0m[32m[D][0m   => /home/antonio/.sbt/boot/scala-2.12.10/lib/scala-compiler.jar
+[0m[32m[D][0m   => /home/antonio/.sbt/boot/scala-2.12.10/lib/scala-library.jar
+[0m[32m[D][0m   => /home/antonio/.sbt/boot/scala-2.12.10/lib/scala-reflect.jar
+[0m[32m[D][0m   => /home/antonio/.sbt/boot/scala-2.12.10/lib/scala-xml_2.12.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'sparktuto-test', 'sparktuto'
+[0m[32m[D][0m Missing analysis file for project 'sparktuto-test'
+[0m[32m[D][0m Loading previous analysis for 'sparktuto' from '/home/antonio/Garbage/sparktuto/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher459133010094758034/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher459133010094758034/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.09.21 14:36:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/antonio/.cache/metals/bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher9102671975966032000/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher9102671975966032000/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher9102671975966032000/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.09.21 14:36:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/antonio/.cache/metals/bsp.trace.json
+2020.09.21 14:36:46 INFO  time: connected to build server in 7s
+2020.09.21 14:36:46 INFO  Connected to Build server v1.4.3-23-550c6c0a
+2020.09.21 14:36:46 INFO  time: imported build in 0.25s
+2020.09.21 14:36:49 WARN  Could not find java sources in None. Java symbols will not be available.
+Sep 21, 2020 2:36:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 35
+Sep 21, 2020 2:36:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 37
+Sep 21, 2020 2:36:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 41
+2020.09.21 14:36:50 INFO  time: indexed workspace in 3.97s
+2020.09.21 14:36:59 INFO  compiling sparktuto (1 scala source)
+2020.09.21 14:37:05 INFO  time: compiled sparktuto in 5.9s
+2020.11.02 15:18:00 INFO  started: Metals version 0.9.3 in workspace '/home/antonio/git/BDAnalytics/02-Spark-Ecosystem/examples/basic-examples/spark-first-example' for client emacs.
+2020.11.02 15:18:01 INFO  time: initialize in 1.47s
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher12472711023382990798/bsp.socket'...
+Waiting for the bsp connection to come up...
+2020.11.02 15:18:05 INFO  no build target: using presentation compiler with only scala-library
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+Waiting for the bsp connection to come up...
+2020.11.02 15:18:09 WARN  no build target for: /home/antonio/git/BDAnalytics/02-Spark-Ecosystem/examples/basic-examples/spark-first-example/src/main/scala/SimpleApp.scala
+Nov 02, 2020 3:18:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Nov 02, 2020 3:18:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+Nov 02, 2020 3:18:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+Nov 02, 2020 3:18:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+Nov 02, 2020 3:18:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10
+2020.11.02 15:18:09 WARN  no build target for: /home/antonio/git/BDAnalytics/02-Spark-Ecosystem/examples/basic-examples/spark-first-example/src/main/scala/SimpleApp.scala
+Nov 02, 2020 3:18:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+Nov 02, 2020 3:18:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+Nov 02, 2020 3:18:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+Nov 02, 2020 3:18:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+Nov 02, 2020 3:18:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 21
+Nov 02, 2020 3:18:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23
+Nov 02, 2020 3:18:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 25
+Nov 02, 2020 3:18:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19
+Nov 02, 2020 3:18:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 31
+Nov 02, 2020 3:18:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 36
+Nov 02, 2020 3:18:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 40
+Nov 02, 2020 3:18:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 37
+Waiting for the bsp connection to come up...
+2020.11.02 15:18:09 INFO  running '/usr/lib/jvm/java-11-openjdk-11.0.8.10-2.fc32.x86_64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals16103288307792338970/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+Waiting for the bsp connection to come up...
+No server running at 127.0.0.1:8212, let's fire one...
+Resolving ch.epfl.scala:bloop-frontend_2.12:1.4.3-23-550c6c0a...
+Starting bloop server at 127.0.0.1:8212...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+Attempting a connection to the server...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/antonio/git/BDAnalytics/02-Spark-Ecosystem/examples/basic-examples/spark-first-example/.bloop'...
+[0m[32m[D][0m Loading project from '/home/antonio/git/BDAnalytics/02-Spark-Ecosystem/examples/basic-examples/spark-first-example/.bloop/sparktuto-test.json'
+[0m[32m[D][0m Loading project from '/home/antonio/git/BDAnalytics/02-Spark-Ecosystem/examples/basic-examples/spark-first-example/.bloop/sparktuto.json'
+[0m[32m[D][0m Cache miss for scala instance org.scala-lang:scala-compiler:2.12.10.
+[0m[32m[D][0m   => /home/antonio/.sbt/boot/scala-2.12.10/lib/jansi.jar
+[0m[32m[D][0m   => /home/antonio/.sbt/boot/scala-2.12.10/lib/jline.jar
+[0m[32m[D][0m   => /home/antonio/.sbt/boot/scala-2.12.10/lib/scala-compiler.jar
+[0m[32m[D][0m   => /home/antonio/.sbt/boot/scala-2.12.10/lib/scala-library.jar
+[0m[32m[D][0m   => /home/antonio/.sbt/boot/scala-2.12.10/lib/scala-reflect.jar
+[0m[32m[D][0m   => /home/antonio/.sbt/boot/scala-2.12.10/lib/scala-xml_2.12.jar
+[0m[32m[D][0m Configured SemanticDB in projects 'sparktuto', 'sparktuto-test'
+[0m[32m[D][0m Missing analysis file for project 'sparktuto-test'
+[0m[32m[D][0m Loading previous analysis for 'sparktuto' from '/home/antonio/Garbage/sparktuto/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip'.
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher12472711023382990798/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher12472711023382990798/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.02 15:18:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/antonio/.cache/metals/bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher3863305693078590165/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher3863305693078590165/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher3863305693078590165/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.02 15:18:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/antonio/.cache/metals/bsp.trace.json
+2020.11.02 15:18:12 INFO  time: connected to build server in 7.06s
+2020.11.02 15:18:12 INFO  Connected to Build server v1.4.3-23-550c6c0a
+2020.11.02 15:18:13 INFO  time: imported build in 0.25s
+2020.11.02 15:18:16 INFO  [info] welcome to sbt 1.3.13 (Red Hat, Inc. Java 11.0.8)
+2020.11.02 15:18:17 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.11.02 15:18:18 INFO  time: indexed workspace in 5.19s
+2020.11.02 15:18:18 WARN  no build target for: /home/antonio/git/BDAnalytics/02-Spark-Ecosystem/examples/basic-examples/spark-first-example/src/main/scala/SimpleApp.scala
+2020.11.02 15:18:18 INFO  [info] loading settings for project spark-first-example-build-build from metals.sbt ...
+2020.11.02 15:18:19 INFO  [info] loading project definition from /home/antonio/git/BDAnalytics/02-Spark-Ecosystem/examples/basic-examples/spark-first-example/project/project
+2020.11.02 15:18:21 INFO  [info] loading settings for project spark-first-example-build from metals.sbt ...
+2020.11.02 15:18:21 INFO  [info] loading project definition from /home/antonio/git/BDAnalytics/02-Spark-Ecosystem/examples/basic-examples/spark-first-example/project
+Nov 02, 2020 3:18:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:18:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 65
+Nov 02, 2020 3:18:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:18:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:18:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 69
+Nov 02, 2020 3:18:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 67
+Nov 02, 2020 3:18:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:18:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 72
+Nov 02, 2020 3:18:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:18:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+2020.11.02 15:18:24 INFO  [success] Generated .bloop/spark-first-example-build.json
+2020.11.02 15:18:24 INFO  [success] Total time: 3 s, completed Nov 2, 2020, 3:18:24 PM
+2020.11.02 15:18:24 INFO  [info] loading settings for project spark-first-example from build.sbt ...
+2020.11.02 15:18:24 INFO  [info] set current project to Simple Project (in build file:/home/antonio/git/BDAnalytics/02-Spark-Ecosystem/examples/basic-examples/spark-first-example/)
+2020.11.02 15:18:27 INFO  [success] Generated .bloop/spark-first-example-test.json
+2020.11.02 15:18:27 INFO  [success] Generated .bloop/spark-first-example.json
+2020.11.02 15:18:27 INFO  [warn] Removed stale /home/antonio/git/BDAnalytics/02-Spark-Ecosystem/examples/basic-examples/spark-first-example/.bloop/sparktuto-test.json
+2020.11.02 15:18:27 INFO  [warn] Removed stale /home/antonio/git/BDAnalytics/02-Spark-Ecosystem/examples/basic-examples/spark-first-example/.bloop/sparktuto.json
+2020.11.02 15:18:27 INFO  [success] Total time: 2 s, completed Nov 2, 2020, 3:18:27 PM
+2020.11.02 15:18:27 INFO  build tool exit: 0
+2020.11.02 15:18:28 INFO  time: ran 'sbt bloopInstall' in 17s
+2020.11.02 15:18:28 INFO  disconnected: build server
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher12671153316104791256/bsp.socket'...
+Waiting for the bsp connection to come up...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/antonio/git/BDAnalytics/02-Spark-Ecosystem/examples/basic-examples/spark-first-example/.bloop'...
+[0m[32m[D][0m Loading project from '/home/antonio/git/BDAnalytics/02-Spark-Ecosystem/examples/basic-examples/spark-first-example/.bloop/spark-first-example-test.json'
+[0m[32m[D][0m Loading project from '/home/antonio/git/BDAnalytics/02-Spark-Ecosystem/examples/basic-examples/spark-first-example/.bloop/spark-first-example.json'
+[0m[32m[D][0m Configured SemanticDB in projects 'spark-first-example-test', 'spark-first-example'
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher12671153316104791256/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher12671153316104791256/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.02 15:18:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/antonio/.cache/metals/bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher10845602847461899097/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher10845602847461899097/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher10845602847461899097/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.02 15:18:28 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/antonio/.cache/metals/bsp.trace.json
+2020.11.02 15:18:28 INFO  time: connected to build server in 0.16s
+2020.11.02 15:18:28 INFO  Connected to Build server v1.4.3-23-550c6c0a
+2020.11.02 15:18:29 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.11.02 15:18:31 INFO  time: indexed workspace in 3.44s
+2020.11.02 15:20:04 INFO  compiling spark-first-example (1 scala source)
+Nov 02, 2020 3:20:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:20:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 92
+2020.11.02 15:20:08 INFO  time: compiled spark-first-example in 4.66s
+Nov 02, 2020 3:20:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:20:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:20:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 146
+Nov 02, 2020 3:21:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 219
+Nov 02, 2020 3:21:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 256
+Nov 02, 2020 3:21:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 259
+Nov 02, 2020 3:21:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 258
+Nov 02, 2020 3:21:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 261
+Nov 02, 2020 3:21:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 262
+Nov 02, 2020 3:21:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 265
+Nov 02, 2020 3:21:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 264
+Nov 02, 2020 3:21:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 267
+Nov 02, 2020 3:21:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 274
+Nov 02, 2020 3:21:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 275
+Nov 02, 2020 3:21:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 278
+Nov 02, 2020 3:21:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 277
+Exception in thread "pool-2-thread-29" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.pc.VirtualFileParams.checkCanceled(VirtualFileParams.java:25)
+	at scala.meta.internal.pc.CompletionProvider.$anonfun$completions$1(CompletionProvider.scala:77)
+	at scala.collection.Iterator$$anon$10.next(Iterator.scala:459)
+	at scala.collection.Iterator.toStream(Iterator.scala:1415)
+	at scala.collection.Iterator.toStream$(Iterator.scala:1414)
+	at scala.collection.AbstractIterator.toStream(Iterator.scala:1429)
+	at scala.collection.Iterator.$anonfun$toStream$1(Iterator.scala:1415)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1171)
+	at scala.collection.immutable.Stream$Cons.tail(Stream.scala:1161)
+	at scala.collection.immutable.StreamIterator.$anonfun$next$1(Stream.scala:1061)
+	at scala.collection.immutable.StreamIterator$LazyCell.v$lzycompute(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator$LazyCell.v(Stream.scala:1050)
+	at scala.collection.immutable.StreamIterator.hasNext(Stream.scala:1055)
+	at scala.collection.convert.Wrappers$IteratorWrapper.hasNext(Wrappers.scala:31)
+	at scala.collection.convert.Wrappers$JIteratorWrapper.hasNext(Wrappers.scala:43)
+	at scala.collection.Iterator.foreach(Iterator.scala:943)
+	at scala.collection.Iterator.foreach$(Iterator.scala:943)
+	at scala.collection.AbstractIterator.foreach(Iterator.scala:1431)
+	at scala.collection.IterableLike.foreach(IterableLike.scala:74)
+	at scala.collection.IterableLike.foreach$(IterableLike.scala:73)
+	at scala.collection.AbstractIterable.foreach(Iterable.scala:56)
+	at scala.meta.internal.metals.AdjustLspData.adjustCompletionListInPlace(AdjustLspData.scala:58)
+	at scala.meta.internal.metals.AdjustLspData.adjustCompletionListInPlace$(AdjustLspData.scala:57)
+	at scala.meta.internal.metals.AdjustedLspData.adjustCompletionListInPlace(AdjustLspData.scala:75)
+	at scala.meta.internal.metals.Compilers.$anonfun$completions$2(Compilers.scala:278)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2020.11.02 15:21:15 INFO  running '/usr/lib/jvm/java-11-openjdk-11.0.8.10-2.fc32.x86_64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals16165933562224766932/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.11.02 15:21:18 INFO  [info] welcome to sbt 1.3.13 (Red Hat, Inc. Java 11.0.8)
+2020.11.02 15:21:19 INFO  [info] loading settings for project spark-first-example-build-build from metals.sbt ...
+2020.11.02 15:21:19 INFO  [info] loading project definition from /home/antonio/git/BDAnalytics/02-Spark-Ecosystem/examples/basic-examples/spark-first-example/project/project
+2020.11.02 15:21:21 INFO  [info] loading settings for project spark-first-example-build from metals.sbt ...
+2020.11.02 15:21:21 INFO  [info] loading project definition from /home/antonio/git/BDAnalytics/02-Spark-Ecosystem/examples/basic-examples/spark-first-example/project
+2020.11.02 15:21:24 INFO  [success] Generated .bloop/spark-first-example-build.json
+2020.11.02 15:21:24 INFO  [success] Total time: 2 s, completed Nov 2, 2020, 3:21:24 PM
+2020.11.02 15:21:26 INFO  [info] loading settings for project spark-first-example from build.sbt ...
+2020.11.02 15:21:26 INFO  [info] set current project to Simple Project (in build file:/home/antonio/git/BDAnalytics/02-Spark-Ecosystem/examples/basic-examples/spark-first-example/)
+2020.11.02 15:21:30 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+2020.11.02 15:21:32 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+2020.11.02 15:21:32 INFO  [success] Generated .bloop/spark-first-example-test.json
+2020.11.02 15:21:32 INFO  [success] Generated .bloop/spark-first-example.json
+2020.11.02 15:21:32 INFO  [success] Total time: 6 s, completed Nov 2, 2020, 3:21:32 PM
+2020.11.02 15:21:32 INFO  build tool exit: 0
+2020.11.02 15:21:32 INFO  time: ran 'sbt bloopInstall' in 17s
+2020.11.02 15:21:32 INFO  disconnected: build server
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher2116388768015970841/bsp.socket'...
+Waiting for the bsp connection to come up...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/antonio/git/BDAnalytics/02-Spark-Ecosystem/examples/basic-examples/spark-first-example/.bloop'...
+[0m[32m[D][0m Loading project from '/home/antonio/git/BDAnalytics/02-Spark-Ecosystem/examples/basic-examples/spark-first-example/.bloop/spark-first-example.json'
+[0m[32m[D][0m Loading project from '/home/antonio/git/BDAnalytics/02-Spark-Ecosystem/examples/basic-examples/spark-first-example/.bloop/spark-first-example-test.json'
+[0m[32m[D][0m Configured SemanticDB in projects 'spark-first-example', 'spark-first-example-test'
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher2116388768015970841/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher2116388768015970841/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.02 15:21:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/antonio/.cache/metals/bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher9767816531240285789/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher9767816531240285789/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher9767816531240285789/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.02 15:21:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/antonio/.cache/metals/bsp.trace.json
+2020.11.02 15:21:32 INFO  time: connected to build server in 0.12s
+2020.11.02 15:21:32 INFO  Connected to Build server v1.4.3-23-550c6c0a
+2020.11.02 15:21:34 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.11.02 15:21:34 INFO  time: indexed workspace in 1.87s
+Nov 02, 2020 3:21:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 345
+Nov 02, 2020 3:21:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 351
+Nov 02, 2020 3:21:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:21:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:21:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:21:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:21:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 364
+Nov 02, 2020 3:21:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:21:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:21:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:22:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 392
+Nov 02, 2020 3:22:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+2020.11.02 15:22:03 INFO  compiling spark-first-example (1 scala source)
+Nov 02, 2020 3:22:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+2020.11.02 15:22:04 INFO  time: compiled spark-first-example in 1.35s
+Nov 02, 2020 3:22:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:22:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:22:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:22:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:22:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:22:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 436
+2020.11.02 15:22:14 INFO  compiling spark-first-example (1 scala source)
+2020.11.02 15:22:14 INFO  time: compiled spark-first-example in 0.38s
+Nov 02, 2020 3:22:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:22:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:22:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:22:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:22:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:22:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:22:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+2020.11.02 15:22:28 INFO  compiling spark-first-example (1 scala source)
+2020.11.02 15:22:29 INFO  time: compiled spark-first-example in 1.07s
+Nov 02, 2020 3:25:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 507
+Nov 02, 2020 3:25:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 509
+Nov 02, 2020 3:27:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 558
+Nov 02, 2020 3:27:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 559
+Nov 02, 2020 3:27:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:27:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:27:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:27:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:27:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:27:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:27:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:27:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:27:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:27:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:27:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:27:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:27:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:27:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:27:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:27:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:27:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 660
+Nov 02, 2020 3:27:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 659
+2020.11.02 15:27:43 INFO  running '/usr/lib/jvm/java-11-openjdk-11.0.8.10-2.fc32.x86_64/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals18235003245791318020/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2020.11.02 15:27:46 INFO  [info] welcome to sbt 1.3.13 (Red Hat, Inc. Java 11.0.8)
+2020.11.02 15:27:46 INFO  [info] loading settings for project spark-first-example-build-build from metals.sbt ...
+2020.11.02 15:27:47 INFO  [info] loading project definition from /home/antonio/git/BDAnalytics/02-Spark-Ecosystem/examples/basic-examples/spark-first-example/project/project
+2020.11.02 15:27:48 INFO  [info] loading settings for project spark-first-example-build from metals.sbt ...
+2020.11.02 15:27:48 INFO  [info] loading project definition from /home/antonio/git/BDAnalytics/02-Spark-Ecosystem/examples/basic-examples/spark-first-example/project
+2020.11.02 15:27:51 INFO  [success] Generated .bloop/spark-first-example-build.json
+2020.11.02 15:27:51 INFO  [success] Total time: 2 s, completed Nov 2, 2020, 3:27:51 PM
+2020.11.02 15:27:51 INFO  [info] loading settings for project spark-first-example from build.sbt ...
+2020.11.02 15:27:51 INFO  [info] set current project to Simple Project (in build file:/home/antonio/git/BDAnalytics/02-Spark-Ecosystem/examples/basic-examples/spark-first-example/)
+2020.11.02 15:27:55 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+2020.11.02 15:27:56 INFO  [warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+2020.11.02 15:27:56 INFO  [success] Generated .bloop/spark-first-example-test.json
+2020.11.02 15:27:56 INFO  [success] Generated .bloop/spark-first-example.json
+2020.11.02 15:27:56 INFO  [success] Total time: 5 s, completed Nov 2, 2020, 3:27:57 PM
+2020.11.02 15:27:56 INFO  build tool exit: 0
+2020.11.02 15:27:57 INFO  time: ran 'sbt bloopInstall' in 13s
+2020.11.02 15:27:57 INFO  disconnected: build server
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher10950873372113928350/bsp.socket'...
+Waiting for the bsp connection to come up...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/home/antonio/git/BDAnalytics/02-Spark-Ecosystem/examples/basic-examples/spark-first-example/.bloop'...
+[0m[32m[D][0m Loading project from '/home/antonio/git/BDAnalytics/02-Spark-Ecosystem/examples/basic-examples/spark-first-example/.bloop/spark-first-example.json'
+[0m[32m[D][0m Loading project from '/home/antonio/git/BDAnalytics/02-Spark-Ecosystem/examples/basic-examples/spark-first-example/.bloop/spark-first-example-test.json'
+[0m[32m[D][0m Configured SemanticDB in projects 'spark-first-example-test', 'spark-first-example'
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher10950873372113928350/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher10950873372113928350/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.02 15:27:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/antonio/.cache/metals/bsp.trace.json
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher2629706214742592840/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher2629706214742592840/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher2629706214742592840/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+2020.11.02 15:27:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /home/antonio/.cache/metals/bsp.trace.json
+2020.11.02 15:27:57 INFO  Connected to Build server v1.4.3-23-550c6c0a
+2020.11.02 15:27:59 WARN  Could not find java sources in None. Java symbols will not be available.
+2020.11.02 15:27:59 INFO  time: indexed workspace in 1.5s
+2020.11.02 15:27:59 INFO  compiling spark-first-example (1 scala source)
+2020.11.02 15:27:59 INFO  time: compiled spark-first-example in 0.25s
+Nov 02, 2020 3:28:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:28:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:28:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:28:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:28:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:28:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:28:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:28:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:28:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:28:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:28:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:28:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:28:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:28:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:28:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:28:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:28:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:28:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:28:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:28:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:28:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 751
+Nov 02, 2020 3:28:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:28:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:28:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 753
+Nov 02, 2020 3:28:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:28:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:28:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:28:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:28:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:28:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:28:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 766
+Nov 02, 2020 3:28:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:28:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:28:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:28:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:28:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:28:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:28:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:28:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:28:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:28:23 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:28:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:28:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:28:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:28:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:28:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:28:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:28:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:28:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:28:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:28:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:28:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:28:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:28:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:28:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:28:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:28:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:28:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:28:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:28:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:28:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:28:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:28:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:28:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:28:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:28:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:28:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:28:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:28:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:28:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:28:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:29:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:29:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:29:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:29:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:29:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:29:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:29:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:29:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:29:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:29:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:29:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 915
+Nov 02, 2020 3:29:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:29:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:29:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:29:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:29:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:29:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:29:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:29:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:29:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:29:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:29:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:29:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:29:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:29:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:30:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:30:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1074
+Nov 02, 2020 3:30:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1073
+Nov 02, 2020 3:30:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:30:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:30:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:30:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1094
+Nov 02, 2020 3:30:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1092
+Nov 02, 2020 3:30:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:30:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:30:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1097
+Nov 02, 2020 3:30:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:30:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:30:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:30:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:30:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:30:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:30:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:30:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:30:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:30:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:30:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:30:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:30:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:30:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:30:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:30:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:30:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:30:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:30:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:30:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:30:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:30:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:30:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:30:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:30:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1194
+Nov 02, 2020 3:30:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:30:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1194
+Nov 02, 2020 3:30:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:30:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:30:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1194
+Nov 02, 2020 3:30:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:30:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:30:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:31:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1294
+Nov 02, 2020 3:31:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1194
+Nov 02, 2020 3:31:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:31:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:31:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:31:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1194
+Nov 02, 2020 3:31:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:31:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:31:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:31:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1309
+Nov 02, 2020 3:31:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1194
+Nov 02, 2020 3:31:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:31:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:31:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:31:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1313
+Nov 02, 2020 3:31:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1312
+Nov 02, 2020 3:31:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1194
+Nov 02, 2020 3:31:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:31:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:31:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:31:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1194
+Nov 02, 2020 3:31:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:31:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:31:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:31:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1336
+Nov 02, 2020 3:31:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1194
+Nov 02, 2020 3:31:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:31:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:31:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:31:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1338
+Nov 02, 2020 3:31:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1194
+Nov 02, 2020 3:31:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:31:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:31:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:31:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1194
+Nov 02, 2020 3:31:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:31:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:31:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:31:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1341
+Nov 02, 2020 3:31:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1339
+Nov 02, 2020 3:31:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1194
+Nov 02, 2020 3:31:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:31:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:31:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:31:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1343
+Nov 02, 2020 3:31:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1194
+Nov 02, 2020 3:31:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:31:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:31:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:31:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1194
+Nov 02, 2020 3:31:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:31:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:31:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+Nov 02, 2020 3:31:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1362
+Nov 02, 2020 3:31:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1194
+Nov 02, 2020 3:31:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1040
+Nov 02, 2020 3:31:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 464
+Nov 02, 2020 3:31:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 47
+2020.11.02 15:31:16 INFO  compiling spark-first-example (1 scala source)
+2020.11.02 15:31:16 INFO  time: compiled spark-first-example in 0.85s
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...

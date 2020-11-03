@@ -1,0 +1,4 @@
+[debug] [spark-first-example-test] Classpath dependencies List()
+[debug] [spark-first-example-test] Dependencies from configurations List(spark-first-example)
+[debug] Bloop wrote the configuration of project 'spark-first-example-test' to '/home/antonio/git/BDAnalytics/02-Spark-Ecosystem/examples/basic-examples/spark-first-example/.bloop/spark-first-example-test.json'
+[success] Generated .bloop/spark-first-example-test.json

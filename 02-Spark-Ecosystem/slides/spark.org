@@ -1,0 +1,502 @@
+#+title: The Spark Ecosystem
+#+author: 
+#+email:     
+#+date:      
+#+description: 
+#+keywords: 
+#+language:  en
+#+options:   H:2 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+options:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+
+#+startup: beamer latexpreview hidestars 
+
+#+infojs_opt: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:https://orgmode.org/org-info.js
+#+export_select_tags: export
+#+export_exclude_tags: noexport
+
+# === Latex Settings =======================
+#+LaTeX_CLASS: beamer
+#+LATEX_CLASS_OPTIONS: [presentation, aspectratio=169]
+#+LATEX_HEADER: \RequirePackage{fancyvrb}
+#+LATEX_HEADER: \usepackage[margin=0.5in]{geometry}
+#+LaTeX_HEADER:\usepackage[backend=bibtex]{biblatex}
+#+LaTeX_HEADER: \addbibresource{./../biblio.bib}
+
+# === Title Page Setting =================== 
+#+LATEX_HEADER: \author[A. Caliò]{Antonio Caliò\inst{1}}
+#+BEAMER_HEADER:\institute{\inst{1}DIMES Dept., University of Calabria\\ Rende (CS), IT \\ a.calio@unical.it\\ Big Data Analytics - Computer Engineering for the IoT}
+#+BEAMER_HEADER: \titlegraphic{\begin{picture}(0,0) \put(200,200){\makebox(0,0)[rt]{\includegraphics[width=3cm]{./img/logo_dimes.jpg}}} \end{picture}}}
+#+BEAMER_HEADER: \AtBeginSection[]{\begin{frame}<beamer>\frametitle{Presentation agenda}\tableofcontents[currentsection]\end{frame}}
+
+#+BEAMER_FRAME_LEVEL: 2
+#+COLUMNS: %40ITEM %10BEAMER_env(Env) %9BEAMER_envargs(Env Args) %4BEAMER_col(Col) %10BEAMER_extra(Extra)
+
+
+
+
+* Introduction
+
+** What is Spark
+   - Apache SparkTM is a fast and general-purpose engine for large-scale data processing
+   - Spark is designed to achieve the following goals:
+     + Generality: diverse workloads, operators, job sizes
+     + Low latency: sub-second
+     + Fault tolerance: faults are the norm, not the exception
+     + Simplicity: often comes from generality
+
+** Motivation
+   - Spark's main goal is to overcome one major limitation of the Map-Reduce approach: 
+     + The need for a lot of I/O operation.
+
+   #+caption: Map-Reduce
+   #+name: fig:scala-console
+   [[./img/map-reduce.png]]
+
+   \pause
+   - *Solution*: Keep data in main memory
+
+
+
+** MapReduce vs Spark                                             :B_columns:
+   :PROPERTIES:
+   :BEAMER_env: columns
+   :BEAMER_opt: t
+   :END:
+
+
+*** Col left                                                          :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :BEAMER_envargs: c[t]
+    :END:
+    - Iterative jobs
+      #+caption: M/R 
+      #+name: fig:scala-console
+      [[./img/mr-iterative.png]]
+     n#+caption: Spark 
+      #+name: fig:spark-iterative
+      [[./img/spark-iterative.png]]
+
+*** Col right                                                         :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+    - Same data multiple jobs
+      #+caption: M/R 
+      #+name: fig:scala-console
+      [[./img/map-multiple.png]]
+    #+caption: Spark 
+    #+name: fig:spark iterative
+    [[./img/spark-multiple.png]]
+
+* Spark Key Concepts
+
+** Spark Components
+   #+caption: Spark overview
+   #+attr_latex: :width 9cm :height 7cm
+   #+name: fig:spark-overview
+   [[./img/spark-eco.png]]
+   
+** Spark Core
+   - It is the main building block  that is exploited by all the high-level data analytics components 
+   - It contains the basic functionalities of Spark exploited by all components
+     + Task scheduling
+     + Memory management
+     + Fault recovery
+
+   - Provides the APIs that are used to create RDDs and applies transformations and actions upon them
+
+ 
+** Cluster Mode
+   #+caption: Cluster mode
+   #+attr_latex: :width 9cm :height 4cm
+   #+name: fig:cluster-mode
+   [[./img/cluster-mode.png]]
+
+   - There are four possible options for the cluster manager:
+     + Standalone (included in spark and used by default)
+     + Apache Mesos
+     + Hadoop YARN
+     + Kubernets
+
+** Resilient Distributed Datasets (RDDs)
+   - Partitioned/Distributed collections of objects spread across the nodes of a clusters 
+   - Stored in main memory (when it is possible) or on local disk 
+   - Spark programs are written in terms of operations on resilient distributed data sets 
+
+   - RDDs are built and manipulated through a set of parallel:
+     + Transformations  (e.g., map, filter, join)
+     + Actions  (e.g., count, collect, save)
+     + RDDs are automatically rebuilt on machine failure
+
+   - They are split in partitions
+     + Each node of the cluster that is running an application is assigned with at least one
+       partition of some RDD
+   - RDDs are can be stored:
+     + In  the main memory of the executor node
+     + In the local disk of the executor node
+   - RDD enables parallel and distributed computation on the node-level
+  
+
+** Example
+   #+caption: RDDs partition. Having more partitions implies having more parallelsm
+   #+attr_latex: :width 7cm :height 6cm
+   #+name: fig:label
+   [[./img/rdd-examplepng.png]]
+
+   
+** RDDs Properties
+- An RDD is /immutable/, i.e., its content cannot be modified
+- An RDD can be created starting from:
+  + a parallelized collection of objects
+  + any file stored in a HDFS or in a regular file system
+  + a database
+  + another existing RDD
+
+
+** Spark program
+   - Spark programs are written in terms of operations on RDDs
+     + Transformations
+     + Actions
+
+   - Spark programs are responsible for:
+     + Scheduling and synchronization of the jobs 
+     + Splitting of RDDs in partitions and allocation RDDs’ partitions in the nodes of the cluster 
+     + Hiding complexities of fault-tolerance and slow machines 
+
+   - Spark programs can be written in a variety of languages: Java, Python, Scala, R
+
+** The driver program
+     
+*** Col left                                                          :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+   - It is basically the file containing the main method
+   - It defines the workflow of the application
+   - It defines the necessary RDDs
+   - It accesses the spark cluster through a /SparkContext/ object
+    - The driver program actually runs on the executors involved in the cluster
+    - Each executor runs on its partition of the RDD
+*** Col Right                                                         :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+    #+caption: Driver program
+    #+name: fig:driver-program
+    [[./img/driver-program.png]]
+
+:HIDE:
+
+# ** Anatomy of a Spark program
+
+# Indipendentemente dal contesto applicativo, l'anatomia di una qualsiasi 
+# applicazione basata su Spark-streaming è riconducibile alle quattro seguenti fasi:
+
+# 1. Creazione di uno /Streaming Context/
+# 2. Creazione di uno DStream 
+# 3. Trasformazione degli RDD
+# 4. Salvataggio/Forwarding dei risultati
+
+# Il primo step è importare le librerie necessarie. 
+# Il modo migliore è utilizzare la dependency injection e quindi sfruttare 
+# un build tool. In generale, quando si sviluppano applicazioni in Scala, 
+# la scelta maggiormente condivisa all'interno della comunità di sviluppatori ricadere
+# su =sbt=. 
+
+# Essendo Spark reperibile direttamente all'interno del  /Maven Central Repository/, importarlo
+# all'interno di un progetto è relativamente semplice, occorre semplicemente esplicitare la
+# dipendenza all'interno del file di build. 
+
+# Nel nostro caso, avendo deciso di utilizzare =sbt=, all'interno del file
+# =build.st= -- che deve trovarsi nella cartella root del progetto -- dobbiamo 
+# specificare quanto segue:
+
+# #+BEGIN_SRC txt
+# libraryDependencies += "org.apache.spark" % "spark-streaming_2.12" % "3.0.0" % "provided"
+# #+END_SRC
+
+# Una volta che tutte le dipendenze sono state opportunamente definite,
+#  l'applicazione deve inizializzare uno =StreamingContext=. 
+
+# Le istruzioni necessarie alla creazione di uno =StreamingContext= sono le seguenti:
+# #+BEGIN_SRC scala
+
+# import org.apache.spark._
+# import org.apache.spark.streaming._
+
+# val conf = new SparkConf().setAppName(appName).setMaster(master)
+# val strContext = new StreamingContext(conf, Seconds(1))
+
+# #+END_SRC
+
+# La prima istruzione consiste nella creazione di un oggetto =SparkConf= che contiene le specifiche della nostra applicazione.
+# Particolare attenzione va posta ai seguenti parametri:
+# - =appName= - rappresenta il nome associato alla nostra applicazione
+# - =master= - contiene l'URL del cluster su cui la nostra applicazione dee essere distribuita (e.g., Spark, Mesos, Kubernets). In fase di sviluppo, occorre specificare ="local[*]"=
+
+# Una volta definito la configurazione, questa va dato in input al costruttore dello =StreamingContext=.
+
+# # Nell'esempio abbiamo specificato un /batch-interval/ di un secondo, il che vuol dire 
+# # Spark splits the stream into micro batches. The batch interval defines the size of the batch in seconds. For example, a batch interval of 5 seconds 
+# # will cause Spark to collect 5 seconds worth of data to process.
+
+# Avviato il contesto, è necessario inizializzare lo stream di dati.
+# La principale astrazione software con cui lavora Spark-Streaming sono i /Discretized Stream/ (DStream).
+# Un DStream rappresenta uno stream continuo di dati come una sequenza di Resilient Distributed Database (RDD).
+
+# La Fig.[[fig:dstream]] rappresenta una schematizzazione di uno stream di dati.
+
+# #+caption: Rappresentazione di un DSTream
+# #+name: fig:dstream
+# [[./img/dstream.png]]
+
+# Qualsiasi operazione eseguita su un DStream viene di fatto mappata sul RDD sottostante lo stream di dati.
+
+# Uno stream può essere creato a partire da diverse sorgenti dati. 
+# Tipicamente queste sorgenti sono suddivise in due categorie:
+# + /Basic Sources/ - si riferisce a tutte quelle sorgenti built-in, ovvero già disponibili all'interno delle =StreamingContext= API
+# + /Advanced Sources/ - si riferisce a sorgenti derivanti dall'integrazione con altri framework (e.g., Kafka, Kinesis, Flume)
+
+# Per il momento assumiamo di voler realizzare uno stream di tipo /basic/, ovvero 
+# a partire da uno semplice file di testo.
+
+# Al fine di realizzare tale DStream occorre eseguire le istruzioni seguenti:
+
+# #+BEGIN_SRC java
+# strmContext.textFileStream(dataDirectory)
+# #+END_SRC
+
+# La variabile  =dataDirectory= rappresenta un path ad una risorsa -- file o directory --  locale, residente su un file system 
+# distribuito (e.g., S3 o hdfs).
+
+
+# Una volta realizzato il =DStream= occorre definire il =Reicever= associato ad esso.
+# Il receiver ha il compito di ricevere i dati, ovvero della sequenza di =RDD= 
+# che compongono lo stream di dati, e di applicare delle trasformazioni su di essi.
+
+# Una trasformazione è semplicemente una funzione che riceve in ingresso un oggetto
+# =RDD= e restituisce (tipicamente) un ulteriore =RDD= che rappresenta il risultato dell'applicazione
+# della funzione di trasformazione sul dato di partenza.
+
+# Un esempio, non esaustivo, delle possibile trasformazioni applicabili su un RDD 
+# è rappresentato nella Tabella [[tab:rdd-operation]].
+
+# #+caption: Trasformazioni su RDD
+# #+name: tab:rdd-operation
+# +-------------------+-------------------------------------------------------------------+
+# | Trasformazione    |Descrizione                                                        |
+# +-------------------+-------------------------------------------------------------------+
+# | =map(/func/)=     |Restituisce un nuovo DStream ottenuto dall'applicazione della      |
+# |                   |funzione /func/ su tut te le entry del DSTream in input            |
+# +-------------------+-------------------------------------------------------------------+
+# | =flatMap(/func/)= |Simile alla precedente con la differenza che ogni entry del DStream|
+# |                   |in ingresso può essere mappata su 0 o più elementi sul DStream     |
+# |                   |risultante                                                         |
+# +-------------------+-------------------------------------------------------------------+
+# | =filter(/func/)=  |Restituisce un DStream contenente solo le entry per cui /func/     |
+# |                   |restituisce true                                                   |
+# +-------------------+-------------------------------------------------------------------+
+# | =count()=         |Restituisce un DStream con una sola entry che rappresenta il numero|
+# |                   |di elementi nel DStream di partenza                                |
+# +-------------------+-------------------------------------------------------------------+
+# | =reduce(/func/)=  |Restituisce un DSteam contenente una singola entry ottenuta        |
+# |                   |dall'aggregazione -- sulla base di /func/ -- del DStream di        |
+# |                   |partenza                                                           |
+# +-------------------+-------------------------------------------------------------------+
+
+
+# Una volta applicate le trasformazioni sul DStream, la parte conclusiva 
+# dell'applicazione può coinvolgere il salvataggio dei risultati oppure il forwarding
+# verso un ulteriore nodo di elaborazione.
+
+:END:
+* RDDs Main Operations
+** Creation
+   - From a text file
+     #+BEGIN_SRC scala
+     val logData = spark.read.textFile(logFile)
+     #+END_SRC
+  - From a collection
+    #+BEGIN_SRC scala
+    spark.sparkContext.parallelize(<somelist>)    
+    #+END_SRC
+ - From another RDD
+   #+BEGIN_SRC scala
+   val nextRdd = rdd.<someRDDTransformation>((x, y) => x+y)
+   #+END_SRC
+** Storage
+   - Calling the cache function
+#+BEGIN_SRC 
+   val logData = spark.read.textFile(logFile).cache()
+#+END_SRC
+   This function actually calls: =persist(SotrageLevel.MEMORY_AND_DISK)=
+ 
+
+
+*** Col left                                                          :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+  - *Why caching?* - If your spark program defines a similar DAG as the one in ..
+    Then it makes sense to save the RDD generated after step 2 as it will feed 
+    two distinct branches of your application
+  - More generally, you should cache any RDD that will be used more than once
+
+*** Col right                                                         :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+#+BEGIN_SRC plantuml :file dag.png :exports results
+    start 
+    if (step 1) then (branch-1)
+    :step 2a;
+    else (branch-2) 
+    :step 2b;
+    endif 
+    #+END_SRC
+    #+RESULTS:
+    [[file:dag.png]]
+
+** StorageLevel
+   #+OPTIONS: ^:nil
+- There are four different storage levels:
+  + DISK_ONLY: Persist data on disk only in serialized format
+  + MEMORY_ONLY:  Persist data in memory only in deserialized format
+  + MEMORY_AND_DISK: Persist data in memory and if enough memory is not available evicted blocks will be stored on disk
+  + OFF_HEAP: Data is persisted in off-heap memory
+
+** Retrieval
+ - The content of an RDD can be retrieved from the nodes of the cluster and “stored” in a local  variable
+   of the Driver process.
+ #+BEGIN_SRC 
+   val collectedVariable: Array[<RDD objects'type>] = RddVariable.collect()
+ #+END_SRC
+- The =collect()= method returns all the elements in the RDD as a collection of objects
+  + Be aware that if the size of the RDD is to large it may not fit inside a regular (not-distributed) variable
+
+
+** Transformations
+- Operations on RDDs that return a new RDD 
+- Apply a transformation on the elements of the input RDD(s) and the result of the transformation is stored in a new RDD
+  + Remember that RDDs are immutable, i.e., we cannot change the content of an already existing RDD 
+  + We can only apply a transformation on the content of an RDD and store/assign the result in/to a new RDD 
+- Transformations  are computed lazily 
+   + i.e., transformations are computed only when an action is applied on the RDDs generated by the transformation operations 
+   + When a transformation is invoked Spark keeps only track of the dependency between the input RDD and the new RDD returned by the transformation
+     The content of the new RDD is not computed 
+** Different types of transformations
+Two kinds of transformations:
+- Some basic transformations analyze the content of one single RDD and return a new RDD
+- Some other transformations analyze the content of two RDDs and return a new RDD
+
+Examples of transformations are:
+- Filter -  it applies a boolan-returning  function 
+- Map -  it applies a function returning a new objects starting from the ones contained in the original RDD - 1-to-1 mapping
+- FlatMap - it applies a function returning a new objects starting from the ones contained in the original RDD - 1-to-many mapping
+- Distinct - it returns a new RDD with no duplicates
+- Sample - it randomly extracts a fraction of the entire RDD
+- Set Transformations: e.g., =union=, =interesection=, =subtract=
+
+
+** Actions
+ Operations that:
+ - Return results to the Driver program i.e., return local variables 
+   + Attention should be put on the size of the returned results because they must be stored in the main memory of the Driver program 
+ - Or write the result in the storage (output file/folder) 
+   + the size of the result can be large in this case since it is directly stored in the (distributed) file system
+Examples of actions are:
+- =count()/countByValue()=
+- =take()/takeSample()=
+- =reduce()=
+- =foreach()=
+- =collect()=
+
+** The lineage Directed-Acyclic-Graph (DAG)
+- It represents the dependencies between the RDD generated by the driver program. 
+- It is need in to compute the content of an RDD:
+  + when an action is performed for the first time
+  + when the application needs to recover from a failure
+- Spark automatically optimizes the operations based on the this graph
+
+*** Col left                                                          :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+    - Example 
+    \tiny
+     #+BEGIN_SRC scala
+
+     ...
+     val inputRDD = sc.textFile(<path>)
+     val errorsRDD = inputRDD.filter(<some function>)
+     val warningRDD = inputRDD.filter(<some function>)
+     val badRDD = errorsRDD.union(warningRDD)
+     val uniqueBadLinesRDD = badRDD.distinct()
+   #+END_SRC
+    \vfill
+*** Col right                                                         :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+    #+caption: DAG corresponding to the listing
+    #+attr_latex: :width 4cm :height 4cm
+    #+name: fig:dag-exampl
+    [[./img/data.png]]
+
+* Dockerize your environment
+
+** Requirements
+   - A working Docker environment on your machine -- if your are on Fedora (>==32), you should 
+     use =podman= instead of Docker 
+   - You should be familiar with the notions of:
+     + Docker image
+     + Docker container
+     + Dockerfile 
+
+** Dockerize your environment
+   - The following Dockerfile creates a working environment with everything you need: Scala, sbt and Spark
+
+*** Col left                                                          :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+     #+caption: First part
+     #+attr_latex: :width 7cm :height 4cm
+     #+name: fig:dokerfile1
+     [[./img/dockerfile1.png]]
+
+
+*** Col right                                                         :BMCOL:
+    :PROPERTIES:
+    :BEAMER_col: 0.5
+    :END:
+     #+caption: Second part 
+     #+attr_latex: :width 7cm :height 2cm
+     #+name: fig:dokerfile2
+     [[./img/dockerfile2.png]]
+
+
+** Dockerize your application
+   - A very simple way to  dockerize your application is to put the following file
+     inside the root directory of your project
+#+BEGIN_SRC docker
+FROM <your-repository>/spark-base
+
+RUN mkdir /app
+COPY . /app
+WORKDIR /app # this is the working directory inside your container
+
+#+END_SRC
+   - Then within the same directory you build the container as follows:
+#+BEGIN_SRC bash
+docker image build -t <imageName> .
+#+END_SRC
+ - Finally, you run the container as follows:
+#+BEGIN_SRC bash
+docker run --rm -it -v $(pwd):/app <imageName> spark-submit --class <MainClass> ... 
+#+END_SRC
+
+
+* Footnotes
+[fn:1] It is recommended to install the 2.12 version
