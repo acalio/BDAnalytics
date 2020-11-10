@@ -1,5 +1,3 @@
-
-
 # Introduction
 
 You are required to build a spark-based program that is able to compute several
@@ -16,10 +14,10 @@ In the folder `data` you have two files:
 
 1.  `u.data` &#x2013; it contains the following information:
     
-    <userId> <movieId> <rating> <timestamp>
+    `userId` `movieId` `rating` `timestamp`
 
 2.  `u.item`
-    <movieId> | <movieName> | <movieData> | <movieUrl> | &#x2026; binary attributes &#x2026;
+    `movieId` | `movieName` | `movieData` | `movieUrl` | &#x2026; binary attributes &#x2026;
 
 
 # First Example
