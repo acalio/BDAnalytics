@@ -1,4 +1,4 @@
-% Created 2020-11-03 Tue 11:04
+% Created 2020-11-09 Mon 12:36
 % Intended LaTeX compiler: pdflatex
 \documentclass[presentation, aspectratio=169]{beamer}
 \usepackage[utf8]{inputenc}
@@ -44,9 +44,9 @@
 
 
 \section{Introduction}
-\label{sec:orga29cf16}
+\label{sec:org195cb10}
 
-\begin{frame}[label={sec:orgd572122}]{What is Spark}
+\begin{frame}[label={sec:org268e54a}]{What is Spark}
 \begin{itemize}
 \item Apache SparkTM is a fast and general-purpose engine for large-scale data processing
 \item Spark is designed to achieve the following goals:
@@ -59,7 +59,7 @@
 \end{itemize}
 \end{frame}
 
-\begin{frame}[label={sec:orgf304fc3}]{Motivation}
+\begin{frame}[label={sec:org7d6939a}]{Motivation}
 \begin{itemize}
 \item Spark's main goal is to overcome one major limitation of the Map-Reduce approach: 
 \begin{itemize}
@@ -70,7 +70,7 @@
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.9\linewidth]{./img/map-reduce.png}
-\caption{\label{fig:org8ccaf49}Map-Reduce}
+\caption{\label{fig:org0c4921a}Map-Reduce}
 \end{figure}
 
 \pause
@@ -81,7 +81,7 @@
 
 
 
-\begin{frame}[label={sec:orgf4c6ded}]{MapReduce vs Spark}
+\begin{frame}[label={sec:org17743a0}]{MapReduce vs Spark}
 \begin{columns}
 \begin{column}{0.5\columnwidth}
 \begin{itemize}
@@ -89,12 +89,12 @@
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.9\linewidth]{./img/mr-iterative.png}
-\caption{\label{fig:org406c680}M/R}
+\caption{\label{fig:org649b7da}M/R}
 \end{figure}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.9\linewidth]{./img/spark-iterative.png}
-\caption{\label{fig:org2ea235d}Spark}
+\caption{\label{fig:org7f6cbf1}Spark}
 \end{figure}
 \end{itemize}
 \end{column}
@@ -105,12 +105,12 @@
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.9\linewidth]{./img/map-multiple.png}
-\caption{\label{fig:org8ecfda4}M/R}
+\caption{\label{fig:org6e8a537}M/R}
 \end{figure}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.9\linewidth]{./img/spark-multiple.png}
-\caption{\label{fig:org7a91d77}Spark}
+\caption{\label{fig:org79795c1}Spark}
 \end{figure}
 \end{itemize}
 \end{column}
@@ -118,17 +118,17 @@
 \end{frame}
 
 \section{Spark Key Concepts}
-\label{sec:orgfc71558}
+\label{sec:org0dce93b}
 
-\begin{frame}[label={sec:org7bf516a}]{Spark Components}
+\begin{frame}[label={sec:orgb8d851e}]{Spark Components}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=9cm,height=7cm]{./img/spark-eco.png}
-\caption{\label{fig:orgf6da07a}Spark overview}
+\caption{\label{fig:org442d84d}Spark overview}
 \end{figure}
 \end{frame}
 
-\begin{frame}[label={sec:orga61b095}]{Spark Core}
+\begin{frame}[label={sec:orgd99383c}]{Spark Core}
 \begin{itemize}
 \item It is the main building block  that is exploited by all the high-level data analytics components
 \item It contains the basic functionalities of Spark exploited by all components
@@ -143,11 +143,11 @@
 \end{frame}
 
 
-\begin{frame}[label={sec:org16dad19}]{Cluster Mode}
+\begin{frame}[label={sec:org264413f}]{Cluster Mode}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=9cm,height=4cm]{./img/cluster-mode.png}
-\caption{\label{fig:org1ce0571}Cluster mode}
+\caption{\label{fig:org70a6c84}Cluster mode}
 \end{figure}
 
 \begin{itemize}
@@ -161,7 +161,7 @@
 \end{itemize}
 \end{frame}
 
-\begin{frame}[label={sec:orgfde1ab9}]{Resilient Distributed Datasets (RDDs)}
+\begin{frame}[label={sec:orgb5c93ab}]{Resilient Distributed Datasets (RDDs)}
 \begin{itemize}
 \item Partitioned/Distributed collections of objects spread across the nodes of a clusters
 \item Stored in main memory (when it is possible) or on local disk
@@ -189,16 +189,16 @@ partition of some RDD
 \end{frame}
 
 
-\begin{frame}[label={sec:org13dc7e5}]{Example}
+\begin{frame}[label={sec:org9da2ec2}]{Example}
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=7cm,height=6cm]{./img/rdd-examplepng.png}
-\caption{\label{fig:org921b7bc}RDDs partition. Having more partitions implies having more parallelsm}
+\caption{\label{fig:org0ca5e8d}RDDs partition. Having more partitions implies having more parallelsm}
 \end{figure}
 \end{frame}
 
 
-\begin{frame}[label={sec:orgcd9c13a}]{RDDs Properties}
+\begin{frame}[label={sec:org63f074d}]{RDDs Properties}
 \begin{itemize}
 \item An RDD is \emph{immutable}, i.e., its content cannot be modified
 \item An RDD can be created starting from:
@@ -212,7 +212,7 @@ partition of some RDD
 \end{frame}
 
 
-\begin{frame}[label={sec:orgc7e295b}]{Spark program}
+\begin{frame}[label={sec:orgbf8d423}]{Spark program}
 \begin{itemize}
 \item Spark programs are written in terms of operations on RDDs
 \begin{itemize}
@@ -231,7 +231,7 @@ partition of some RDD
 \end{itemize}
 \end{frame}
 
-\begin{frame}[label={sec:orgdeb1a12}]{The driver program}
+\begin{frame}[label={sec:orgf8a4d44}]{The driver program}
 \begin{columns}
 \begin{column}{0.5\columnwidth}
 \begin{itemize}
@@ -249,14 +249,14 @@ partition of some RDD
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=.9\linewidth]{./img/driver-program.png}
-\caption{\label{fig:orgf57794b}Driver program}
+\caption{\label{fig:orga6817ad}Driver program}
 \end{figure}
 \end{column}
 \end{columns}
 \end{frame}
 \section{RDDs Main Operations}
-\label{sec:org64adc76}
-\begin{frame}[label={sec:org8931b0b},fragile]{Creation}
+\label{sec:orgbeab17b}
+\begin{frame}[label={sec:org595b443},fragile]{Creation}
  \begin{itemize}
 \item From a text file
 \begin{verbatim}
@@ -276,7 +276,7 @@ val nextRdd = rdd.<someRDDTransformation>((x, y) => x+y)
 \end{verbatim}
 \end{itemize}
 \end{frame}
-\begin{frame}[label={sec:org1fa974b},fragile]{Storage}
+\begin{frame}[label={sec:orgee15ce6},fragile]{Storage}
  \begin{itemize}
 \item Calling the cache function
 \end{itemize}
@@ -305,7 +305,7 @@ two distinct branches of your application
 \end{columns}
 \end{frame}
 
-\begin{frame}[label={sec:org0023b04}]{StorageLevel}
+\begin{frame}[label={sec:org20dd22b}]{StorageLevel}
 \begin{itemize}
 \item There are four different storage levels:
 \begin{itemize}
@@ -317,7 +317,7 @@ two distinct branches of your application
 \end{itemize}
 \end{frame}
 
-\begin{frame}[label={sec:org89bfde3},fragile]{Retrieval}
+\begin{frame}[label={sec:org4721ac1},fragile]{Retrieval}
  \begin{itemize}
 \item The content of an RDD can be retrieved from the nodes of the cluster and “stored” in a local  variable
 of the Driver process.
@@ -334,7 +334,7 @@ val collectedVariable: Array[<RDD objects'type>] = RddVariable.collect()
 \end{frame}
 
 
-\begin{frame}[label={sec:org0f37ff8}]{Transformations}
+\begin{frame}[label={sec:org4f43588}]{Transformations}
 \begin{itemize}
 \item Operations on RDDs that return a new RDD
 \item Apply a transformation on the elements of the input RDD(s) and the result of the transformation is stored in a new RDD
@@ -350,7 +350,7 @@ The content of the new RDD is not computed
 \end{itemize}
 \end{itemize}
 \end{frame}
-\begin{frame}[label={sec:orgd0cd091},fragile]{Different types of transformations}
+\begin{frame}[label={sec:org1e2f2d0},fragile]{Different types of transformations}
  Two kinds of transformations:
 \begin{itemize}
 \item Some basic transformations analyze the content of one single RDD and return a new RDD
@@ -369,7 +369,7 @@ Examples of transformations are:
 \end{frame}
 
 
-\begin{frame}[label={sec:orgbef0bc1},fragile]{Actions}
+\begin{frame}[label={sec:orgd695b52},fragile]{Actions}
  Operations that:
 \begin{itemize}
 \item Return results to the Driver program i.e., return local variables 
@@ -391,7 +391,7 @@ Examples of actions are:
 \end{itemize}
 \end{frame}
 
-\begin{frame}[label={sec:org699d50a},fragile]{The lineage Directed-Acyclic-Graph (DAG)}
+\begin{frame}[label={sec:org9ba549f},fragile]{The lineage Directed-Acyclic-Graph (DAG)}
  \begin{itemize}
 \item It represents the dependencies between the RDD generated by the driver program.
 \item It is need in to compute the content of an RDD:
@@ -423,16 +423,16 @@ val uniqueBadLinesRDD = badRDD.distinct()
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=4cm,height=4cm]{./img/data.png}
-\caption{\label{fig:org7344768}DAG corresponding to the listing}
+\caption{\label{fig:org9f88bdd}DAG corresponding to the listing}
 \end{figure}
 \end{column}
 \end{columns}
 \end{frame}
 
 \section{Dockerize your environment}
-\label{sec:orgfbf64ed}
+\label{sec:org6535e37}
 
-\begin{frame}[label={sec:orgdd75878},fragile]{Requirements}
+\begin{frame}[label={sec:orga874f8c},fragile]{Requirements}
  \begin{itemize}
 \item A working Docker environment on your machine -- if your are on Fedora (>==32), you should 
 use \texttt{podman} instead of Docker
@@ -445,7 +445,7 @@ use \texttt{podman} instead of Docker
 \end{itemize}
 \end{frame}
 
-\begin{frame}[label={sec:orgdeb3d1d}]{Dockerize your environment}
+\begin{frame}[label={sec:org52d2bed}]{Dockerize your environment}
 \begin{itemize}
 \item The following Dockerfile creates a working environment with everything you need: Scala, sbt and Spark
 \end{itemize}
@@ -455,7 +455,7 @@ use \texttt{podman} instead of Docker
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=7cm,height=4cm]{./img/dockerfile1.png}
-\caption{\label{fig:orgbb57583}First part}
+\caption{\label{fig:orge150489}First part}
 \end{figure}
 \end{column}
 
@@ -464,14 +464,14 @@ use \texttt{podman} instead of Docker
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=7cm,height=2cm]{./img/dockerfile2.png}
-\caption{\label{fig:org3c4142a}Second part}
+\caption{\label{fig:orgedf283d}Second part}
 \end{figure}
 \end{column}
 \end{columns}
 \end{frame}
 
 
-\begin{frame}[label={sec:orgbe37069},fragile]{Dockerize your application}
+\begin{frame}[label={sec:orgdcdc68a},fragile]{Dockerize your application}
  \begin{itemize}
 \item A very simple way to  dockerize your application is to put the following file
 inside the root directory of your project
@@ -493,6 +493,7 @@ docker image build -t <imageName> .
 \begin{itemize}
 \item Finally, you run the container as follows:
 \end{itemize}
+\small
 \begin{verbatim}
 docker run --rm -it -v $(pwd):/app <imageName> spark-submit --class <MainClass> ... 
 \end{verbatim}

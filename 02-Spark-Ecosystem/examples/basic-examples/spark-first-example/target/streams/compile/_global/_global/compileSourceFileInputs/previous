@@ -1,1 +1,0 @@
-["sbt.Task[scala.collection.immutable.Map[java.lang.String, scala.collection.Seq[scala.Tuple2[java.nio.file.Path, sbt.nio.FileStamp]]]]",{"2.12.10":{"hashes":[["/home/antonio/git/BDAnalytics/02-Spark-Ecosystem/examples/basic-examples/spark-first-example/src/main/scala/SimpleApp.scala","e9db2b5f9c9129a7717a29f4e688237982585820"]],"lastModifiedTimes":[]}}]

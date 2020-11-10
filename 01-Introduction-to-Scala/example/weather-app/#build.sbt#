@@ -1,0 +1,28 @@
+import Dependencies._
+
+ThisBuild / scalaVersion     := "2.13.3"
+ThisBuild / version          := "0.1.0-SNAPSHOT"
+ThisBuild / organization     := "com.example"
+ThisBuild / organizationName := "example"
+
+val scalaTest = "org.scalatest" %% "scalatest" % "3.2.2"
+val gigahorse = "com.eed3si9n" %% "gigahorse-okhttp" % "0.5.0"
+val playJson  =  "com.typesafe.play" %% "play-json" % "2.9.1"
+
+lazy val weatherApp = (project in file("."))
+  .aggregate(core)
+  .dependsOn(core)
+  .enablePlugins(JavaAppPackaging)
+  .settings(
+    name := "Weather",
+    libraryDependencies += scalaTest % Test,
+  )
+
+lazy val core = (project in file("core"))
+  .settings(
+    name := "Core",
+    libraryDependencies ++= Seq(gigahorse, playJson),
+    libraryDependencies += scalaTest % Test,
+  )
+// See https://www.scala-sbt.org/1.x/docs/Using-Sonatype.html for instructions on how to publish to Sonatype.
+

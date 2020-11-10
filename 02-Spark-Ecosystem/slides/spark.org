@@ -487,8 +487,9 @@ WORKDIR /app # this is the working directory inside your container
 docker image build -t <imageName> .
 #+END_SRC
  - Finally, you run the container as follows:
+\small
 #+BEGIN_SRC bash
-docker run --rm -it -v $(pwd):/app <imageName> spark-submit --class <MainClass> ... 
+docker run --rm -it -v $(pwd):/app <imageName> spark-submit --class <MainClass> 
 #+END_SRC
 
 

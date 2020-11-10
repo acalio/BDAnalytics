@@ -1,4 +1,0 @@
-[0m[[0m[0mdebug[0m] [0m[0m[spark-first-example-build] Classpath dependencies List()[0m
-[0m[[0m[0mdebug[0m] [0m[0m[spark-first-example-build] Dependencies from configurations List()[0m
-[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'spark-first-example-build' to '/home/antonio/git/BDAnalytics/02-Spark-Ecosystem/examples/basic-examples/spark-first-example/project/.bloop/spark-first-example-build.json'[0m
-[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop/spark-first-example-build.json[0m
