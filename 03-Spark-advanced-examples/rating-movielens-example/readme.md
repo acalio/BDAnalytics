@@ -16,7 +16,8 @@ In the folder `data` you have two files:
     
     `userId` `movieId` `rating` `timestamp`
 
-2.  `u.item` |   `movieId` | `movieName` | `movieData` | `movieUrl` | &#x2026; binary attributes &#x2026;
+2.  `u.item` -- it contains 
+        `movieId` | `movieName` | `movieData` | `movieUrl` | &#x2026; binary attributes &#x2026; 
 
 
 # First Example
