@@ -1,0 +1,139 @@
+import org.apache.spark._
+import scala.io.Codec
+import java.nio.charset.CodingErrorAction
+import scala.io.Source
+import org.apache.log4j.Logger
+import org.apache.log4j.Level
+import scala.math._
+
+class CollaborativeFiltering(
+  val viewsPath: String,
+  val moviesPath: String,
+  val movieId: Int,
+  val scoreThreshold: Double,
+  val occurenceThreshold: Long,
+)
+extends Serializable {
+
+  var movieNames: Map[Int, String] = Map()
+  loadMovieNames()
+
+  def loadMovieNames() =
+  {
+    implicit val codec = Codec("UTF-8")
+    codec.onMalformedInput(CodingErrorAction.REPLACE)
+    codec.onUnmappableCharacter(CodingErrorAction.REPLACE)
+    // val lines = Source.fromFile("/home/antonio/git/BDAnalytics/data/ml-100k/u.item").getLines()
+    print(moviesPath)
+    val lines = Source.fromFile(moviesPath).getLines()
+    for(line <- lines)
+    {
+      var fields = line.split('|')
+      if(fields.length > 1)
+        movieNames += (fields(0).toInt -> fields(1))
+    }
+  }
+
+  type MovieRating = (Int, Double) // id of a movie, score assigned to the movie
+  type UserRatingPair = (Int, (MovieRating, MovieRating)) // userId, <( m1, r1), (m2, r2)>
+
+  //create key/value pairs of this form: ((m1, m2),(r1, r2))
+  def makePairs(userRatings: UserRatingPair)  =
+  {
+    val movie1 = userRatings._2._1._1
+    val movie2 = userRatings._2._2._1
+
+    val rating1 = userRatings._2._1._2
+    val rating2 = userRatings._2._2._2
+
+    //keep the movie with lowest id as the first entry in the pair
+    ((movie1, movie2), (rating1, rating2))
+  }
+
+
+  //Filter the duplicate pairs. A duplicate has the same movieID
+  def filterDuplicate(userRatings:UserRatingPair): Boolean =
+  {
+    val movie1 = userRatings._2._1._1
+    val movie2 = userRatings._2._2._1
+
+    return movie1 < movie2
+  }
+
+  type RatingPair = (Double, Double)
+  type RatingPairs = Iterable[RatingPair]
+
+  def computeCosineSimilarity(ratingPairs: RatingPairs): (Double, Int) =
+  {
+    var numPairs: Int = 0
+    var scalarProduct: Double = 0.0
+    var norm1: Double = 0.0
+    var norm2: Double = 0.0
+
+    for(pair <- ratingPairs)
+    {
+      scalarProduct += (pair._1*pair._2)
+      norm1 += (pair._1*pair._1)
+      norm2 += (pair._2*pair._2)
+      numPairs+=1
+    }
+    val denominator = sqrt(norm1)*sqrt(norm2)
+    var similarity: Double = 0
+    if (denominator!=0)
+      similarity = scalarProduct/denominator
+
+    return (similarity, numPairs)
+  }
+
+  def execute() {
+    val sc  =  new SparkContext("local[*]", "Collaborative Filtering")
+    val data = sc.textFile(viewsPath)
+    // Map ratings to key/value pairs: user ID => movie ID, rating
+    val ratings = data.map(l => (l.split("\t"))).map(l => (l(0).toInt, (l(1).toInt, l(2).toDouble)))
+
+    //self join operation. We are intersted in find every pair movies watched by
+    //the same user. So we'd have userId => ((movie1, rating1), (movie2, rating2))
+    val joinedRatings = ratings.join(ratings)
+
+    val uniqueJoinedRatigns = joinedRatings.filter(filterDuplicate)
+
+    //now we want another RDD with keys (movie1, movie2)
+    val moviePairs = uniqueJoinedRatigns.map(makePairs)
+
+    //now we have adn RDD with values (movie1, movie2) => (rating1, rating2)
+    //we want an RDD with (m1, m2) => (r1,r2), (r1,r2), (r1,r2)...
+    val moviePairRatings = moviePairs.groupByKey()
+
+    //now for each pair of movies we two vectors of ratings.
+    //the first vector correspond to the first movie and the second one
+    //to the second movie. We compute the cosine similarity between them
+    val moviePairSimilarities = moviePairRatings.mapValues(computeCosineSimilarity).cache()
+
+    if(movieId>0){
+      val filteredResults = moviePairSimilarities.filter(x => {
+        val pair = x._1 //movie1, movie2
+        val score = x._2 //cosine sim, co occurence
+
+        val movie1 = pair._1
+        val movie2 = pair._2
+
+        val cosineSim = score._1
+        val coOccurrence = score._2
+        ((movie1==movieId || movie2==movieId) && cosineSim>scoreThreshold && coOccurrence > occurenceThreshold)
+      })
+
+      //sort by quality score
+      val results = filteredResults.map(x => (x._2, x._1)).sortByKey(false).take(10)
+
+      println("\nTop 10 similar movies to: "+movieNames(movieId))
+      for(result <- results)
+      {
+        val score = result._1
+        val pair = result._2
+
+        var similarMovie = if (pair._1 == movieId) pair._2 else pair._1
+        println(movieNames(similarMovie)+"\tscore: "+score._1+"\tstrength: "+score._2)
+      }
+    }
+  }
+}

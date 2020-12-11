@@ -1,3 +1,5 @@
+
+
 # Introduction
 
 You are required to build a spark-based program that is able to compute several
@@ -16,8 +18,8 @@ In the folder `data` you have two files:
     
     `userId` `movieId` `rating` `timestamp`
 
-2.  `u.item` -- it contains 
-        `movieId` | `movieName` | `movieData` | `movieUrl` | &#x2026; binary attributes &#x2026; 
+2.  `u.item`
+    `movieId` | `movieName` | `movieData` | `movieUrl` | &#x2026; binary attributes &#x2026;
 
 
 # First Example
@@ -35,7 +37,7 @@ Therefore, you do not need to take into consideration the actual ratings.
 Instead of displaying the id of a movie, let's derive
 the actual name of each movie.
 
-There is another dataset, `item.data` which contains the actual name 
+There is another dataset, `u.item` which contains the actual name 
 for every movie id.
 
 We have two options:

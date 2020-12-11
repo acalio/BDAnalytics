@@ -22,6 +22,7 @@ lazy val app = (project in file("."))
         exclude("commons-collections", "commons-collections").
         exclude("commons-logging", "commons-logging").
         exclude("com.esotericsoftware.minlog", "minlog")),
+      spark,
       scallop,
       log
     )
