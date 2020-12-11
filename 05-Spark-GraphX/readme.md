@@ -1,7 +1,8 @@
 
+
 # Introduction
 
-Overview
+
 
 GraphX is a new component in Spark
  for graphs and graph-parallel computation. 
@@ -276,33 +277,33 @@ Operators can be classified into three different categories:
         This kind of operator is very useful when you need to restrict the graph to a group of vertices of interest,
         or when you want to ignore a set of broken links.
     
-        // Create an RDD for the vertices
-        val users: RDD[(VertexId, (String, String))] =
-          sc.parallelize(Seq((3L, ("rxin", "student")), (7L, ("jgonzal", "postdoc")),
-        		       (5L, ("franklin", "prof")), (2L, ("istoica", "prof")),
-        		       (4L, ("peter", "student"))))
-        // Create an RDD for edges
-        val relationships: RDD[Edge[String]] =
-          sc.parallelize(Seq(Edge(3L, 7L, "collab"),    Edge(5L, 3L, "advisor"),
-        		       Edge(2L, 5L, "colleague"), Edge(5L, 7L, "pi"),
-        		       Edge(4L, 0L, "student"),   Edge(5L, 0L, "colleague")))
-        // Define a default user in case there are relationship with missing user
-        val defaultUser = ("John Doe", "Missing")
-        // Build the initial Graph
-        val graph = Graph(users, relationships, defaultUser)
-        // Notice that there is a user 0 (for which we have no information) connected to users
-        // 4 (peter) and 5 (franklin).
-        graph.triplets.map(
-          triplet => triplet.srcAttr._1 + " is the " + triplet.attr + " of " + triplet.dstAttr._1
-        ).collect.foreach(println(_))
-        
-        // Remove missing vertices as well as the edges to connected to them
-        val validGraph = graph.subgraph(vpred = (id, attr) => attr._2 != "Missing")
-        // The valid subgraph will disconnect users 4 and 5 by removing user 0
-        validGraph.vertices.collect.foreach(println(_))
-        validGraph.triplets.map(
-          triplet => triplet.srcAttr._1 + " is the " + triplet.attr + " of " + triplet.dstAttr._1
-        ).collect.foreach(println(_))
+			// Create an RDD for the vertices
+			val users: RDD[(VertexId, (String, String))] =
+			sc.parallelize(Seq((3L, ("rxin", "student")), (7L, ("jgonzal", "postdoc")),
+				(5L, ("franklin", "prof")), (2L, ("istoica", "prof")),
+				(4L, ("peter", "student"))))
+			// Create an RDD for edges
+			val relationships: RDD[Edge[String]] =
+			sc.parallelize(Seq(Edge(3L, 7L, "collab"),    Edge(5L, 3L, "advisor"),
+				Edge(2L, 5L, "colleague"), Edge(5L, 7L, "pi"),
+				Edge(4L, 0L, "student"),   Edge(5L, 0L, "colleague")))
+			// Define a default user in case there are relationship with missing user
+			val defaultUser = ("John Doe", "Missing")
+			// Build the initial Graph
+			val graph = Graph(users, relationships, defaultUser)
+			// Notice that there is a user 0 (for which we have no information) connected to users
+			// 4 (peter) and 5 (franklin).
+			graph.triplets.map(
+				triplet => triplet.srcAttr._1 + " is the " + triplet.attr + " of " + triplet.dstAttr._1
+				).collect.foreach(println(_))
+
+			// Remove missing vertices as well as the edges to connected to them
+			val validGraph = graph.subgraph(vpred = (id, attr) => attr._2 != "Missing")
+			// The valid subgraph will disconnect users 4 and 5 by removing user 0
+			validGraph.vertices.collect.foreach(println(_))
+			validGraph.triplets.map(
+			triplet => triplet.srcAttr._1 + " is the " + triplet.attr + " of " + triplet.dstAttr._1
+			).collect.foreach(println(_))
     
     It should be noted that you are not required to provide two different predicates. The one that you do not provided
     is defaulted to a predicate that returns always true
@@ -339,11 +340,11 @@ Operators can be classified into three different categories:
     -   The `joinVertices` returns a new Graph where the vertices are obtaining by merging the original ones with ones
         of the input RDD. Then, the user defined map function is applied upon the joined set of vertices.
     
-        val nonUniqueCosts: RDD[(VertexId, Double)]
-        val uniqueCosts: VertexRDD[Double] =
-          graph.vertices.aggregateUsingIndex(nonUnique, (a,b) => a + b)
-        val joinedGraph = graph.joinVertices(uniqueCosts)(
-          (id, oldCost, extraCost) => oldCost + extraCost)
+			val nonUniqueCosts: RDD[(VertexId, Double)]
+			val uniqueCosts: VertexRDD[Double] =
+			graph.vertices.aggregateUsingIndex(nonUnique, (a,b) => a + b)
+			val joinedGraph = graph.joinVertices(uniqueCosts)(
+			(id, oldCost, extraCost) => oldCost + extraCost)
     
     It should be noted that if an RDD contains more that one value for a given vertex index, only the first value
     is involved in the join operation.  
@@ -354,13 +355,13 @@ Operators can be classified into three different categories:
         property type. 
         For instance, we can set the up a graph for PageRank by initializing the vertex properties with the out degree of each node.
     
-        val outDegrees: VertexRDD[Int] = graph.outDegrees
-        val degreeGraph = graph.outerJoinVertices(outDegrees) { (id, oldAttr, outDegOpt) =>
-          outDegOpt match { //this ampping function change the type of the property
-            case Some(outDeg) => outDeg
-            case None => 0 // No outDegree means zero outDegree
-          }
-        }
+			val outDegrees: VertexRDD[Int] = graph.outDegrees
+			val degreeGraph = graph.outerJoinVertices(outDegrees) { (id, oldAttr, outDegOpt) =>
+			outDegOpt match { //this ampping function change the type of the property
+				case Some(outDeg) => outDeg
+				case None => 0 // No outDegree means zero outDegree
+				}
+			}
     
     Note that, since it is not required that every node in the original graph has a counterpart in the input RDD,
     the map function returns an Option type.
