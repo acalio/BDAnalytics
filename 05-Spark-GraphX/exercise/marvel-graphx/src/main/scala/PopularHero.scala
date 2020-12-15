@@ -30,7 +30,17 @@ extends Serializable {
     val edges = edgeLines.flatMap(Utility.makeEdges)
     
     //create the graph
-    // <---------- Your Code Here ------------>
+    // Define a default user in case there are relationship with missing user
+    val defaultUser = "Walker  Texas Ranger"
+    // Build the initial Graph
+    val graph = Graph(vertices, edges, defaultUser)
+    println("The top 10 most-connected heroes")
+    graph.
+      degrees //compute the degree of eachg node
+      .join(vertices) //join with the vertices RDD
+      .sortBy(_._2._1, ascending=false) //sort in descending order
+      .take(10) //take the first ten
+      .foreach(println) //print them to console
     
   }
 

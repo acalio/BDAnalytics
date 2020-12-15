@@ -29,9 +29,19 @@ class AverageByAge(val path: String) extends Serializable
 
     import spark.implicits._ //remember to add this line
 
-    //<---- your code here ---->
+    //convert the RDD into a Dataset[Person]
+    val schemaPeople = people.toDS.cache
+    //schemaPeople is an actual database table
+    schemaPeople.printSchema()
+
+    schemaPeople
+      .groupBy("age")
+        .agg(
+          avg("numFriends"),
+          sum("numFriends")
+        ).show()
     
-    
+    spark.stop()
   }
 
 }

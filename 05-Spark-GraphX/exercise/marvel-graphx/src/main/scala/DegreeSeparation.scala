@@ -33,8 +33,37 @@ extends Serializable {
     //initialize eacho node with the distance to infinity
     val initialGraph = graph.mapVertices((id, _)=> if(id == root) 0.0 else Double.PositiveInfinity)
 
-    //use the pregel API for Breadth First Search
-    //<-------- Your Code Here ----------->
+    val bfs = initialGraph.pregel(Double.PositiveInfinity, 10)( 
+        // Our "vertex program" preserves the shortest distance
+        // between an inbound message and its current value.
+        // It receives the vertex ID we are operating on,
+        // the attribute already stored with the vertex, and
+        // the inbound message from this iteration.
+        (id, attr, msg) => math.min(attr, msg), 
+        
+        // Our "send message" function propagates out to all neighbors
+        // with the distance incremented by one.
+        triplet => { 
+          if (triplet.srcAttr != Double.PositiveInfinity) { 
+            Iterator((triplet.dstId, triplet.srcAttr+1)) 
+          } else { 
+            Iterator.empty 
+          } 
+        }, 
+        
+        // The "reduce" operation preserves the minimum
+        // of messages received by a vertex if multiple
+        // messages are received by one vertex
+      (a,b) => math.min(a,b)
+    ).cache()
+    
+    // Print out the first 100 results:
+    bfs.vertices.join(vertices).take(100).foreach(println)
+    
+    // Recreate our "degrees of separation" result:
+    println(s"\n\nDegrees from $startingCharacterId to $targetCharacterId ")  // ADAM 3031 is hero ID 14
+    bfs.vertices.filter(x => x._1 == targetCharacterId).collect.foreach(println)
+
   }
 
 }
