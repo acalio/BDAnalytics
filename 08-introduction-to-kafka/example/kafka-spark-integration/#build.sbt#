@@ -1,0 +1,11 @@
+ThisBuild / scalaVersion := "2.12.12"
+
+lazy val kafkaExample  = (project in file("."))
+  .enablePlugins( JavaAppPackaging)
+  .settings(
+    name := "Kafka Example",
+    libraryDependencies ++= Seq(sparkStreaming,kafkaSpark)
+  )
+
+
+
