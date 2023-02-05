@@ -1,0 +1,2467 @@
+{
+  "kind": "youtube#activityListResponse",
+  "etag": "KZUENCj-6laHPh_6ib9X1vIFxYw",
+  "items": [
+    {
+      "kind": "youtube#activity",
+      "etag": "xe3HfbMasUXh9jwZwzX2g-Lffvs",
+      "id": "MTMxNjAyODU4OTQ1NDkwMzMxMDM0OTkwNA==",
+      "snippet": {
+        "publishedAt": "2020-10-16T14:35:45Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-9Bbc0gToGvk/AAAAAAAAAAI/AAAAAAAAAAA/ZTFVSZZTG5c/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-9Bbc0gToGvk/AAAAAAAAAAI/AAAAAAAAAAA/ZTFVSZZTG5c/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-9Bbc0gToGvk/AAAAAAAAAAI/AAAAAAAAAAA/ZTFVSZZTG5c/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "Marques Brownlee",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCBJycsmduvYEL83R_U4JriQ"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "pEuaXbINDNYJTw2ihiuY3yZhdwk",
+      "id": "MTMxNjAxMTYyNDYzNDkwMzMxMDM1MDQxNg==",
+      "snippet": {
+        "publishedAt": "2020-09-26T23:21:03Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-iykIxE6HFpM/AAAAAAAAAAI/AAAAAAAAAAA/qho7mLdsPLc/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-iykIxE6HFpM/AAAAAAAAAAI/AAAAAAAAAAA/qho7mLdsPLc/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-iykIxE6HFpM/AAAAAAAAAAI/AAAAAAAAAAA/qho7mLdsPLc/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "NBA",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCWJ2lWNubArHWmf3FIHbfcQ"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "4a2RkKd6NEdjVq7APb_viyQqprA",
+      "id": "MTMxNTk5NTE2NjIwNDkwMzMxMDM1MDg2NA==",
+      "snippet": {
+        "publishedAt": "2020-09-07T22:10:20Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-4bfyvzyhCLw/AAAAAAAAAAI/AAAAAAAAAAA/IzBRjzX7oa8/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-4bfyvzyhCLw/AAAAAAAAAAI/AAAAAAAAAAA/IzBRjzX7oa8/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-4bfyvzyhCLw/AAAAAAAAAAI/AAAAAAAAAAA/IzBRjzX7oa8/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "DOUBLE CLUTCH",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCMcgM7UtOu8jBJ1XOXd-fjQ"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "SdcdCgrm6sOgMD_CmAjLJCGcz5g",
+      "id": "MTMxNTk4MTkzMDU5NDkwMzMxMDM1MTg4OA==",
+      "snippet": {
+        "publishedAt": "2020-08-23T14:30:59Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-VXDa5ce1Zr0/AAAAAAAAAAI/AAAAAAAAAAA/yLyEVhQzQIw/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-VXDa5ce1Zr0/AAAAAAAAAAI/AAAAAAAAAAA/yLyEVhQzQIw/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-VXDa5ce1Zr0/AAAAAAAAAAI/AAAAAAAAAAA/yLyEVhQzQIw/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "Munchies",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCaLfMkkHhSA_LaCta0BzyhQ"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "MUI9ivfccznzJQdl0trLWLtgODU",
+      "id": "MTMxNTkxNDI5MDQ2NDkwMzMxMDM1MjIwOA==",
+      "snippet": {
+        "publishedAt": "2020-06-06T07:37:26Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/--50k5yny3SM/AAAAAAAAAAI/AAAAAAAAAAA/Q_cb7H9pgcA/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/--50k5yny3SM/AAAAAAAAAAI/AAAAAAAAAAA/Q_cb7H9pgcA/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/--50k5yny3SM/AAAAAAAAAAI/AAAAAAAAAAA/Q_cb7H9pgcA/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "Linux For Everyone",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCd4XwUn2Lure2NHHjukoCwA"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "rn8XWjl942krhLiyLBqx2ZyLbHU",
+      "id": "MTMxNTg5MDYzODA4NDkwMzMxMDM1MTY5Ng==",
+      "snippet": {
+        "publishedAt": "2020-05-09T22:36:48Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-dFSMgNL65sU/AAAAAAAAAAI/AAAAAAAAAAA/L4fK2wuQJGM/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-dFSMgNL65sU/AAAAAAAAAAI/AAAAAAAAAAA/L4fK2wuQJGM/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-dFSMgNL65sU/AAAAAAAAAAI/AAAAAAAAAAA/L4fK2wuQJGM/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "Missing Semester",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCuXy5tCgEninup9cGplbiFw"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "ef08Yons4W8gT2YeU7kItFbkwg8",
+      "id": "MTMxNTcwNTU4Nzg3NDkwMzMxMDM1MDYwOA==",
+      "snippet": {
+        "publishedAt": "2019-10-08T18:19:47Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-JHs4YgazvqY/AAAAAAAAAAI/AAAAAAAAAAA/gkn-MfWlkas/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-JHs4YgazvqY/AAAAAAAAAAI/AAAAAAAAAAA/gkn-MfWlkas/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-JHs4YgazvqY/AAAAAAAAAAI/AAAAAAAAAAA/gkn-MfWlkas/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "newbie-tech",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCLHnFNYLioT5ALOapnfZ7dw"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "8mIvsxmWa7AML9CPBdEwSK6NyPA",
+      "id": "MTMxNTY2NTAyODc5NDkwMzMxMDM1MjMzNg==",
+      "snippet": {
+        "publishedAt": "2019-08-22T19:41:19Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-9NKHa85my-Y/AAAAAAAAAAI/AAAAAAAAAAA/HQ8b17YfPwo/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-9NKHa85my-Y/AAAAAAAAAAI/AAAAAAAAAAA/HQ8b17YfPwo/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-9NKHa85my-Y/AAAAAAAAAAI/AAAAAAAAAAA/HQ8b17YfPwo/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "GeeksforGeeks",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UC0RhatS1pyxInC00YKjjBqQ"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "G3iFqLN5qOu3F3bq3yg0rdyT-ps",
+      "id": "MTE1NTk5MjI1NjA0OTAzMzEwMzUxNTY4",
+      "snippet": {
+        "publishedAt": "2019-06-07T15:49:20Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "title": "10 Ways to Learn Faster",
+        "description": "I'm going to reveal 10 learning techniques that I personally use to educate myself on complex topics in Science, engineering, technology, and mathematics! These are techniques that I've used for years now, and each of them is backed by Scientific literature. I encourage you to implement them in your learning journey to see if they work for you. We are now living in the age of information and the possibilities to learn anything are truly endless. Thus, learning how to learn is one of the most important skills to have, regardless of your career. Enjoy! \n\nPlease Subscribe! And like. And comment. That's what keeps me going. \n\nWant more education? Connect with me here:\nTwitter: https://twitter.com/sirajraval\nFacebook: https://www.facebook.com/sirajology\ninstagram: https://www.instagram.com/sirajraval\n\nThe 10 techniques (lots more tips + details in the video!) \n#1 - Believe in your ability to learn\n#2 - Create a custom curriculum\n#3 - Avoid multitasking\n#4 - Meditate daily\n#5 - Constant cardio\n#6 - Dependency parsing\n#7 - Handwrite notes\n#8 - Teach others\n#9 - Eat well \n#10 - Sleep well\n\nExamples of my curriculums:\nhttps://github.com/llsourcell\n\nBryan's article on sleep:\nhttps://bryanjohnson.co/newsletter/sleep-is-the-new-coffee/\n\nMore learning videos by me:\nhttps://www.youtube.com/watch?v=nxWfZP6eslM\nhttps://www.youtube.com/watch?v=YzfdL58virc&t=542s\nhttps://www.youtube.com/watch?v=waXHrc2m9K8\n\nMake Money with Tensorflow 2.0:\nhttps://youtu.be/WS9Nckd2kq0\n\nJoin us in the Wizards Slack channel:\nhttp://wizards.herokuapp.com/\n\nHit the Join button above to sign up to become a member of my channel for access to exclusive live streams!\n\nJoin us at the School of AI:\nhttps://theschool.ai/\n\nSignup for my newsletter for exciting updates in the field of AI:\nhttps://goo.gl/FZzJ5w\n\nAnd please support me on Patreon:\nhttps://www.patreon.com/user?u=3191693",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hKBZjH7Ot2g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hKBZjH7Ot2g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hKBZjH7Ot2g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/hKBZjH7Ot2g/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Antonio caliò",
+        "type": "playlistItem",
+        "groupId": "MTE1NTk5MjI1NjA0OTAzMzEwMzUxNTY4"
+      },
+      "contentDetails": {
+        "playlistItem": {
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "hKBZjH7Ot2g"
+          },
+          "playlistId": "FLNvPdblRqCEu-wGjSakM5Lw",
+          "playlistItemId": "RkxOdlBkYmxScUNFdS13R2pTYWtNNUx3LjMwODkyRDkwRUMwQzU1ODY="
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "SjnOq58_iAwN9E4GPOrR1XutoSo",
+      "id": "MTE0ODcyMzYyODU0OTAzMzEwMzQ5MDcy",
+      "snippet": {
+        "publishedAt": "2017-02-16T09:11:25Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "title": "Hello World - Machine Learning Recipes #1",
+        "description": "Six lines of Python is all it takes to write your first machine learning program! In this episode, we'll briefly introduce what machine learning is and why it's important. Then, we'll follow a recipe for supervised learning (a technique to create a classifier from examples) and code it up.\n\nFollow https://twitter.com/random_forests for updates on new episodes!\n\nSubscribe to the Google Developers: http://goo.gl/mQyv5L - \nSubscribe to the brand new Firebase Channel: https://goo.gl/9giPHG\nAnd here's our playlist: https://goo.gl/KewA03",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cKxRvEZd3Mw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cKxRvEZd3Mw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cKxRvEZd3Mw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/cKxRvEZd3Mw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/cKxRvEZd3Mw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Antonio caliò",
+        "type": "playlistItem",
+        "groupId": "MTE1NTk5MjI1NjA0OTAzMzEwMzUxNTY4"
+      },
+      "contentDetails": {
+        "playlistItem": {
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "cKxRvEZd3Mw"
+          },
+          "playlistId": "FLNvPdblRqCEu-wGjSakM5Lw",
+          "playlistItemId": "RkxOdlBkYmxScUNFdS13R2pTYWtNNUx3Ljk4NEM1ODRCMDg2QUE2RDI="
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "epW8ieSJyax1qKNxilRUw3tCaZw",
+      "id": "MTE0MzMxOTcxNDY0OTAzMzEwMzUwNDgw",
+      "snippet": {
+        "publishedAt": "2015-06-01T22:19:06Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "title": "GDL Italia - Applicazioni Java su Google App Engine",
+        "description": "Muovere i primi passi con Google App Engine: Alfredo Morresi mostra come muovere i primi passi, dalla creazione di un'app di base fino all'uso degli esempi avanzati.\n\nTutti i video della Google Developers Live Italia sono raccolti in una playlist http://goo.gl/MyQai",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MZrWW1lzFK0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MZrWW1lzFK0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MZrWW1lzFK0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/MZrWW1lzFK0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Antonio caliò",
+        "type": "playlistItem",
+        "groupId": "MTE1NTk5MjI1NjA0OTAzMzEwMzUxNTY4"
+      },
+      "contentDetails": {
+        "playlistItem": {
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "MZrWW1lzFK0"
+          },
+          "playlistId": "FLNvPdblRqCEu-wGjSakM5Lw",
+          "playlistItemId": "RkxOdlBkYmxScUNFdS13R2pTYWtNNUx3LkQwQTBFRjkzRENFNTc0MkI="
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "CHKj_ghUdCnK6bkW84Tf0lY5Fa4",
+      "id": "MTE0MjY0NTQzNDk0OTAzMzU1MjQzNzI4",
+      "snippet": {
+        "publishedAt": "2015-03-15T21:19:09Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "title": "Learn and Understand AngularJS - The First 50 Minutes",
+        "description": "Full 7 hour course on sale for $19! https://www.udemy.com/learn-angularjs/?couponCode=YOUTUBE119\n\nThe course for beginners, jQuery users, and all who find AngularJS somewhat difficult to get into. It covers the Javascript principles behind AngularJS, how AngularJS actually works, and how to use it.\n\nIn the full course, you will gain a deep understanding of how AngularJS works, concepts such as dependency injection and custom directives, and you'll build a single page application that you can use everyday.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ejBkOjEG6F0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ejBkOjEG6F0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ejBkOjEG6F0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ejBkOjEG6F0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ejBkOjEG6F0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Antonio caliò",
+        "type": "playlistItem",
+        "groupId": "MTE1NTk5MjI1NjA0OTAzMzEwMzUxNTY4"
+      },
+      "contentDetails": {
+        "playlistItem": {
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "ejBkOjEG6F0"
+          },
+          "playlistId": "FLNvPdblRqCEu-wGjSakM5Lw",
+          "playlistItemId": "RkxOdlBkYmxScUNFdS13R2pTYWtNNUx3LjQ3NkIwREMyNUQ3REVFOEE="
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "IPFUjkMe2MPMuDtWMCysCrpnsDw",
+      "id": "MTMxNTU5NTg3ODAzNDkwMzM1NTI0MzY2NA==",
+      "snippet": {
+        "publishedAt": "2019-06-03T18:50:03Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-WcIMQWLwTlE/AAAAAAAAAAI/AAAAAAAAAAA/iE_4888UQF0/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-WcIMQWLwTlE/AAAAAAAAAAI/AAAAAAAAAAA/iE_4888UQF0/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-WcIMQWLwTlE/AAAAAAAAAAI/AAAAAAAAAAA/iE_4888UQF0/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "Dr. Filippo Ongaro",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCpn6jPTFPFBEkTCNjuzYu_A"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "Mo1Em-vQSHoZufZ_KvS0ox4ugfI",
+      "id": "MTMxNTU5MzgwODIzNDkwMzM1NTI0MjMyMA==",
+      "snippet": {
+        "publishedAt": "2019-06-01T09:20:23Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-B5zM7UR_iIg/AAAAAAAAAAI/AAAAAAAAAAA/pkWgBo1Nu9M/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-B5zM7UR_iIg/AAAAAAAAAAI/AAAAAAAAAAA/pkWgBo1Nu9M/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-B5zM7UR_iIg/AAAAAAAAAAI/AAAAAAAAAAA/pkWgBo1Nu9M/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "The Verge",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCddiUEpeqJcYeBxX1IVBKvQ"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "eM-j0hdWeXCHN-STVdFkhzlX0Bc",
+      "id": "MTMxNTU2Mzg5Mjc5NDkwMzM1NTI0MjU3Ng==",
+      "snippet": {
+        "publishedAt": "2019-04-27T18:21:19Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-DoOkLtojNZA/AAAAAAAAAAI/AAAAAAAAAAA/FB-nURTIS3Q/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-DoOkLtojNZA/AAAAAAAAAAI/AAAAAAAAAAA/FB-nURTIS3Q/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-DoOkLtojNZA/AAAAAAAAAAI/AAAAAAAAAAA/FB-nURTIS3Q/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "TechLead",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UC4xKdmAXFh4ACyhpiQ_3qBw"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "YhrYNp3HP-3PSMH2uFGFVYD1pwg",
+      "id": "MTMxNTU1MzM2MzAyNDkwMzM1NTI0MjM4NA==",
+      "snippet": {
+        "publishedAt": "2019-04-15T13:51:42Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-a6zE2RN4RMc/AAAAAAAAAAI/AAAAAAAAAAA/uJt5jt9Fn34/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-a6zE2RN4RMc/AAAAAAAAAAI/AAAAAAAAAAA/uJt5jt9Fn34/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-a6zE2RN4RMc/AAAAAAAAAAI/AAAAAAAAAAA/uJt5jt9Fn34/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "Unbox Therapy",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCsTcErHg8oDvUnTzoqsYeNw"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "jCSW-knKCJ4a4VSslBEbN99QJIw",
+      "id": "MTMxNTU1MjczNDI2NDkwMzM1NTI0MTY4MA==",
+      "snippet": {
+        "publishedAt": "2019-04-14T20:23:46Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-atawvN22wpQ/AAAAAAAAAAI/AAAAAAAAAAA/xfEtJglR6Pg/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-atawvN22wpQ/AAAAAAAAAAI/AAAAAAAAAAA/xfEtJglR6Pg/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-atawvN22wpQ/AAAAAAAAAAI/AAAAAAAAAAA/xfEtJglR6Pg/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "interviewing.io",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCNc-Wa_ZNBAGzFkYbAHw9eg"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "VJZ1rtwxaNs-KzP5IRExoODLQ4c",
+      "id": "MTMxNTU0NTg3NzU2NDkwMzM1NTI0MTIzMg==",
+      "snippet": {
+        "publishedAt": "2019-04-06T21:55:56Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-4m3usRWFieg/AAAAAAAAAAI/AAAAAAAAAAA/gWHLUjcUqS4/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-4m3usRWFieg/AAAAAAAAAAI/AAAAAAAAAAA/gWHLUjcUqS4/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-4m3usRWFieg/AAAAAAAAAAI/AAAAAAAAAAA/gWHLUjcUqS4/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "CS Dojo",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCxX9wt5FWQUAAz4UrysqK9A"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "CyzW4UdYzqCHKUN2Be3oDyAm7y4",
+      "id": "MTMxNTUzNjc0NDE2NDkwMzM1NTI0MjAwMA==",
+      "snippet": {
+        "publishedAt": "2019-03-27T08:13:36Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-UvpkDRg0vAY/AAAAAAAAAAI/AAAAAAAAAAA/ux0Dr9rbhBg/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-UvpkDRg0vAY/AAAAAAAAAAI/AAAAAAAAAAA/ux0Dr9rbhBg/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-UvpkDRg0vAY/AAAAAAAAAAI/AAAAAAAAAAA/ux0Dr9rbhBg/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "The Semicolon",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCwB7HrnRlOfasrbCJoiZ9Lg"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "e5r8U0U6fU_E-ji3uTCZv0Rzmak",
+      "id": "MTMxNTUyMDUyOTQzNDkwMzM1NTI0MDY1Ng==",
+      "snippet": {
+        "publishedAt": "2019-03-08T13:49:03Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-icjlceY943o/AAAAAAAAAAI/AAAAAAAAAAA/U0fuYSj5vJ0/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-icjlceY943o/AAAAAAAAAAI/AAAAAAAAAAA/U0fuYSj5vJ0/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-icjlceY943o/AAAAAAAAAAI/AAAAAAAAAAA/U0fuYSj5vJ0/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "Jimmy Kimmel Live",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCa6vGFO9ty8v5KZJXQxdhaw"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "vyFUylwbv4xdfOvimDZYECkVHRU",
+      "id": "MTMxNTUxODczMzM5NDkwMjM0Njc5NTI4MA==",
+      "snippet": {
+        "publishedAt": "2019-03-06T11:55:39Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-PH9ncY5Aw18/AAAAAAAAAAI/AAAAAAAAAAA/PhY30O6POPk/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-PH9ncY5Aw18/AAAAAAAAAAI/AAAAAAAAAAA/PhY30O6POPk/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-PH9ncY5Aw18/AAAAAAAAAAI/AAAAAAAAAAA/PhY30O6POPk/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "Actualidad Motor - Pruebas de coches",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UC7ZhWdygBhJSgWwDEmsgySw"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "cId-mBgXP07pUw_ueLmb9v8-byw",
+      "id": "MTMxNTM3MDE3MDMwNDkwMjM0Njc5NjMwNA==",
+      "snippet": {
+        "publishedAt": "2018-09-15T13:10:30Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-nzyruRxN8I8/AAAAAAAAAAI/AAAAAAAAAAA/knyZ6t4ZymM/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-nzyruRxN8I8/AAAAAAAAAAI/AAAAAAAAAAA/knyZ6t4ZymM/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-nzyruRxN8I8/AAAAAAAAAAI/AAAAAAAAAAA/knyZ6t4ZymM/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "Tekashi 6ix9ine",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCF6jRAgCbSanHolKt0Vt6Qw"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "JCeVC4z5IRqNLe_xCDC2PZ8oRRs",
+      "id": "MTMxNTMwMjA3NDE0NDkwMjM0Njc5Mzc0NA==",
+      "snippet": {
+        "publishedAt": "2018-06-28T17:36:54Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-Lvqivbc77hw/AAAAAAAAAAI/AAAAAAAAAAA/YSd9RXOp_Ng/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-Lvqivbc77hw/AAAAAAAAAAI/AAAAAAAAAAA/YSd9RXOp_Ng/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-Lvqivbc77hw/AAAAAAAAAAI/AAAAAAAAAAA/YSd9RXOp_Ng/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "Siraj Raval",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCWN3xxRkmTPmbKwht9FuE5A"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "ZSS1jGQW7NlTwbvtuVgbL3mG5VU",
+      "id": "MTMxNTI4NjQ2NjQ0NDkwMjM0Njc5NTQwOA==",
+      "snippet": {
+        "publishedAt": "2018-06-10T16:04:04Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-9o-wcUgkn3Y/AAAAAAAAAAI/AAAAAAAAAAA/9KMd-_e66pg/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-9o-wcUgkn3Y/AAAAAAAAAAI/AAAAAAAAAAA/9KMd-_e66pg/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-9o-wcUgkn3Y/AAAAAAAAAAI/AAAAAAAAAAA/9KMd-_e66pg/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "Codemotion",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCdS8EbQyTDYyJYgtftnTyhg"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "YlDEnboZzuuy0NebNK21CYFUezc",
+      "id": "MTMxNTIwNzgwNDAwNDkwMjM0Njc5NjExMg==",
+      "snippet": {
+        "publishedAt": "2018-03-11T15:00:00Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-fqBoQSZWdNE/AAAAAAAAAAI/AAAAAAAAAAA/yTlqVvDIh20/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-fqBoQSZWdNE/AAAAAAAAAAI/AAAAAAAAAAA/yTlqVvDIh20/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-fqBoQSZWdNE/AAAAAAAAAAI/AAAAAAAAAAA/yTlqVvDIh20/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "Andy Hoops",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UC8YobflSXeylcN6vg99IPAw"
+          }
+        }
+      }
+    }
+  ],
+  "nextPageToken": "CBkQAA",
+  "pageInfo": {
+    "totalResults": 41,
+    "resultsPerPage": 25
+  }
+}
+{
+  "kind": "youtube#activityListResponse",
+  "etag": "kvpfGevO-6hW0IxAJfQJxbgSpBU",
+  "items": [
+    {
+      "kind": "youtube#activity",
+      "etag": "oR5lwzSn5ZoR808hHxwmmpncRTE",
+      "id": "MTMxNjAyODU4OTQ1NTg1MjM4MTU4Mzk0NDA=",
+      "snippet": {
+        "publishedAt": "2020-10-16T14:35:45Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-9Bbc0gToGvk/AAAAAAAAAAI/AAAAAAAAAAA/ZTFVSZZTG5c/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-9Bbc0gToGvk/AAAAAAAAAAI/AAAAAAAAAAA/ZTFVSZZTG5c/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-9Bbc0gToGvk/AAAAAAAAAAI/AAAAAAAAAAA/ZTFVSZZTG5c/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "Marques Brownlee",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCBJycsmduvYEL83R_U4JriQ"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "0iMKmekWpwE12yTqeLNMBXtZV78",
+      "id": "MTMxNjAxMTYyNDYzNTg1MjM4MTU4Mzk2MzI=",
+      "snippet": {
+        "publishedAt": "2020-09-26T23:21:03Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-iykIxE6HFpM/AAAAAAAAAAI/AAAAAAAAAAA/qho7mLdsPLc/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-iykIxE6HFpM/AAAAAAAAAAI/AAAAAAAAAAA/qho7mLdsPLc/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-iykIxE6HFpM/AAAAAAAAAAI/AAAAAAAAAAA/qho7mLdsPLc/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "NBA",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCWJ2lWNubArHWmf3FIHbfcQ"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "KPticrMVorJiA5E9-DYPuRB0gl0",
+      "id": "MTMxNTk5NTE2NjIwNTg1MjM4MjAyMzc1ODQ=",
+      "snippet": {
+        "publishedAt": "2020-09-07T22:10:20Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-4bfyvzyhCLw/AAAAAAAAAAI/AAAAAAAAAAA/IzBRjzX7oa8/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-4bfyvzyhCLw/AAAAAAAAAAI/AAAAAAAAAAA/IzBRjzX7oa8/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-4bfyvzyhCLw/AAAAAAAAAAI/AAAAAAAAAAA/IzBRjzX7oa8/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "DOUBLE CLUTCH",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCMcgM7UtOu8jBJ1XOXd-fjQ"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "3IswGbPo3x9tAbGSkeX1OcRURDA",
+      "id": "MTMxNTk4MTkzMDU5NTg1MjM4MjAyNDA3MjA=",
+      "snippet": {
+        "publishedAt": "2020-08-23T14:30:59Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-VXDa5ce1Zr0/AAAAAAAAAAI/AAAAAAAAAAA/yLyEVhQzQIw/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-VXDa5ce1Zr0/AAAAAAAAAAI/AAAAAAAAAAA/yLyEVhQzQIw/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-VXDa5ce1Zr0/AAAAAAAAAAI/AAAAAAAAAAA/yLyEVhQzQIw/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "Munchies",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCaLfMkkHhSA_LaCta0BzyhQ"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "OHdG7HAM51jd4p2yOGhURRdaKG4",
+      "id": "MTMxNTkxNDI5MDQ2NTg1MjM4MjAyMzkzNzY=",
+      "snippet": {
+        "publishedAt": "2020-06-06T07:37:26Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/--50k5yny3SM/AAAAAAAAAAI/AAAAAAAAAAA/Q_cb7H9pgcA/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/--50k5yny3SM/AAAAAAAAAAI/AAAAAAAAAAA/Q_cb7H9pgcA/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/--50k5yny3SM/AAAAAAAAAAI/AAAAAAAAAAA/Q_cb7H9pgcA/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "Linux For Everyone",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCd4XwUn2Lure2NHHjukoCwA"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "tx9S_uGn2dRSG7oe3w97QRO7Oco",
+      "id": "MTMxNTg5MDYzODA4NTg1MjI4NjkzMzY1OTI=",
+      "snippet": {
+        "publishedAt": "2020-05-09T22:36:48Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-dFSMgNL65sU/AAAAAAAAAAI/AAAAAAAAAAA/L4fK2wuQJGM/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-dFSMgNL65sU/AAAAAAAAAAI/AAAAAAAAAAA/L4fK2wuQJGM/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-dFSMgNL65sU/AAAAAAAAAAI/AAAAAAAAAAA/L4fK2wuQJGM/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "Missing Semester",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCuXy5tCgEninup9cGplbiFw"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "ro26ifd6TiSTWKYAcmRuAs5vKhw",
+      "id": "MTMxNTcwNTU4Nzg3NTg1MjI4NjkzMzY5NzY=",
+      "snippet": {
+        "publishedAt": "2019-10-08T18:19:47Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-JHs4YgazvqY/AAAAAAAAAAI/AAAAAAAAAAA/gkn-MfWlkas/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-JHs4YgazvqY/AAAAAAAAAAI/AAAAAAAAAAA/gkn-MfWlkas/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-JHs4YgazvqY/AAAAAAAAAAI/AAAAAAAAAAA/gkn-MfWlkas/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "newbie-tech",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCLHnFNYLioT5ALOapnfZ7dw"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "_fDntrwPqRBoXwAkoIxCxktGMDs",
+      "id": "MTMxNTY2NTAyODc5NTg1MjI4NjkzMzc2MTY=",
+      "snippet": {
+        "publishedAt": "2019-08-22T19:41:19Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-9NKHa85my-Y/AAAAAAAAAAI/AAAAAAAAAAA/HQ8b17YfPwo/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-9NKHa85my-Y/AAAAAAAAAAI/AAAAAAAAAAA/HQ8b17YfPwo/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-9NKHa85my-Y/AAAAAAAAAAI/AAAAAAAAAAA/HQ8b17YfPwo/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "GeeksforGeeks",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UC0RhatS1pyxInC00YKjjBqQ"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "bE-dYS_LP9ymknfFBUYUiz5cCs8",
+      "id": "MTE1NTk5MjI1NjA1ODUyMjg2OTMzNjg0OA==",
+      "snippet": {
+        "publishedAt": "2019-06-07T15:49:20Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "title": "10 Ways to Learn Faster",
+        "description": "I'm going to reveal 10 learning techniques that I personally use to educate myself on complex topics in Science, engineering, technology, and mathematics! These are techniques that I've used for years now, and each of them is backed by Scientific literature. I encourage you to implement them in your learning journey to see if they work for you. We are now living in the age of information and the possibilities to learn anything are truly endless. Thus, learning how to learn is one of the most important skills to have, regardless of your career. Enjoy! \n\nPlease Subscribe! And like. And comment. That's what keeps me going. \n\nWant more education? Connect with me here:\nTwitter: https://twitter.com/sirajraval\nFacebook: https://www.facebook.com/sirajology\ninstagram: https://www.instagram.com/sirajraval\n\nThe 10 techniques (lots more tips + details in the video!) \n#1 - Believe in your ability to learn\n#2 - Create a custom curriculum\n#3 - Avoid multitasking\n#4 - Meditate daily\n#5 - Constant cardio\n#6 - Dependency parsing\n#7 - Handwrite notes\n#8 - Teach others\n#9 - Eat well \n#10 - Sleep well\n\nExamples of my curriculums:\nhttps://github.com/llsourcell\n\nBryan's article on sleep:\nhttps://bryanjohnson.co/newsletter/sleep-is-the-new-coffee/\n\nMore learning videos by me:\nhttps://www.youtube.com/watch?v=nxWfZP6eslM\nhttps://www.youtube.com/watch?v=YzfdL58virc&t=542s\nhttps://www.youtube.com/watch?v=waXHrc2m9K8\n\nMake Money with Tensorflow 2.0:\nhttps://youtu.be/WS9Nckd2kq0\n\nJoin us in the Wizards Slack channel:\nhttp://wizards.herokuapp.com/\n\nHit the Join button above to sign up to become a member of my channel for access to exclusive live streams!\n\nJoin us at the School of AI:\nhttps://theschool.ai/\n\nSignup for my newsletter for exciting updates in the field of AI:\nhttps://goo.gl/FZzJ5w\n\nAnd please support me on Patreon:\nhttps://www.patreon.com/user?u=3191693",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hKBZjH7Ot2g/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hKBZjH7Ot2g/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hKBZjH7Ot2g/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/hKBZjH7Ot2g/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Antonio caliò",
+        "type": "playlistItem",
+        "groupId": "MTE1NTk5MjI1NjA1ODUyMjg2OTMzNjg0OA=="
+      },
+      "contentDetails": {
+        "playlistItem": {
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "hKBZjH7Ot2g"
+          },
+          "playlistId": "FLNvPdblRqCEu-wGjSakM5Lw",
+          "playlistItemId": "RkxOdlBkYmxScUNFdS13R2pTYWtNNUx3LjMwODkyRDkwRUMwQzU1ODY="
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "J8ynNMxVyQaT3tlR5k7KX_0Nt8U",
+      "id": "MTE0ODcyMzYyODU1ODUyMjg2OTMzNDYwOA==",
+      "snippet": {
+        "publishedAt": "2017-02-16T09:11:25Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "title": "Hello World - Machine Learning Recipes #1",
+        "description": "Six lines of Python is all it takes to write your first machine learning program! In this episode, we'll briefly introduce what machine learning is and why it's important. Then, we'll follow a recipe for supervised learning (a technique to create a classifier from examples) and code it up.\n\nFollow https://twitter.com/random_forests for updates on new episodes!\n\nSubscribe to the Google Developers: http://goo.gl/mQyv5L - \nSubscribe to the brand new Firebase Channel: https://goo.gl/9giPHG\nAnd here's our playlist: https://goo.gl/KewA03",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/cKxRvEZd3Mw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/cKxRvEZd3Mw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/cKxRvEZd3Mw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/cKxRvEZd3Mw/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/cKxRvEZd3Mw/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Antonio caliò",
+        "type": "playlistItem",
+        "groupId": "MTE1NTk5MjI1NjA1ODUyMjg2OTMzNjg0OA=="
+      },
+      "contentDetails": {
+        "playlistItem": {
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "cKxRvEZd3Mw"
+          },
+          "playlistId": "FLNvPdblRqCEu-wGjSakM5Lw",
+          "playlistItemId": "RkxOdlBkYmxScUNFdS13R2pTYWtNNUx3Ljk4NEM1ODRCMDg2QUE2RDI="
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "Mdow7E2UTskfIEQTutMTd0qvBAE",
+      "id": "MTE0MzMxOTcxNDY1ODUyMjg2OTMzNTA1Ng==",
+      "snippet": {
+        "publishedAt": "2015-06-01T22:19:06Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "title": "GDL Italia - Applicazioni Java su Google App Engine",
+        "description": "Muovere i primi passi con Google App Engine: Alfredo Morresi mostra come muovere i primi passi, dalla creazione di un'app di base fino all'uso degli esempi avanzati.\n\nTutti i video della Google Developers Live Italia sono raccolti in una playlist http://goo.gl/MyQai",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/MZrWW1lzFK0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/MZrWW1lzFK0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/MZrWW1lzFK0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/MZrWW1lzFK0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Antonio caliò",
+        "type": "playlistItem",
+        "groupId": "MTE1NTk5MjI1NjA1ODUyMjg2OTMzNjg0OA=="
+      },
+      "contentDetails": {
+        "playlistItem": {
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "MZrWW1lzFK0"
+          },
+          "playlistId": "FLNvPdblRqCEu-wGjSakM5Lw",
+          "playlistItemId": "RkxOdlBkYmxScUNFdS13R2pTYWtNNUx3LkQwQTBFRjkzRENFNTc0MkI="
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "cZSvzReCtWrY0ADatgt8mQkqiDQ",
+      "id": "MTE0MjY0NTQzNDk1ODUyMjg2OTMzNTU2OA==",
+      "snippet": {
+        "publishedAt": "2015-03-15T21:19:09Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "title": "Learn and Understand AngularJS - The First 50 Minutes",
+        "description": "Full 7 hour course on sale for $19! https://www.udemy.com/learn-angularjs/?couponCode=YOUTUBE119\n\nThe course for beginners, jQuery users, and all who find AngularJS somewhat difficult to get into. It covers the Javascript principles behind AngularJS, how AngularJS actually works, and how to use it.\n\nIn the full course, you will gain a deep understanding of how AngularJS works, concepts such as dependency injection and custom directives, and you'll build a single page application that you can use everyday.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ejBkOjEG6F0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ejBkOjEG6F0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ejBkOjEG6F0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ejBkOjEG6F0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ejBkOjEG6F0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Antonio caliò",
+        "type": "playlistItem",
+        "groupId": "MTE1NTk5MjI1NjA1ODUyMjg2OTMzNjg0OA=="
+      },
+      "contentDetails": {
+        "playlistItem": {
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "ejBkOjEG6F0"
+          },
+          "playlistId": "FLNvPdblRqCEu-wGjSakM5Lw",
+          "playlistItemId": "RkxOdlBkYmxScUNFdS13R2pTYWtNNUx3LjQ3NkIwREMyNUQ3REVFOEE="
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "EBT18UYWorQReJuFDEvpkXMShpQ",
+      "id": "MTE0MjY0MzYxNDk1ODUyMjg2OTMzNzE2OA==",
+      "snippet": {
+        "publishedAt": "2015-03-15T16:15:49Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "title": "Introduction to Angular.js in 50 Examples (part 1)",
+        "description": "Code at https://github.com/curran/screencasts/tree/gh-pages/introToAngular An introduction to Angular.js covering single-page-app concepts, related libraries and angular features by example. This installment (part 1) covers 36 of the 50 Angular examples. Part 2 covers the rest https://www.youtube.com/watch?v=6J08m1H2BME&feature=youtu.be Examples start at 11:30 in the video.\n\nIf you appreciate this work, please consider supporting me on Patreon https://www.patreon.com/user?u=2916242&ty=h\n\nThis lecture was given by Curran Kelleher at the University of Massachusetts Lowell on March 6, 2014 as part of the undergraduate course GUI Programming II taught by Professor Jesse Heines.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/TRrL5j3MIvo/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/TRrL5j3MIvo/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/TRrL5j3MIvo/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Antonio caliò",
+        "type": "playlistItem",
+        "groupId": "MTE1NTk5MjI1NjA1ODUyMjg2OTMzNjg0OA=="
+      },
+      "contentDetails": {
+        "playlistItem": {
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "TRrL5j3MIvo"
+          },
+          "playlistId": "FLNvPdblRqCEu-wGjSakM5Lw",
+          "playlistItemId": "RkxOdlBkYmxScUNFdS13R2pTYWtNNUx3LkY2M0NENEQwNDE5OEIwNDY="
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "KXq9sCbl2-aSgb7xKLLXuxZxPzg",
+      "id": "MTE0MTgzMTE4Njk1ODUyMjg2OTMzNTY5Ng==",
+      "snippet": {
+        "publishedAt": "2014-12-11T15:31:09Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "title": "Ubiquiti Nanostation M2 client Mode basic Configuration",
+        "description": "Esta es una configuracion basica del Nanostation M2 en modo Cliente.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/hn2G0a2xMA4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/hn2G0a2xMA4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/hn2G0a2xMA4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/hn2G0a2xMA4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/hn2G0a2xMA4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Antonio caliò",
+        "type": "playlistItem",
+        "groupId": "MTE1NTk5MjI1NjA1ODUyMjg2OTMzNjg0OA=="
+      },
+      "contentDetails": {
+        "playlistItem": {
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "hn2G0a2xMA4"
+          },
+          "playlistId": "FLNvPdblRqCEu-wGjSakM5Lw",
+          "playlistItemId": "RkxOdlBkYmxScUNFdS13R2pTYWtNNUx3LkNBQ0RENDY2QjNFRDE1NjU="
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "ohc8a2Gk5adK4Fgx-oc4IEAy9xY",
+      "id": "MTE0MDQxNTEwNzE1ODUyMjg2ODU3NDM1Mg==",
+      "snippet": {
+        "publishedAt": "2014-06-30T17:57:51Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "title": "Google I/O 2013 - Practical Android Games Development",
+        "description": "Daniel Galpin, Jaewoong Jung, Jennie Lees \n\nPractical tips for game developers from insiders within the Android team, including how to work with the developer dashboard from the beginning of development through multiple releases.\n\nFor all I/O 2013 sessions, go to https://developers.google.com/live",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/ZbQWf7C5ymU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/ZbQWf7C5ymU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/ZbQWf7C5ymU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/ZbQWf7C5ymU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/ZbQWf7C5ymU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Antonio caliò",
+        "type": "playlistItem",
+        "groupId": "MTE1NTk5MjI1NjA1ODUyMjg2OTMzNjg0OA=="
+      },
+      "contentDetails": {
+        "playlistItem": {
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "ZbQWf7C5ymU"
+          },
+          "playlistId": "FLNvPdblRqCEu-wGjSakM5Lw",
+          "playlistItemId": "RkxOdlBkYmxScUNFdS13R2pTYWtNNUx3LjUzMkJCMEI0MjJGQkM3RUM="
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "cCh0POJz2X90vZB29ya49jRJfec",
+      "id": "MTE0MDE2NTc4OTA1ODUyMjg2ODU3NTUwNA==",
+      "snippet": {
+        "publishedAt": "2014-06-01T21:24:50Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "title": "Creating HTML5 pages with JSF 2.2 in Java EE 7 - OLL Live (Recorded Webcast Event)",
+        "description": "Learn how to create HTML5 applications using JSF 2.2. You will see how JSF 2.2 allows you to create HTML5 compliant sites by using the new JSF features introduced in Java EE 7. It will use the sticker book application from the \"Using Web Sockets for Real-Time Communication\" previous webcast expanding the HTML view to use JSF with HTML5 markup. This tutorial will show you how to create HTML5 pages using JSF2.2 passthrough parameters, and ViewAction components in Java EE 7. See the related tutorial at http://apex.oracle.com/pls/apex/f?p=44785:24:0::::P24_CONTENT_ID,P24_PREV_PAGE:8007,1\nCopyright © 2013 Oracle and/or its affiliates. Oracle® is a registered trademark of Oracle and/or its affiliates. All rights reserved. Oracle disclaims any warranties or representations as to the accuracy or completeness of this recording, demonstration, and/or written materials (the \"Materials\"). The Materials are provided \"as is\" without any warranty of any kind, either express or implied, including without limitation warranties of merchantability, fitness for a particular purpose, and non-infringement.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/OUq-LBzIxPU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/OUq-LBzIxPU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/OUq-LBzIxPU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/OUq-LBzIxPU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/OUq-LBzIxPU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Antonio caliò",
+        "type": "playlistItem",
+        "groupId": "MTE1NTk5MjI1NjA1ODUyMjg2OTMzNjg0OA=="
+      },
+      "contentDetails": {
+        "playlistItem": {
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "OUq-LBzIxPU"
+          },
+          "playlistId": "FLNvPdblRqCEu-wGjSakM5Lw",
+          "playlistItemId": "RkxOdlBkYmxScUNFdS13R2pTYWtNNUx3LjEyRUZCM0IxQzU3REU0RTE="
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "GiRfcXmnYAQjMl6rADV3E6YWx2M",
+      "id": "MTMxNTU5NTg3ODAzNTg1MjI4Njg1NzQ0ODA=",
+      "snippet": {
+        "publishedAt": "2019-06-03T18:50:03Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-WcIMQWLwTlE/AAAAAAAAAAI/AAAAAAAAAAA/iE_4888UQF0/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-WcIMQWLwTlE/AAAAAAAAAAI/AAAAAAAAAAA/iE_4888UQF0/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-WcIMQWLwTlE/AAAAAAAAAAI/AAAAAAAAAAA/iE_4888UQF0/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "Dr. Filippo Ongaro",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCpn6jPTFPFBEkTCNjuzYu_A"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "W_Oee58jq_0LAmR-iXEN5FXGBPw",
+      "id": "MTMxNTU5MzgwODIzNTg1MjI4Njg1NzM4NDA=",
+      "snippet": {
+        "publishedAt": "2019-06-01T09:20:23Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-B5zM7UR_iIg/AAAAAAAAAAI/AAAAAAAAAAA/pkWgBo1Nu9M/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-B5zM7UR_iIg/AAAAAAAAAAI/AAAAAAAAAAA/pkWgBo1Nu9M/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-B5zM7UR_iIg/AAAAAAAAAAI/AAAAAAAAAAA/pkWgBo1Nu9M/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "The Verge",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCddiUEpeqJcYeBxX1IVBKvQ"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "wUtcc0rCdsBJ8j0Iwj52CMA2oyQ",
+      "id": "MTMxNTU2Mzg5Mjc5NTg1MjI4Njg1NzUzNzY=",
+      "snippet": {
+        "publishedAt": "2019-04-27T18:21:19Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-DoOkLtojNZA/AAAAAAAAAAI/AAAAAAAAAAA/FB-nURTIS3Q/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-DoOkLtojNZA/AAAAAAAAAAI/AAAAAAAAAAA/FB-nURTIS3Q/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-DoOkLtojNZA/AAAAAAAAAAI/AAAAAAAAAAA/FB-nURTIS3Q/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "TechLead",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UC4xKdmAXFh4ACyhpiQ_3qBw"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "VM2fjWniCzlpgkVBqPDN-KNI1eI",
+      "id": "MTMxNTU1MzM2MzAyNTg1MjI4Njg1NzM5Njg=",
+      "snippet": {
+        "publishedAt": "2019-04-15T13:51:42Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-a6zE2RN4RMc/AAAAAAAAAAI/AAAAAAAAAAA/uJt5jt9Fn34/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-a6zE2RN4RMc/AAAAAAAAAAI/AAAAAAAAAAA/uJt5jt9Fn34/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-a6zE2RN4RMc/AAAAAAAAAAI/AAAAAAAAAAA/uJt5jt9Fn34/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "Unbox Therapy",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCsTcErHg8oDvUnTzoqsYeNw"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "0dPw_aZGWslNmKUuoCWM-j5gJkA",
+      "id": "MTMxNTU1MjczNDI2NTg1MjI4Njg1NzI0OTY=",
+      "snippet": {
+        "publishedAt": "2019-04-14T20:23:46Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-atawvN22wpQ/AAAAAAAAAAI/AAAAAAAAAAA/xfEtJglR6Pg/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-atawvN22wpQ/AAAAAAAAAAI/AAAAAAAAAAA/xfEtJglR6Pg/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-atawvN22wpQ/AAAAAAAAAAI/AAAAAAAAAAA/xfEtJglR6Pg/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "interviewing.io",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCNc-Wa_ZNBAGzFkYbAHw9eg"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "mu9t0q4u2vH1sApoPl8LJn9A6t0",
+      "id": "MTMxNTU0NTg3NzU2NTg1MjI4Njg1NzMwNzI=",
+      "snippet": {
+        "publishedAt": "2019-04-06T21:55:56Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-4m3usRWFieg/AAAAAAAAAAI/AAAAAAAAAAA/gWHLUjcUqS4/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-4m3usRWFieg/AAAAAAAAAAI/AAAAAAAAAAA/gWHLUjcUqS4/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-4m3usRWFieg/AAAAAAAAAAI/AAAAAAAAAAA/gWHLUjcUqS4/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "CS Dojo",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCxX9wt5FWQUAAz4UrysqK9A"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "FSlNMTnoOvt9_qXJRWf-V8yChDk",
+      "id": "MTMxNTUzNjc0NDE2NTg1MjMwMzg4MTU2MzI=",
+      "snippet": {
+        "publishedAt": "2019-03-27T08:13:36Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-UvpkDRg0vAY/AAAAAAAAAAI/AAAAAAAAAAA/ux0Dr9rbhBg/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-UvpkDRg0vAY/AAAAAAAAAAI/AAAAAAAAAAA/ux0Dr9rbhBg/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-UvpkDRg0vAY/AAAAAAAAAAI/AAAAAAAAAAA/ux0Dr9rbhBg/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "The Semicolon",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCwB7HrnRlOfasrbCJoiZ9Lg"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "tVTrqDr-8AGLo2_9jIAq_fyhiF8",
+      "id": "MTMxNTUyMDUyOTQzNTg1MjMwMzg4MTgyNTY=",
+      "snippet": {
+        "publishedAt": "2019-03-08T13:49:03Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-icjlceY943o/AAAAAAAAAAI/AAAAAAAAAAA/U0fuYSj5vJ0/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-icjlceY943o/AAAAAAAAAAI/AAAAAAAAAAA/U0fuYSj5vJ0/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-icjlceY943o/AAAAAAAAAAI/AAAAAAAAAAA/U0fuYSj5vJ0/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "Jimmy Kimmel Live",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCa6vGFO9ty8v5KZJXQxdhaw"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "mj6ojpZuvEeO8aE63TVRU589LQo",
+      "id": "MTMxNTUxODczMzM5NTg1MjMwMzg4MTc5MzY=",
+      "snippet": {
+        "publishedAt": "2019-03-06T11:55:39Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-PH9ncY5Aw18/AAAAAAAAAAI/AAAAAAAAAAA/PhY30O6POPk/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-PH9ncY5Aw18/AAAAAAAAAAI/AAAAAAAAAAA/PhY30O6POPk/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-PH9ncY5Aw18/AAAAAAAAAAI/AAAAAAAAAAA/PhY30O6POPk/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "Actualidad Motor - Pruebas de coches",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UC7ZhWdygBhJSgWwDEmsgySw"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "GNGvCK1qeE2qAdXSXOVa2zfRC54",
+      "id": "MTMxNTM3MDE3MDMwNTg1MjMwMzg4MTUwNTY=",
+      "snippet": {
+        "publishedAt": "2018-09-15T13:10:30Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-nzyruRxN8I8/AAAAAAAAAAI/AAAAAAAAAAA/knyZ6t4ZymM/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-nzyruRxN8I8/AAAAAAAAAAI/AAAAAAAAAAA/knyZ6t4ZymM/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-nzyruRxN8I8/AAAAAAAAAAI/AAAAAAAAAAA/knyZ6t4ZymM/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "Tekashi 6ix9ine",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCF6jRAgCbSanHolKt0Vt6Qw"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "PBNpk9XzmZ_9PSRhLHKRK8rCU6Y",
+      "id": "MTMxNTMwMjA3NDE0NTg1MjI4NzI4NDQ1NjA=",
+      "snippet": {
+        "publishedAt": "2018-06-28T17:36:54Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-Lvqivbc77hw/AAAAAAAAAAI/AAAAAAAAAAA/YSd9RXOp_Ng/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-Lvqivbc77hw/AAAAAAAAAAI/AAAAAAAAAAA/YSd9RXOp_Ng/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-Lvqivbc77hw/AAAAAAAAAAI/AAAAAAAAAAA/YSd9RXOp_Ng/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "Siraj Raval",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCWN3xxRkmTPmbKwht9FuE5A"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "4P8bMO_fX868iWmTlkFg3G_qcBQ",
+      "id": "MTMxNTI4NjQ2NjQ0NTg1MjI4NzI4NDc1Njg=",
+      "snippet": {
+        "publishedAt": "2018-06-10T16:04:04Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-9o-wcUgkn3Y/AAAAAAAAAAI/AAAAAAAAAAA/9KMd-_e66pg/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-9o-wcUgkn3Y/AAAAAAAAAAI/AAAAAAAAAAA/9KMd-_e66pg/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-9o-wcUgkn3Y/AAAAAAAAAAI/AAAAAAAAAAA/9KMd-_e66pg/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "Codemotion",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCdS8EbQyTDYyJYgtftnTyhg"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "wmhvqJckn9FaQCHQgB7InhS0AuE",
+      "id": "MTMxNTIwNzgwNDAwNTg1MjI4NzI4NDczMTI=",
+      "snippet": {
+        "publishedAt": "2018-03-11T15:00:00Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-fqBoQSZWdNE/AAAAAAAAAAI/AAAAAAAAAAA/yTlqVvDIh20/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-fqBoQSZWdNE/AAAAAAAAAAI/AAAAAAAAAAA/yTlqVvDIh20/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-fqBoQSZWdNE/AAAAAAAAAAI/AAAAAAAAAAA/yTlqVvDIh20/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "Andy Hoops",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UC8YobflSXeylcN6vg99IPAw"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "Y5MHT6YZOJil0-t1WQ9ZXkS8gds",
+      "id": "MTMxNTE1MTY5MTA3NTg1MjI4NzI4NDQ5NDQ=",
+      "snippet": {
+        "publishedAt": "2018-01-05T16:18:27Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-PKsVcQJInbc/AAAAAAAAAAI/AAAAAAAAAAA/Mb8BqUO6WtY/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-PKsVcQJInbc/AAAAAAAAAAI/AAAAAAAAAAA/Mb8BqUO6WtY/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-PKsVcQJInbc/AAAAAAAAAAI/AAAAAAAAAAA/Mb8BqUO6WtY/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "DeepMind",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCP7jMXSY2xbc3KCAE0MHQ-A"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "nqUTPAcEe5-_vFoWVvjCaI2jBQc",
+      "id": "MTMxNTE0OTgzOTkwNTg1MjI4NzI4NDY4NjQ=",
+      "snippet": {
+        "publishedAt": "2018-01-03T12:53:10Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-TK9-zU5ufkk/AAAAAAAAAAI/AAAAAAAAAAA/8vRG-Ucwc3I/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-TK9-zU5ufkk/AAAAAAAAAAI/AAAAAAAAAAA/8vRG-Ucwc3I/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-TK9-zU5ufkk/AAAAAAAAAAI/AAAAAAAAAAA/8vRG-Ucwc3I/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "SuperDataScience - Tableau and Data Visualisation",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCHBWJGoZMkhJyElgvuN1U1w"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "UErDCdK3i2dJd7Gbf65LKf5HGa8",
+      "id": "MTMxNTA4MDkwNDg3NTg1MjI4NjYwMzEyNDg=",
+      "snippet": {
+        "publishedAt": "2017-10-15T18:01:27Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-bonZt347bMc/AAAAAAAAAAI/AAAAAAAAAAA/lR8QEKnqqHk/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-bonZt347bMc/AAAAAAAAAAI/AAAAAAAAAAA/lR8QEKnqqHk/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-bonZt347bMc/AAAAAAAAAAI/AAAAAAAAAAA/lR8QEKnqqHk/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "TED",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCAuUUnT6oDeKwE6v1NGQxug"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "8zYlIcrnTHkgr_OzSq7KhFxnxdQ",
+      "id": "MTMxNTA2NDE5ODI1NTg1MjI4NjYwMzE2MzI=",
+      "snippet": {
+        "publishedAt": "2017-09-26T09:57:05Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-kHTbb6oDqmY/AAAAAAAAAAI/AAAAAAAAAAA/BHWd_jlJmJU/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-kHTbb6oDqmY/AAAAAAAAAAI/AAAAAAAAAAA/BHWd_jlJmJU/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-kHTbb6oDqmY/AAAAAAAAAAI/AAAAAAAAAAA/BHWd_jlJmJU/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "sentdex",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCfzlCWGWYyIQ0aLC5w48gBQ"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "SNx7IhccHiRh69dpd2CeNz7oTJY",
+      "id": "MTE1MDU4MDgxNjc1ODUyMjg2NjAyODgxNg==",
+      "snippet": {
+        "publishedAt": "2017-09-19T08:02:47Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "title": "TensorFlow and Deep Learning without a PhD, Part 1 (Google Cloud Next '17)",
+        "description": "With TensorFlow, deep machine learning transitions from an area of research to mainstream software engineering. In this video, Martin Gorner demonstrates how to construct and train a neural network that recognises handwritten digits. Along the way, he'll describe some \"tricks of the trade\" used in neural network design, and finally, he'll bring the recognition accuracy of his model above 99%.\n\nContent applies to software developers of all levels. Experienced machine learning enthusiasts, this video will introduce you to TensorFlow through well known models such as dense and convolutional networks. This is an intense technical video designed to help beginners in machine learning ramp up quickly. \n\nCreating an Object Detection Application Using TensorFlow lab → http://bit.ly/2KI497Q\nTensorFlow for Poets lab →  http://bit.ly/2lMM8uc\n\nMissed the conference? Watch all the talks here: https://goo.gl/c1Vs3h\nWatch more talks about Big Data & Machine Learning here: https://goo.gl/OcqI9k",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/u4alGiomYP4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/u4alGiomYP4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/u4alGiomYP4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/u4alGiomYP4/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/u4alGiomYP4/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "Antonio caliò",
+        "type": "playlistItem",
+        "groupId": "MTE1MDU4MDgxNjc1ODUyMjg2NjAyODgxNg=="
+      },
+      "contentDetails": {
+        "playlistItem": {
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "u4alGiomYP4"
+          },
+          "playlistId": "PL7k7PuClcElljzynIIeJV9ZaR212xmVIu",
+          "playlistItemId": "UEw3azdQdUNsY0VsbGp6eW5JSWVKVjlaYVIyMTJ4bVZJdS5ENDU4Q0M4RDExNzM1Mjcy"
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "CLVfhZLx-Xw0Uixzq_06FMLHIeE",
+      "id": "MTE1MDU2NjE3Njc1ODUyMjg2NjAyOTM5Mg==",
+      "snippet": {
+        "publishedAt": "2017-09-17T15:22:47Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "title": "Lecture 1 | Machine Learning (Stanford)",
+        "description": "Lecture by Professor Andrew Ng for Machine Learning (CS 229) in the Stanford Computer Science department.  Professor Ng provides an overview of the course in this introductory meeting. \r\n\r\nThis course provides a broad introduction to machine learning and statistical pattern recognition. Topics include supervised learning, unsupervised learning, learning theory, reinforcement learning and adaptive control.   Recent applications of machine learning, such as to robotic control, data mining, autonomous navigation, bioinformatics, speech recognition, and text and web data processing are also discussed.\r\n\r\nComplete Playlist for the Course:\r\nhttp://www.youtube.com/view_play_list?p=A89DCFA6ADACE599\r\n\r\nCS 229 Course Website:\r\nhttp://www.stanford.edu/class/cs229/\r\n\r\nStanford University:\r\nhttp://www.stanford.edu/\r\n\r\nStanford University Channel on YouTube:\r\nhttp://www.youtube.com/stanford",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UzxYlbK2c7E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UzxYlbK2c7E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UzxYlbK2c7E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Antonio caliò",
+        "type": "playlistItem",
+        "groupId": "MTE1MDU4MDgxNjc1ODUyMjg2NjAyODgxNg=="
+      },
+      "contentDetails": {
+        "playlistItem": {
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "UzxYlbK2c7E"
+          },
+          "playlistId": "PL7k7PuClcElljzynIIeJV9ZaR212xmVIu",
+          "playlistItemId": "UEw3azdQdUNsY0VsbGp6eW5JSWVKVjlaYVIyMTJ4bVZJdS45RTgxNDRBMzUwRjQ0MDhC"
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "unghKZZIj6JYXsDAoYu9E8P-B0c",
+      "id": "MTE1MDU2NjE3NjM1ODUyMjg2NjAyODYyNA==",
+      "snippet": {
+        "publishedAt": "2017-09-17T15:22:43Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "title": "Lecture 1 | Machine Learning (Stanford)",
+        "description": "Lecture by Professor Andrew Ng for Machine Learning (CS 229) in the Stanford Computer Science department.  Professor Ng provides an overview of the course in this introductory meeting. \r\n\r\nThis course provides a broad introduction to machine learning and statistical pattern recognition. Topics include supervised learning, unsupervised learning, learning theory, reinforcement learning and adaptive control.   Recent applications of machine learning, such as to robotic control, data mining, autonomous navigation, bioinformatics, speech recognition, and text and web data processing are also discussed.\r\n\r\nComplete Playlist for the Course:\r\nhttp://www.youtube.com/view_play_list?p=A89DCFA6ADACE599\r\n\r\nCS 229 Course Website:\r\nhttp://www.stanford.edu/class/cs229/\r\n\r\nStanford University:\r\nhttp://www.stanford.edu/\r\n\r\nStanford University Channel on YouTube:\r\nhttp://www.youtube.com/stanford",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UzxYlbK2c7E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UzxYlbK2c7E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UzxYlbK2c7E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Antonio caliò",
+        "type": "playlistItem",
+        "groupId": "MTE1MDU4MDgxNjc1ODUyMjg2NjAyODgxNg=="
+      },
+      "contentDetails": {
+        "playlistItem": {
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "UzxYlbK2c7E"
+          },
+          "playlistId": "PL7k7PuClcElljzynIIeJV9ZaR212xmVIu",
+          "playlistItemId": "UEw3azdQdUNsY0VsbGp6eW5JSWVKVjlaYVIyMTJ4bVZJdS45RTgxNDRBMzUwRjQ0MDhC"
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "Cw8TROJSLkwbYOUxCxZmDlVFeqc",
+      "id": "MTE1MDU2NjE3NTk1ODUyMjg2NjAzMTg4OA==",
+      "snippet": {
+        "publishedAt": "2017-09-17T15:22:39Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "title": "Lecture 1 | Machine Learning (Stanford)",
+        "description": "Lecture by Professor Andrew Ng for Machine Learning (CS 229) in the Stanford Computer Science department.  Professor Ng provides an overview of the course in this introductory meeting. \r\n\r\nThis course provides a broad introduction to machine learning and statistical pattern recognition. Topics include supervised learning, unsupervised learning, learning theory, reinforcement learning and adaptive control.   Recent applications of machine learning, such as to robotic control, data mining, autonomous navigation, bioinformatics, speech recognition, and text and web data processing are also discussed.\r\n\r\nComplete Playlist for the Course:\r\nhttp://www.youtube.com/view_play_list?p=A89DCFA6ADACE599\r\n\r\nCS 229 Course Website:\r\nhttp://www.stanford.edu/class/cs229/\r\n\r\nStanford University:\r\nhttp://www.stanford.edu/\r\n\r\nStanford University Channel on YouTube:\r\nhttp://www.youtube.com/stanford",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UzxYlbK2c7E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UzxYlbK2c7E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UzxYlbK2c7E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Antonio caliò",
+        "type": "playlistItem",
+        "groupId": "MTE1MDU4MDgxNjc1ODUyMjg2NjAyODgxNg=="
+      },
+      "contentDetails": {
+        "playlistItem": {
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "UzxYlbK2c7E"
+          },
+          "playlistId": "PL7k7PuClcElljzynIIeJV9ZaR212xmVIu",
+          "playlistItemId": "UEw3azdQdUNsY0VsbGp6eW5JSWVKVjlaYVIyMTJ4bVZJdS45RTgxNDRBMzUwRjQ0MDhC"
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "DShL0UMszLWGOjlGUFA8NWHZkWo",
+      "id": "MTE1MDU2NjE3NTY1ODUyMzgxNjYzMjE0NA==",
+      "snippet": {
+        "publishedAt": "2017-09-17T15:22:36Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "title": "Lecture 1 | Machine Learning (Stanford)",
+        "description": "Lecture by Professor Andrew Ng for Machine Learning (CS 229) in the Stanford Computer Science department.  Professor Ng provides an overview of the course in this introductory meeting. \r\n\r\nThis course provides a broad introduction to machine learning and statistical pattern recognition. Topics include supervised learning, unsupervised learning, learning theory, reinforcement learning and adaptive control.   Recent applications of machine learning, such as to robotic control, data mining, autonomous navigation, bioinformatics, speech recognition, and text and web data processing are also discussed.\r\n\r\nComplete Playlist for the Course:\r\nhttp://www.youtube.com/view_play_list?p=A89DCFA6ADACE599\r\n\r\nCS 229 Course Website:\r\nhttp://www.stanford.edu/class/cs229/\r\n\r\nStanford University:\r\nhttp://www.stanford.edu/\r\n\r\nStanford University Channel on YouTube:\r\nhttp://www.youtube.com/stanford",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UzxYlbK2c7E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UzxYlbK2c7E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UzxYlbK2c7E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Antonio caliò",
+        "type": "playlistItem",
+        "groupId": "MTE1MDU4MDgxNjc1ODUyMjg2NjAyODgxNg=="
+      },
+      "contentDetails": {
+        "playlistItem": {
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "UzxYlbK2c7E"
+          },
+          "playlistId": "PL7k7PuClcElljzynIIeJV9ZaR212xmVIu",
+          "playlistItemId": "UEw3azdQdUNsY0VsbGp6eW5JSWVKVjlaYVIyMTJ4bVZJdS45RTgxNDRBMzUwRjQ0MDhC"
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "mC2CRmkwHbzQtk4v1R47ENzudMo",
+      "id": "MTE1MDU2NjE2OTk1ODUyMzgxNjYyODQ5Ng==",
+      "snippet": {
+        "publishedAt": "2017-09-17T15:21:39Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "title": "Lecture 1 | Machine Learning (Stanford)",
+        "description": "Lecture by Professor Andrew Ng for Machine Learning (CS 229) in the Stanford Computer Science department.  Professor Ng provides an overview of the course in this introductory meeting. \r\n\r\nThis course provides a broad introduction to machine learning and statistical pattern recognition. Topics include supervised learning, unsupervised learning, learning theory, reinforcement learning and adaptive control.   Recent applications of machine learning, such as to robotic control, data mining, autonomous navigation, bioinformatics, speech recognition, and text and web data processing are also discussed.\r\n\r\nComplete Playlist for the Course:\r\nhttp://www.youtube.com/view_play_list?p=A89DCFA6ADACE599\r\n\r\nCS 229 Course Website:\r\nhttp://www.stanford.edu/class/cs229/\r\n\r\nStanford University:\r\nhttp://www.stanford.edu/\r\n\r\nStanford University Channel on YouTube:\r\nhttp://www.youtube.com/stanford",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/UzxYlbK2c7E/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/UzxYlbK2c7E/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/UzxYlbK2c7E/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Antonio caliò",
+        "type": "playlistItem",
+        "groupId": "MTE1MDU4MDgxNjc1ODUyMjg2NjAyODgxNg=="
+      },
+      "contentDetails": {
+        "playlistItem": {
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "UzxYlbK2c7E"
+          },
+          "playlistId": "PL7k7PuClcElljzynIIeJV9ZaR212xmVIu",
+          "playlistItemId": "UEw3azdQdUNsY0VsbGp6eW5JSWVKVjlaYVIyMTJ4bVZJdS45RTgxNDRBMzUwRjQ0MDhC"
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "rbckToOYYcKbbbcJwgFJS4mudvc",
+      "id": "MTE0ODcyMzYzNjk1ODUyMzgxNjYzMDk5Mg==",
+      "snippet": {
+        "publishedAt": "2017-02-16T09:12:49Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "title": "Lecture 16 - Radial Basis Functions",
+        "description": "Radial Basis Functions - An important learning model that connects several machine learning models and techniques. Lecture 16 of 18 of Caltech's Machine Learning Course - CS 156 by Professor Yaser Abu-Mostafa. View course materials in iTunes U Course App - https://itunes.apple.com/us/course/machine-learning/id515364596 and on the course website - http://work.caltech.edu/telecourse.html\n\nProduced in association with Caltech Academic Media Technologies under the Attribution-NonCommercial-NoDerivs Creative Commons License (CC BY-NC-ND). To learn more about this license, http://creativecommons.org/licenses/by-nc-nd/3.0/\n\nThis lecture was recorded on May 24, 2012, in Hameetman Auditorium at Caltech, Pasadena, CA, USA.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/O8CfrnOPtLc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/O8CfrnOPtLc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/O8CfrnOPtLc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/O8CfrnOPtLc/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Antonio caliò",
+        "type": "playlistItem",
+        "groupId": "MTE1MDU4MDgxNjc1ODUyMjg2NjAyODgxNg=="
+      },
+      "contentDetails": {
+        "playlistItem": {
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "O8CfrnOPtLc"
+          },
+          "playlistId": "PL7k7PuClcElljzynIIeJV9ZaR212xmVIu",
+          "playlistItemId": "UEw3azdQdUNsY0VsbGp6eW5JSWVKVjlaYVIyMTJ4bVZJdS5EQUE1NTFDRjcwMDg0NEMz"
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "6YrZ6hC2Qjyewi824OvGTAPS214",
+      "id": "MTE0ODcyMzYzNjk1ODUyMzgxNjYyOTAwOA==",
+      "snippet": {
+        "publishedAt": "2017-02-16T09:12:49Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "title": "Lecture 06 - Theory of Generalization",
+        "description": "Theory of Generalization - How an infinite model can learn from a finite sample. The most important theoretical result in machine learning. Lecture 6 of 18 of Caltech's Machine Learning Course - CS 156 by Professor Yaser Abu-Mostafa. View course materials in iTunes U Course App - https://itunes.apple.com/us/course/machine-learning/id515364596 and on the course website - http://work.caltech.edu/telecourse.html\n\nProduced in association with Caltech Academic Media Technologies under the Attribution-NonCommercial-NoDerivs Creative Commons License (CC BY-NC-ND). To learn more about this license, http://creativecommons.org/licenses/by-nc-nd/3.0/\n\nThis lecture was recorded on April 19, 2012, in Hameetman Auditorium at Caltech, Pasadena, CA, USA.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/6FWRijsmLtE/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/6FWRijsmLtE/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/6FWRijsmLtE/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/6FWRijsmLtE/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Antonio caliò",
+        "type": "playlistItem",
+        "groupId": "MTE1MDU4MDgxNjc1ODUyMjg2NjAyODgxNg=="
+      },
+      "contentDetails": {
+        "playlistItem": {
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "6FWRijsmLtE"
+          },
+          "playlistId": "PL7k7PuClcElljzynIIeJV9ZaR212xmVIu",
+          "playlistItemId": "UEw3azdQdUNsY0VsbGp6eW5JSWVKVjlaYVIyMTJ4bVZJdS4xMkVGQjNCMUM1N0RFNEUx"
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "pRB4huO1ILIhehhRWaKasCKgYXo",
+      "id": "MTE0ODcyMzYzNjk1ODUyMzgxNjYzMjAxNg==",
+      "snippet": {
+        "publishedAt": "2017-02-16T09:12:49Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "title": "Lecture 05 - Training Versus Testing",
+        "description": "Training versus Testing - The difference between training and testing in mathematical terms. What makes a learning model able to generalize? Lecture 5 of 18 of Caltech's Machine Learning Course - CS 156 by Professor Yaser Abu-Mostafa. View course materials in iTunes U Course App - https://itunes.apple.com/us/course/machine-learning/id515364596 and on the course website - http://work.caltech.edu/telecourse.html\n\nProduced in association with Caltech Academic Media Technologies under the Attribution-NonCommercial-NoDerivs Creative Commons License (CC BY-NC-ND). To learn more about this license, http://creativecommons.org/licenses/by-nc-nd/3.0/\n\nThis lecture was recorded on April 17, 2012, in Hameetman Auditorium at Caltech, Pasadena, CA, USA.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/SEYAnnLazMU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/SEYAnnLazMU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/SEYAnnLazMU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/SEYAnnLazMU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          }
+        },
+        "channelTitle": "Antonio caliò",
+        "type": "playlistItem",
+        "groupId": "MTE1MDU4MDgxNjc1ODUyMjg2NjAyODgxNg=="
+      },
+      "contentDetails": {
+        "playlistItem": {
+          "resourceId": {
+            "kind": "youtube#video",
+            "videoId": "SEYAnnLazMU"
+          },
+          "playlistId": "PL7k7PuClcElljzynIIeJV9ZaR212xmVIu",
+          "playlistItemId": "UEw3azdQdUNsY0VsbGp6eW5JSWVKVjlaYVIyMTJ4bVZJdS4wOTA3OTZBNzVEMTUzOTMy"
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "IUcxO7T56Z_kn_gXGLB2heyHEHo",
+      "id": "MTMxNTA0Nzc5NjExNTg1MjM4MTY2MjkwNzI=",
+      "snippet": {
+        "publishedAt": "2017-09-07T10:20:11Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-X94QCdk41Dk/AAAAAAAAAAI/AAAAAAAAAAA/SN50PTH3CuU/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-X94QCdk41Dk/AAAAAAAAAAI/AAAAAAAAAAA/SN50PTH3CuU/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-X94QCdk41Dk/AAAAAAAAAAI/AAAAAAAAAAA/SN50PTH3CuU/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "Google Cloud Platform",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UCJS9pqu9BzkAMNTmzNMNhvg"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "hdzUKzQZpEGdOm6oxRESk4xTiJQ",
+      "id": "MTMxNDg4MTQ3NzkxNTg1MjM4MTY2MjgzNjg=",
+      "snippet": {
+        "publishedAt": "2017-02-26T22:23:11Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-b3a2Rs13Wh0/AAAAAAAAAAI/AAAAAAAAAAA/laq_oCKec1Y/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-b3a2Rs13Wh0/AAAAAAAAAAI/AAAAAAAAAAA/laq_oCKec1Y/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-b3a2Rs13Wh0/AAAAAAAAAAI/AAAAAAAAAAA/laq_oCKec1Y/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "NPR Music",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UC4eYXhJI4-7wSWc8UNRwD4A"
+          }
+        }
+      }
+    },
+    {
+      "kind": "youtube#activity",
+      "etag": "1R3EqgMHBFt1M8W4jW-TquRmBk0",
+      "id": "MTMxNDg3MjM2MzUzNTg1MjM4MTY2MzE3NjA=",
+      "snippet": {
+        "publishedAt": "2017-02-16T09:12:33Z",
+        "channelId": "UCNvPdblRqCEu-wGjSakM5Lw",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-Y6zdABMl0T8/AAAAAAAAAAI/AAAAAAAAAAA/clS3XWZWFOA/s28-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-Y6zdABMl0T8/AAAAAAAAAAI/AAAAAAAAAAA/clS3XWZWFOA/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-Y6zdABMl0T8/AAAAAAAAAAI/AAAAAAAAAAA/clS3XWZWFOA/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        },
+        "channelTitle": "caltech",
+        "type": "subscription"
+      },
+      "contentDetails": {
+        "subscription": {
+          "resourceId": {
+            "kind": "youtube#channel",
+            "channelId": "UClGTZDyz3CSl92TgDqIr0nw"
+          }
+        }
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 45,
+    "resultsPerPage": 45
+  }
+}

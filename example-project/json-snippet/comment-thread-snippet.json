@@ -1,0 +1,1975 @@
+{
+  "kind": "youtube#commentThreadListResponse",
+  "etag": "GHLWf6Qoo308LjLNbeE3gNTlBKM",
+  "nextPageToken": "QURTSl9pMXN0NnI4WmZwNDE2NE95ZWh3WXpfYmtZUUN5eHlBbm9LN2VvTmU1bFZMcDVKQ0Q1MVNMbm1nWjhPRTRQMzZMQjlvWmM0TFo5YTR0ekRiaEJvcTRIV0ZIVDlISHRwOThwem92UXJPdlN4RTQ5NmJDMEFTRUx6em5RSjlkOF9FQkJtSllnMzVOeTNZcmk0aVNwZjFHZC03N0RrNVBvV3EwYnhmeEs1UTFCNFdjMC1SWWExZXdMb21NWU9uM3lxOEZXZEE0YkxrcmhCdzhCNEN4dXYySzYzOFJUVFYtMVFvX2ZhTUNtVDNHQTdzbFpsdjU4MDRnYlRtZFdSZS14ekxLcGFVY0lRR2F5WUVXd1V6SEx0bXdVZE1zeGFrS0Z5ZHdUTndBa2VRZ3J6dTMzQ1JJVVowMTVnXzNkS0I3MTlvRnVwakln",
+  "pageInfo": {
+    "totalResults": 20,
+    "resultsPerPage": 20
+  },
+  "items": [
+    {
+      "kind": "youtube#commentThread",
+      "etag": "wYqdkrYY3wlwFAJIsEcAL_1T4E4",
+      "id": "UgyXvmOpVMyl5bdxsnx4AaABAg",
+      "snippet": {
+        "videoId": "aWO7Nb-q7dI",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "ghIuRz0viR3nO82KD5nkJ_7IFxE",
+          "id": "UgyXvmOpVMyl5bdxsnx4AaABAg",
+          "snippet": {
+            "videoId": "aWO7Nb-q7dI",
+            "textDisplay": "Francamente il prezzo rimane una variabile. Avevo nel carrello Amazon iPad Pro, Apple pencil e Cover folio (non quella trackpad) e stavo sui 1500 euro.\u003cbr /\u003eCon il Samsung Galaxy Tab S7+ con 949 euro ho preso sia il tab che la penna. Quest&#39;ultima dovrebbe essere di default nel pacchetto tablet così come fanno Samsung e Microsoft con Surface.\u003cbr /\u003eDimentichi Andrea che il Tab S7+ c&#39;è si solo da 128 GB, ma ha memoria espandibile fino a 1 TB cosa che con l&#39;iPad Pro mi porta a spendere 2000 euro.\u003cbr /\u003e\u003cbr /\u003eMorale della favola? Questo giro ho dato una possibilità a Samsung! \u003cbr /\u003e\u003cbr /\u003ePer me che non sono un disegnatore resta migliore. \u003cbr /\u003eProduttività al top, apertura del s.o. così come note salvate in word e power point. Apple resta troppo chiusa e complicata, il file manager &quot;file&quot; che ha iPad semplicemente non è un vero file manager. Uso Business, a meno che non si parli di grafica artistica, Samsung è la scelta più ponderata e razionale.",
+            "textOriginal": "Francamente il prezzo rimane una variabile. Avevo nel carrello Amazon iPad Pro, Apple pencil e Cover folio (non quella trackpad) e stavo sui 1500 euro.\nCon il Samsung Galaxy Tab S7+ con 949 euro ho preso sia il tab che la penna. Quest'ultima dovrebbe essere di default nel pacchetto tablet così come fanno Samsung e Microsoft con Surface.\nDimentichi Andrea che il Tab S7+ c'è si solo da 128 GB, ma ha memoria espandibile fino a 1 TB cosa che con l'iPad Pro mi porta a spendere 2000 euro.\n\nMorale della favola? Questo giro ho dato una possibilità a Samsung! \n\nPer me che non sono un disegnatore resta migliore. \nProduttività al top, apertura del s.o. così come note salvate in word e power point. Apple resta troppo chiusa e complicata, il file manager \"file\" che ha iPad semplicemente non è un vero file manager. Uso Business, a meno che non si parli di grafica artistica, Samsung è la scelta più ponderata e razionale.",
+            "authorDisplayName": "Fulvio Zecchin",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJzKSOB8XSIcwIJv7GCjn8y87y2rpTWi6vQhenagLQ=s48-c-k-c0xffffffff-no-rj-mo",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCC84Rdxx2bT4b3qqSXjE2vA",
+            "authorChannelId": {
+              "value": "UCC84Rdxx2bT4b3qqSXjE2vA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 214,
+            "publishedAt": "2020-08-20T11:09:27Z",
+            "updatedAt": "2020-08-20T12:05:56Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 46,
+        "isPublic": true
+      },
+      "replies": {
+        "comments": [
+          {
+            "kind": "youtube#comment",
+            "etag": "je7Ehi4pRA4MNfk74yTgG5lJFXI",
+            "id": "UgyXvmOpVMyl5bdxsnx4AaABAg.9C_U-hVZHz49EwZLFyI5uu",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "@Pietro Lucchese Pensi che sia così limitata la longevità? Effettivamente io ho Ipad Air prima serie....7 anni ed ancora se la cavicchia....",
+              "textOriginal": "@Pietro Lucchese Pensi che sia così limitata la longevità? Effettivamente io ho Ipad Air prima serie....7 anni ed ancora se la cavicchia....",
+              "parentId": "UgyXvmOpVMyl5bdxsnx4AaABAg",
+              "authorDisplayName": "Marco Fusco",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJyet8GfCDKGsbrNe7XaChynplv2XcR_1dJ8jo_Dvw=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCrLyWVXsmuX6JPivY82_HQA",
+              "authorChannelId": {
+                "value": "UCrLyWVXsmuX6JPivY82_HQA"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-10-18T03:21:24Z",
+              "updatedAt": "2020-10-18T03:21:24Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "LEvrjhQYAsIgtf-d1mseFmKlLcM",
+            "id": "UgyXvmOpVMyl5bdxsnx4AaABAg.9C_U-hVZHz49EtFTQQQ0iS",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "@Salvatore Giaquinto Purtroppo è colpa dell&#39;Exynos che ha decisamente mollato il colpo rispetto ai tempi s7. Io stesso avrei mollato Samsung se non avessero fatto uscire l&#39;SE 5G con snapdragon.",
+              "textOriginal": "@Salvatore Giaquinto Purtroppo è colpa dell'Exynos che ha decisamente mollato il colpo rispetto ai tempi s7. Io stesso avrei mollato Samsung se non avessero fatto uscire l'SE 5G con snapdragon.",
+              "parentId": "UgyXvmOpVMyl5bdxsnx4AaABAg",
+              "authorDisplayName": "Matteo Venturini",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJw_TqAGJGcKbM1kT1Tj5_KfMUWVQyVgPBUShx8j6Q=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UC-VY7vBDR0nTeW8T5nFZUJw",
+              "authorChannelId": {
+                "value": "UC-VY7vBDR0nTeW8T5nFZUJw"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-10-16T20:30:01Z",
+              "updatedAt": "2020-10-16T20:30:01Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "-0-r8DDYYuuFPGJxuOcJyLB_js0",
+            "id": "UgyXvmOpVMyl5bdxsnx4AaABAg.9C_U-hVZHz49EtEeKHEH2s",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "@skilled dj e&#39; normale che se lo riempi fino all&#39;ultimo byte non puo fare piu aggiornamenti (sia di OS sia di applicazioni), foto ecc e si inchioda pero&#39; cazzo chi prende un ipad con solo 32gb di memoria?",
+              "textOriginal": "@skilled dj e' normale che se lo riempi fino all'ultimo byte non puo fare piu aggiornamenti (sia di OS sia di applicazioni), foto ecc e si inchioda pero' cazzo chi prende un ipad con solo 32gb di memoria?",
+              "parentId": "UgyXvmOpVMyl5bdxsnx4AaABAg",
+              "authorDisplayName": "Salvatore Giaquinto",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJyjownoFxc0uQaZLkBVWk0MMeC0rf3LI6hbUBfTNg=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UC569KcWX_J1_RgVXUm47rmA",
+              "authorChannelId": {
+                "value": "UC569KcWX_J1_RgVXUm47rmA"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-10-16T20:22:55Z",
+              "updatedAt": "2020-10-16T20:22:55Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "XQ8K9EhxUmf5BTM3_TZFyYOYYpg",
+            "id": "UgyXvmOpVMyl5bdxsnx4AaABAg.9C_U-hVZHz49EtEPgCywbn",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "@skilled dj esistono le flash drive",
+              "textOriginal": "@skilled dj esistono le flash drive",
+              "parentId": "UgyXvmOpVMyl5bdxsnx4AaABAg",
+              "authorDisplayName": "Salvatore Giaquinto",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJyjownoFxc0uQaZLkBVWk0MMeC0rf3LI6hbUBfTNg=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UC569KcWX_J1_RgVXUm47rmA",
+              "authorChannelId": {
+                "value": "UC569KcWX_J1_RgVXUm47rmA"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-10-16T20:20:47Z",
+              "updatedAt": "2020-10-16T20:20:47Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "RVryMxT0nd-MDitv7J5DQBHs9bs",
+            "id": "UgyXvmOpVMyl5bdxsnx4AaABAg.9C_U-hVZHz49EtEHA7F5xH",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "@Matteo Venturini non saprei, ma l&#39;S20+ appena comprato gia ha dei microlag e si scalda molto, ho paura di vedere cosa farebbe tra anni..",
+              "textOriginal": "@Matteo Venturini non saprei, ma l'S20+ appena comprato gia ha dei microlag e si scalda molto, ho paura di vedere cosa farebbe tra anni..",
+              "parentId": "UgyXvmOpVMyl5bdxsnx4AaABAg",
+              "authorDisplayName": "Salvatore Giaquinto",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJyjownoFxc0uQaZLkBVWk0MMeC0rf3LI6hbUBfTNg=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UC569KcWX_J1_RgVXUm47rmA",
+              "authorChannelId": {
+                "value": "UC569KcWX_J1_RgVXUm47rmA"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-10-16T20:19:37Z",
+              "updatedAt": "2020-10-16T20:19:37Z"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "bZ_rd5RCWVUNTIyivK5ushndpr4",
+      "id": "UgxxD6vG0H-BW1yVsg14AaABAg",
+      "snippet": {
+        "videoId": "aWO7Nb-q7dI",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "YeUydr-3FSzMZ_bWloj3K9xxtL0",
+          "id": "UgxxD6vG0H-BW1yVsg14AaABAg",
+          "snippet": {
+            "videoId": "aWO7Nb-q7dI",
+            "textDisplay": "Provo entrambi i modelli ogni anno e ho optato per l’ Ipad a sto giro ma sono gusti miei. Semplicemente ognuno deve vedere con quale OS si trova meglio. Ormai sono tutti ultra-prestanti",
+            "textOriginal": "Provo entrambi i modelli ogni anno e ho optato per l’ Ipad a sto giro ma sono gusti miei. Semplicemente ognuno deve vedere con quale OS si trova meglio. Ormai sono tutti ultra-prestanti",
+            "authorDisplayName": "Eugenio Di Castro",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJzwQGylBvebmeJg3lc7xCZS83d_cRpgG-JFkA=s48-c-k-c0xffffffff-no-rj-mo",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCAeWqMBcmgx8IrsZAmdTnsg",
+            "authorChannelId": {
+              "value": "UCAeWqMBcmgx8IrsZAmdTnsg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 163,
+            "publishedAt": "2020-08-20T10:46:00Z",
+            "updatedAt": "2020-08-20T10:46:53Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 20,
+        "isPublic": true
+      },
+      "replies": {
+        "comments": [
+          {
+            "kind": "youtube#comment",
+            "etag": "taDkny9UCeOM06pUzh5-1kD_wFA",
+            "id": "UgxxD6vG0H-BW1yVsg14AaABAg.9C_RJyhXAw09EnFvDnRwEH",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "@Luca Natale well said!",
+              "textOriginal": "@Luca Natale well said!",
+              "parentId": "UgxxD6vG0H-BW1yVsg14AaABAg",
+              "authorDisplayName": "Antonio Caliò",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJx4kotrzKtcxc7MAQiXk7xZzOhwBpJULr91daUuug=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCFfbQkUnIjuiSJCHQgOI3Kg",
+              "authorChannelId": {
+                "value": "UCFfbQkUnIjuiSJCHQgOI3Kg"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-10-14T12:38:31Z",
+              "updatedAt": "2020-10-14T12:38:31Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "YMlcRZgRVyYJiqvXFnFeam1HEaU",
+            "id": "UgxxD6vG0H-BW1yVsg14AaABAg.9C_RJyhXAw09DHH-bqWmvk",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "Vedo che c&#39;è guerra qui nelle risposte",
+              "textOriginal": "Vedo che c'è guerra qui nelle risposte",
+              "parentId": "UgxxD6vG0H-BW1yVsg14AaABAg",
+              "authorDisplayName": "Francesco Andreini",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJzh48OT1WAEKicZRLEFkVVXO8gmjrqtu6x6nA=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCUdshoNJ4q_u9cxlWlaszuQ",
+              "authorChannelId": {
+                "value": "UCUdshoNJ4q_u9cxlWlaszuQ"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-09-06T20:41:39Z",
+              "updatedAt": "2020-09-06T20:41:39Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "u9O6H76Mk5L_m7cknkSwBt0eZBA",
+            "id": "UgxxD6vG0H-BW1yVsg14AaABAg.9C_RJyhXAw09CwlnApfw4G",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "@Fulvio Zecchin esattamente, usb / sd (ma non hard disk esterni che richiedono elevati consumi di energia)",
+              "textOriginal": "@Fulvio Zecchin esattamente, usb / sd (ma non hard disk esterni che richiedono elevati consumi di energia)",
+              "parentId": "UgxxD6vG0H-BW1yVsg14AaABAg",
+              "authorDisplayName": "Ale",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJxXnD7YT-M4vzPw793amwUsn8dCblijYXPI72cVJw=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCM5P5exgOedGtJNKlIwLwRQ",
+              "authorChannelId": {
+                "value": "UCM5P5exgOedGtJNKlIwLwRQ"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-08-29T12:16:09Z",
+              "updatedAt": "2020-08-29T12:16:46Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "0PvOXOg0uyd3JMLwo38qg0FITsc",
+            "id": "UgxxD6vG0H-BW1yVsg14AaABAg.9C_RJyhXAw09CwlTexqmeR",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "Ale quindi mi stai dicendo che al mio iPhone 11 pro max posso collegargli una chiavetta usb e spostare file?",
+              "textOriginal": "Ale quindi mi stai dicendo che al mio iPhone 11 pro max posso collegargli una chiavetta usb e spostare file?",
+              "parentId": "UgxxD6vG0H-BW1yVsg14AaABAg",
+              "authorDisplayName": "Fulvio Zecchin",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJzKSOB8XSIcwIJv7GCjn8y87y2rpTWi6vQhenagLQ=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCC84Rdxx2bT4b3qqSXjE2vA",
+              "authorChannelId": {
+                "value": "UCC84Rdxx2bT4b3qqSXjE2vA"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-08-29T12:13:21Z",
+              "updatedAt": "2020-08-29T12:13:21Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "5RU0z3qdGWF5d2awp3Kf1QaKAOU",
+            "id": "UgxxD6vG0H-BW1yVsg14AaABAg.9C_RJyhXAw09CfhVuGuN6q",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "@Luca Natale perché la &#39;obbiettività&#39; esiste?!? Seriamente, in qualsiasi ambito, ancora la si cerca? Ci si crede come a babbo natale?!?",
+              "textOriginal": "@Luca Natale perché la 'obbiettività' esiste?!? Seriamente, in qualsiasi ambito, ancora la si cerca? Ci si crede come a babbo natale?!?",
+              "parentId": "UgxxD6vG0H-BW1yVsg14AaABAg",
+              "authorDisplayName": "Stefano Pompa",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJx4ow7mFtAZlddtsgNPC0RDY48mwdBNc5bkS-fvHw=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCximN2Dc_dZcDTfC7BNaVUw",
+              "authorChannelId": {
+                "value": "UCximN2Dc_dZcDTfC7BNaVUw"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-08-22T21:11:37Z",
+              "updatedAt": "2020-08-22T21:11:37Z"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "zRn1LhkZxWP87KvbUOq19q0p8Xo",
+      "id": "UgzXlMgryR7PY1tG-4N4AaABAg",
+      "snippet": {
+        "videoId": "aWO7Nb-q7dI",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "AiL0zcA-2uLQrJTkPFCqUDtRHAY",
+          "id": "UgzXlMgryR7PY1tG-4N4AaABAg",
+          "snippet": {
+            "videoId": "aWO7Nb-q7dI",
+            "textDisplay": "La penna la sente eccome l&#39;inclinazione, è l&#39;app note di Samsung che non la sfrutta",
+            "textOriginal": "La penna la sente eccome l'inclinazione, è l'app note di Samsung che non la sfrutta",
+            "authorDisplayName": "davide barbero",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJwT8En5nHMKZHHhLWkYc-MO2_c85gF0t1lT8w=s48-c-k-c0xffffffff-no-rj-mo",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCcTqA-2hqZMxF2XuRq_FXSw",
+            "authorChannelId": {
+              "value": "UCcTqA-2hqZMxF2XuRq_FXSw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 174,
+            "publishedAt": "2020-08-20T10:53:16Z",
+            "updatedAt": "2020-08-20T10:53:16Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 29,
+        "isPublic": true
+      },
+      "replies": {
+        "comments": [
+          {
+            "kind": "youtube#comment",
+            "etag": "k87ETl_Lgvz8DSlhbHQ5EG7jdf8",
+            "id": "UgzXlMgryR7PY1tG-4N4AaABAg.9C_S9DiDpCG9E4AxdaA2W7",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "@cristian rosi questo si, infatti io utilizzo Surface fin dal Day One della prima veraione, nel lontano 2008. Poi sono passato al Pro4, Pro 5 e attualmente al SurfaceBook2. Io però nel commento facevo riferimento all&#39;iPad che con Procreate in ambito Artistico permette sicuramente un utilizzo più professionale in mobilità rispetto ad un qualunque tablet Android.",
+              "textOriginal": "@cristian rosi questo si, infatti io utilizzo Surface fin dal Day One della prima veraione, nel lontano 2008. Poi sono passato al Pro4, Pro 5 e attualmente al SurfaceBook2. Io però nel commento facevo riferimento all'iPad che con Procreate in ambito Artistico permette sicuramente un utilizzo più professionale in mobilità rispetto ad un qualunque tablet Android.",
+              "parentId": "UgzXlMgryR7PY1tG-4N4AaABAg",
+              "authorDisplayName": "Michele Rizzardi",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJxJFpzL9XVyVrqeeMOKHtwKLsKD1dW9etojvFh8=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCfAYY7p7tROaoOAOXlTI4cg",
+              "authorChannelId": {
+                "value": "UCfAYY7p7tROaoOAOXlTI4cg"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-09-26T15:10:05Z",
+              "updatedAt": "2020-09-26T15:10:05Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "Gd61OVcqgzox2kiaposLrbKNCX0",
+            "id": "UgzXlMgryR7PY1tG-4N4AaABAg.9C_S9DiDpCG9E3kz-t1p2P",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "@Michele Rizzardi l&#39;app store sarà l&#39;unico che ha Photoshop, ma sui surface puoi installare il programma vero e proprio, vuoi mette?\u003cbr /\u003eQuindi diciamo che fa poco testo questa cosa, perché se dobbiamo vedere a questi dettagli, il surface vince a mani basse.",
+              "textOriginal": "@Michele Rizzardi l'app store sarà l'unico che ha Photoshop, ma sui surface puoi installare il programma vero e proprio, vuoi mette?\nQuindi diciamo che fa poco testo questa cosa, perché se dobbiamo vedere a questi dettagli, il surface vince a mani basse.",
+              "parentId": "UgzXlMgryR7PY1tG-4N4AaABAg",
+              "authorDisplayName": "cristian rosi",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJyoymzRsdUdQZUpetJs0a4N8l0-NYEZ5isIB1tMvw=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCciV9FsQO6bc9jR4fLIMykQ",
+              "authorChannelId": {
+                "value": "UCciV9FsQO6bc9jR4fLIMykQ"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-09-26T11:14:21Z",
+              "updatedAt": "2020-09-26T11:14:21Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "fYqrxojRt6k6Oi9SleuGuWNjHHc",
+            "id": "UgzXlMgryR7PY1tG-4N4AaABAg.9C_S9DiDpCG9CzxhSvzuB7",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "\u200b@Thersicore76 guarda, io nel lontano 2013 acquistai un Surface Pro (primo modello, quello con al penna Wacom) e penso di essere stato uno dei primi in italia ad utilizzare un dispositivo del genere per lavorare in ambito professionale, sia in mobilità che da casa. Allora poter lavorare su un dispositivo portatile, disegnando direttamente su schermo utilizzando Photoshop era un sogno che diventava realtà! In quegli anni gli ipad erano ancora dei semplici &quot;telefononi&quot; e l&#39;idea di un tablet Apple da utilizzare con la penna era ancora considerata adi puristi della mela morsicata un abominio... \r\u003cbr /\u003eDa allora di acqua sotto ai ponti ne è passata: sono trascorsi sette anni ed in ambito artistico le cose sono cambiate radicalmente. Ti assicuro che, specie in ambito internazionale (ma non solo), decine e decine di artisti che seguo negli anni hanno mandato in pensione computer e tavolette e lavorano direttamente su iPad. Sto parlando di fior fiore di disegnatori della Marvel e di illustratori dell&#39;editoria per ragazzi ecc. Io personalmente sono &quot;vecchia maniera&quot; e sono troppo legato al pc: attualmente utilizzo un SurfaceBook collegato ad una Wacom Cintiq da 27 e lavoro con Photoshop ma ti assicuro che il mondo artistico ormai si sta evolvendo su dispositivi tablet anche perché, con una spesa sicuramente più contenuta rispetto a pc, tavolette e software, ti permettono di lavorare con la stessa qualità e anche in mobilità.",
+              "textOriginal": "\u200b@Thersicore76 guarda, io nel lontano 2013 acquistai un Surface Pro (primo modello, quello con al penna Wacom) e penso di essere stato uno dei primi in italia ad utilizzare un dispositivo del genere per lavorare in ambito professionale, sia in mobilità che da casa. Allora poter lavorare su un dispositivo portatile, disegnando direttamente su schermo utilizzando Photoshop era un sogno che diventava realtà! In quegli anni gli ipad erano ancora dei semplici \"telefononi\" e l'idea di un tablet Apple da utilizzare con la penna era ancora considerata adi puristi della mela morsicata un abominio... \r\nDa allora di acqua sotto ai ponti ne è passata: sono trascorsi sette anni ed in ambito artistico le cose sono cambiate radicalmente. Ti assicuro che, specie in ambito internazionale (ma non solo), decine e decine di artisti che seguo negli anni hanno mandato in pensione computer e tavolette e lavorano direttamente su iPad. Sto parlando di fior fiore di disegnatori della Marvel e di illustratori dell'editoria per ragazzi ecc. Io personalmente sono \"vecchia maniera\" e sono troppo legato al pc: attualmente utilizzo un SurfaceBook collegato ad una Wacom Cintiq da 27 e lavoro con Photoshop ma ti assicuro che il mondo artistico ormai si sta evolvendo su dispositivi tablet anche perché, con una spesa sicuramente più contenuta rispetto a pc, tavolette e software, ti permettono di lavorare con la stessa qualità e anche in mobilità.",
+              "parentId": "UgzXlMgryR7PY1tG-4N4AaABAg",
+              "authorDisplayName": "Michele Rizzardi",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJxJFpzL9XVyVrqeeMOKHtwKLsKD1dW9etojvFh8=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCfAYY7p7tROaoOAOXlTI4cg",
+              "authorChannelId": {
+                "value": "UCfAYY7p7tROaoOAOXlTI4cg"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-08-30T17:57:57Z",
+              "updatedAt": "2020-08-30T17:57:57Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "CH2boWF3xeN5oPthPNfcXNh-Q3g",
+            "id": "UgzXlMgryR7PY1tG-4N4AaABAg.9C_S9DiDpCG9CxghcaCTZX",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "@davide barbero Peccato che è in una sorta di versione Beta. L&#39;ho provato e da problemi di visualizzazione della Tavola. E&#39; come se sparissero dei pezzi, mostrando la quadrettatura &quot;bianca e grigia&quot; del livello di fondo. Io uso Clip Studio Paint su Mac, e adesso lo uso per &quot;diletto&quot; (non c&#39;è nulla di meglio di una Tavoletta con schermo) per fare delle Bozze, tanto con il Cloud di Clip Studio Paint, posso poi caricare il file sul Mac.",
+              "textOriginal": "@davide barbero Peccato che è in una sorta di versione Beta. L'ho provato e da problemi di visualizzazione della Tavola. E' come se sparissero dei pezzi, mostrando la quadrettatura \"bianca e grigia\" del livello di fondo. Io uso Clip Studio Paint su Mac, e adesso lo uso per \"diletto\" (non c'è nulla di meglio di una Tavoletta con schermo) per fare delle Bozze, tanto con il Cloud di Clip Studio Paint, posso poi caricare il file sul Mac.",
+              "parentId": "UgzXlMgryR7PY1tG-4N4AaABAg",
+              "authorDisplayName": "Thersicore76",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJwxK4KG3cFU84lmlvjzN_LM6xe0WFjqds1EWA=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCwTFaBljcguadD_iHebhl6Q",
+              "authorChannelId": {
+                "value": "UCwTFaBljcguadD_iHebhl6Q"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-08-29T20:50:57Z",
+              "updatedAt": "2020-08-29T20:50:57Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "30BJujxhSwoPt8MeMBhBRUYrZj4",
+            "id": "UgzXlMgryR7PY1tG-4N4AaABAg.9C_S9DiDpCG9CxgG2oLA7a",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "@Michele Rizzardi Universalmente?\u003cbr /\u003eIo conosco 5 di illustratori Digitali. Tre usano Photoshop. Due usano Clip Studio Paint, che uso anche io.\u003cbr /\u003eCome fa un&#39;App nata da pochissimo essere UNIVERSALE ? E&#39; pubblicizzata. Vai su YouTube e vedi diversi artisti che la &quot;provano&quot; e fanno dei disegni, perché Apple gli ha regalato il prodotto, quindi ricambiano.\u003cbr /\u003eUn Professionista del Digitale che usa un Tablet? Che usa un programma Mobile? Certo... quando è svaccato sul letto.\u003cbr /\u003eUsano una Wacom Cintiq da 24&quot; a &quot;salire&quot; connessa con un Mac Pro (portatile o Desktop).\u003cbr /\u003eInoltre con l&#39;uscita di questo TabS7+ hanno resto disponibile Clip Studio Paint, sia versione Pro che EX. E non parlo di una versione &quot;base&quot;, o ridotta. Ma della stessa versione Desktop che gira su un qualunque Pc o Mac.",
+              "textOriginal": "@Michele Rizzardi Universalmente?\nIo conosco 5 di illustratori Digitali. Tre usano Photoshop. Due usano Clip Studio Paint, che uso anche io.\nCome fa un'App nata da pochissimo essere UNIVERSALE ? E' pubblicizzata. Vai su YouTube e vedi diversi artisti che la \"provano\" e fanno dei disegni, perché Apple gli ha regalato il prodotto, quindi ricambiano.\nUn Professionista del Digitale che usa un Tablet? Che usa un programma Mobile? Certo... quando è svaccato sul letto.\nUsano una Wacom Cintiq da 24\" a \"salire\" connessa con un Mac Pro (portatile o Desktop).\nInoltre con l'uscita di questo TabS7+ hanno resto disponibile Clip Studio Paint, sia versione Pro che EX. E non parlo di una versione \"base\", o ridotta. Ma della stessa versione Desktop che gira su un qualunque Pc o Mac.",
+              "parentId": "UgzXlMgryR7PY1tG-4N4AaABAg",
+              "authorDisplayName": "Thersicore76",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJwxK4KG3cFU84lmlvjzN_LM6xe0WFjqds1EWA=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCwTFaBljcguadD_iHebhl6Q",
+              "authorChannelId": {
+                "value": "UCwTFaBljcguadD_iHebhl6Q"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-08-29T20:47:02Z",
+              "updatedAt": "2020-08-29T20:47:02Z"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "vp4WGekT5wNZ77x401SXoCy9SSU",
+      "id": "Ugy0hFCe9x0LoBQfAPN4AaABAg",
+      "snippet": {
+        "videoId": "aWO7Nb-q7dI",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "45j_pyQiW50zIjXa1SpCtqXcXSY",
+          "id": "Ugy0hFCe9x0LoBQfAPN4AaABAg",
+          "snippet": {
+            "videoId": "aWO7Nb-q7dI",
+            "textDisplay": "NOTABILITY su IPAD  (chi la conosce ha gia capito tutto)",
+            "textOriginal": "NOTABILITY su IPAD  (chi la conosce ha gia capito tutto)",
+            "authorDisplayName": "xCosee",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJwSgAb2P96XzpT2RB9cG7f1HKzKtPLcL9X50WWs=s48-c-k-c0xffffffff-no-rj-mo",
+            "authorChannelUrl": "http://www.youtube.com/channel/UC_j8xu8_LPVz2-9jw7pvWHw",
+            "authorChannelId": {
+              "value": "UC_j8xu8_LPVz2-9jw7pvWHw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 88,
+            "publishedAt": "2020-08-20T13:22:05Z",
+            "updatedAt": "2020-08-20T13:22:05Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 17,
+        "isPublic": true
+      },
+      "replies": {
+        "comments": [
+          {
+            "kind": "youtube#comment",
+            "etag": "F5s5q_65bla-fWL8U9XzA1tkprE",
+            "id": "Ugy0hFCe9x0LoBQfAPN4AaABAg.9C_iB7ZRE7a9DpdxvDEUHd",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "Chiedo scusa, c&#39;è qualcuno che sa dirmi se per caso c&#39;è qualche applicazione con un funzionamento analogo anche per windows?",
+              "textOriginal": "Chiedo scusa, c'è qualcuno che sa dirmi se per caso c'è qualche applicazione con un funzionamento analogo anche per windows?",
+              "parentId": "Ugy0hFCe9x0LoBQfAPN4AaABAg",
+              "authorDisplayName": "Alex Covassin",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJzEI3P_O7W4HNZ-TrGf0Gu7KY361KJ1q3Eg-ehRoQ=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UC5h7IVZTSvdPqbjw_P7JR9Q",
+              "authorChannelId": {
+                "value": "UC5h7IVZTSvdPqbjw_P7JR9Q"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-09-20T14:24:25Z",
+              "updatedAt": "2020-09-20T14:24:25Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "vbv9SYlwwvg7qZcjVjSVB5n55lw",
+            "id": "Ugy0hFCe9x0LoBQfAPN4AaABAg.9C_iB7ZRE7a9D3wLVaDU3p",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "@Luca Malvicini Certo hai fatto benissimo in questo caso",
+              "textOriginal": "@Luca Malvicini Certo hai fatto benissimo in questo caso",
+              "parentId": "Ugy0hFCe9x0LoBQfAPN4AaABAg",
+              "authorDisplayName": "Andrea Ciucci",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJwngUW-l25x-fbrfdfCW8MvE6f0pbaQfB9z7aAR=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCHJkzP3WwZuRt_kRERNg3UA",
+              "authorChannelId": {
+                "value": "UCHJkzP3WwZuRt_kRERNg3UA"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-09-01T16:22:17Z",
+              "updatedAt": "2020-09-01T16:22:17Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "5T6YE4zfFFsz_cipz2eZoMNMp-o",
+            "id": "Ugy0hFCe9x0LoBQfAPN4AaABAg.9C_iB7ZRE7a9D3uMG6DhhP",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "@Andrea Ciucci io banalmente l&#39;ho preso perché volevo lo schermo più grande possibile. Sapevo era costoso ma l&#39;avevo messo in conto. Sono soddisfatto così.",
+              "textOriginal": "@Andrea Ciucci io banalmente l'ho preso perché volevo lo schermo più grande possibile. Sapevo era costoso ma l'avevo messo in conto. Sono soddisfatto così.",
+              "parentId": "Ugy0hFCe9x0LoBQfAPN4AaABAg",
+              "authorDisplayName": "Luca Malvicini",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJz-Qg6oaQShlEcsEtq4pRkmeJXGascsDQx22FjP=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCB4xRCK6I2pB5M7QoMHvqkg",
+              "authorChannelId": {
+                "value": "UCB4xRCK6I2pB5M7QoMHvqkg"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-09-01T16:04:54Z",
+              "updatedAt": "2020-09-01T16:04:54Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "nriUrgZg5sUSlXE0l6pTHgSwme8",
+            "id": "Ugy0hFCe9x0LoBQfAPN4AaABAg.9C_iB7ZRE7a9D3hsh_2YIa",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "Riccardo sinceramente io uso iPad di 7a generazione per gli appunti, e per quest’uso non vedo necessità di un iPad Pro dato che per prendere appunti la velocità è sempre quella, non serve un processore di ultima generazione e nemmeno spendere 1500 euro in più. Certo poi se hai un budget alto, e non hai altre spese, e poi vuoi usarlo per fare chissà cos’altro, ci sta. iPad Pro ha senso principalmente per i professionisti. Comunque studio economia anche io e con iPad mi trovo una favola, è stato un buon investimento.",
+              "textOriginal": "Riccardo sinceramente io uso iPad di 7a generazione per gli appunti, e per quest’uso non vedo necessità di un iPad Pro dato che per prendere appunti la velocità è sempre quella, non serve un processore di ultima generazione e nemmeno spendere 1500 euro in più. Certo poi se hai un budget alto, e non hai altre spese, e poi vuoi usarlo per fare chissà cos’altro, ci sta. iPad Pro ha senso principalmente per i professionisti. Comunque studio economia anche io e con iPad mi trovo una favola, è stato un buon investimento.",
+              "parentId": "Ugy0hFCe9x0LoBQfAPN4AaABAg",
+              "authorDisplayName": "Andrea Ciucci",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJwngUW-l25x-fbrfdfCW8MvE6f0pbaQfB9z7aAR=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCHJkzP3WwZuRt_kRERNg3UA",
+              "authorChannelId": {
+                "value": "UCHJkzP3WwZuRt_kRERNg3UA"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-09-01T14:15:53Z",
+              "updatedAt": "2020-09-01T14:15:53Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "l8HOTKwIQTvd6WLG0qrko6gC4dQ",
+            "id": "Ugy0hFCe9x0LoBQfAPN4AaABAg.9C_iB7ZRE7a9CmnQo271bY",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "Ottima applicazione!",
+              "textOriginal": "Ottima applicazione!",
+              "parentId": "Ugy0hFCe9x0LoBQfAPN4AaABAg",
+              "authorDisplayName": "Paolo Fin",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJwRjnrliwwBVbLi_o9oC5FNw3M-rVWuDpQeWaZkJ6g=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCBjHr53TAPzKhE5A-xUt8Gg",
+              "authorChannelId": {
+                "value": "UCBjHr53TAPzKhE5A-xUt8Gg"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-08-25T15:18:02Z",
+              "updatedAt": "2020-08-25T15:18:02Z"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "zQNS4zcxOhJ2vsIXAMOghEGpgwU",
+      "id": "Ugx9i9ZKsm2THC_x5sV4AaABAg",
+      "snippet": {
+        "videoId": "aWO7Nb-q7dI",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "SpMlTv2GyWy4fhUkDtNy1V8x0vI",
+          "id": "Ugx9i9ZKsm2THC_x5sV4AaABAg",
+          "snippet": {
+            "videoId": "aWO7Nb-q7dI",
+            "textDisplay": "La feature dell’audio sincronizzato si trova anche su ipad con l’app notability. Chi deve usare l’ipad per gli appunti dubito usi le note",
+            "textOriginal": "La feature dell’audio sincronizzato si trova anche su ipad con l’app notability. Chi deve usare l’ipad per gli appunti dubito usi le note",
+            "authorDisplayName": "Elena Capurro",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJxV3oJhOA_hZzMb7zb3TG-J-m8lLKegZYEWUintcRI=s48-c-k-c0xffffffff-no-rj-mo",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCvZ-V4SCnjSHUCrX4KVzXlw",
+            "authorChannelId": {
+              "value": "UCvZ-V4SCnjSHUCrX4KVzXlw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 73,
+            "publishedAt": "2020-08-20T12:53:05Z",
+            "updatedAt": "2020-08-20T12:53:05Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 9,
+        "isPublic": true
+      },
+      "replies": {
+        "comments": [
+          {
+            "kind": "youtube#comment",
+            "etag": "7Qz9qzMUxpqe8WsTjDnkzCc-3BA",
+            "id": "Ugx9i9ZKsm2THC_x5sV4AaABAg.9C_erjjiGF79E3kTihFW7v",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "E ok, però comunque dà fastidio questa cosa, cioè uno che magari non lo sa, compra l&#39;iPad per appunti e notte, e poi deve scaricare un&#39;app a parte perché quella di sistema fa schifo.",
+              "textOriginal": "E ok, però comunque dà fastidio questa cosa, cioè uno che magari non lo sa, compra l'iPad per appunti e notte, e poi deve scaricare un'app a parte perché quella di sistema fa schifo.",
+              "parentId": "Ugx9i9ZKsm2THC_x5sV4AaABAg",
+              "authorDisplayName": "cristian rosi",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJyoymzRsdUdQZUpetJs0a4N8l0-NYEZ5isIB1tMvw=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCciV9FsQO6bc9jR4fLIMykQ",
+              "authorChannelId": {
+                "value": "UCciV9FsQO6bc9jR4fLIMykQ"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-09-26T11:09:56Z",
+              "updatedAt": "2020-09-26T11:09:56Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "5TW5Pp2ilaamPs828vETwRlqgoY",
+            "id": "Ugx9i9ZKsm2THC_x5sV4AaABAg.9C_erjjiGF79DpeKsrCzVP",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "Chiedo scusa, c&#39;è qualcuno che sa dirmi se per caso c&#39;è qualche applicazione con un funzionamento analogo anche per windows?",
+              "textOriginal": "Chiedo scusa, c'è qualcuno che sa dirmi se per caso c'è qualche applicazione con un funzionamento analogo anche per windows?",
+              "parentId": "Ugx9i9ZKsm2THC_x5sV4AaABAg",
+              "authorDisplayName": "Alex Covassin",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJzEI3P_O7W4HNZ-TrGf0Gu7KY361KJ1q3Eg-ehRoQ=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UC5h7IVZTSvdPqbjw_P7JR9Q",
+              "authorChannelId": {
+                "value": "UC5h7IVZTSvdPqbjw_P7JR9Q"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-09-20T14:27:42Z",
+              "updatedAt": "2020-09-20T14:27:42Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "RTMFmijj6wR3dam38uNtQy2S8aQ",
+            "id": "Ugx9i9ZKsm2THC_x5sV4AaABAg.9C_erjjiGF79Ce1LzFPrRY",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "@Fulvio Zecchin a",
+              "textOriginal": "@Fulvio Zecchin a",
+              "parentId": "Ugx9i9ZKsm2THC_x5sV4AaABAg",
+              "authorDisplayName": "Stefano Gazzola",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJzJ_Gyz49db-NE9OzhNPnFKvOmjhO4bExvXcw9UQA=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCX5aGnGesu8st-72y44nz6A",
+              "authorChannelId": {
+                "value": "UCX5aGnGesu8st-72y44nz6A"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-08-22T05:35:17Z",
+              "updatedAt": "2020-08-22T05:35:17Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "vKxuKnJFxoTvbwy_1cEQgbHMikA",
+            "id": "Ugx9i9ZKsm2THC_x5sV4AaABAg.9C_erjjiGF79Ce1LVsImpP",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "@Fulvio Zecchin aaa",
+              "textOriginal": "@Fulvio Zecchin aaa",
+              "parentId": "Ugx9i9ZKsm2THC_x5sV4AaABAg",
+              "authorDisplayName": "Stefano Gazzola",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJzJ_Gyz49db-NE9OzhNPnFKvOmjhO4bExvXcw9UQA=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCX5aGnGesu8st-72y44nz6A",
+              "authorChannelId": {
+                "value": "UCX5aGnGesu8st-72y44nz6A"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-08-22T05:35:13Z",
+              "updatedAt": "2020-08-22T05:35:13Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "jGg5ASDeYp-ZaPAb4Yurb2yuSPs",
+            "id": "Ugx9i9ZKsm2THC_x5sV4AaABAg.9C_erjjiGF79Ce1KxiilSr",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "@Fulvio Zecchin aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaAaaaaaaaaaaAaa",
+              "textOriginal": "@Fulvio Zecchin aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaAaaaaaaaaaaAaa",
+              "parentId": "Ugx9i9ZKsm2THC_x5sV4AaABAg",
+              "authorDisplayName": "Stefano Gazzola",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJzJ_Gyz49db-NE9OzhNPnFKvOmjhO4bExvXcw9UQA=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCX5aGnGesu8st-72y44nz6A",
+              "authorChannelId": {
+                "value": "UCX5aGnGesu8st-72y44nz6A"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-08-22T05:35:08Z",
+              "updatedAt": "2020-08-22T05:35:08Z"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "AZDtDBRKMHE9SPgX-Dd15WbJNcI",
+      "id": "UgyxUVf6ovLLJrNu6et4AaABAg",
+      "snippet": {
+        "videoId": "aWO7Nb-q7dI",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "HpWXkymZBFSIFAV1BecWsCMRbdI",
+          "id": "UgyxUVf6ovLLJrNu6et4AaABAg",
+          "snippet": {
+            "videoId": "aWO7Nb-q7dI",
+            "textDisplay": "&#39;Vi alzo la luminosità al massimo \u003ca href=\"https://www.youtube.com/watch?v=aWO7Nb-q7dI&amp;t=1m00s\"\u003e1:00\u003c/a\u003e &#39; ma in realtà non è al massimo 😅🤣",
+            "textOriginal": "'Vi alzo la luminosità al massimo 1:00 ' ma in realtà non è al massimo 😅🤣",
+            "authorDisplayName": "Nick Verón",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJy8PTzJq358xVrQbKRXJKyRC6sR48bFLowS8w=s48-c-k-c0xffffffff-no-rj-mo",
+            "authorChannelUrl": "http://www.youtube.com/channel/UC79arOWTrU8sjRbCEf4B_bQ",
+            "authorChannelId": {
+              "value": "UC79arOWTrU8sjRbCEf4B_bQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 53,
+            "publishedAt": "2020-08-20T10:41:32Z",
+            "updatedAt": "2020-08-20T10:41:32Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "yoYKanfvpaCJnIpk1I9nSYPGgp8",
+      "id": "Ugwwpa8R4PSBbY6rqnN4AaABAg",
+      "snippet": {
+        "videoId": "aWO7Nb-q7dI",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "4eHc0z5SUK01wmMjusJQ_ebtOuo",
+          "id": "Ugwwpa8R4PSBbY6rqnN4AaABAg",
+          "snippet": {
+            "videoId": "aWO7Nb-q7dI",
+            "textDisplay": "Andrea! La risposta ci sarebbe stata tutta per sentire l&#39;audio in vivavoce del Tab ! 😎👍🏻",
+            "textOriginal": "Andrea! La risposta ci sarebbe stata tutta per sentire l'audio in vivavoce del Tab ! 😎👍🏻",
+            "authorDisplayName": "Lallo C",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJyB3429-pubYiX-V41OGJblA8CnqFaM0bWZJa2NzcE=s48-c-k-c0xffffffff-no-rj-mo",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCyJ1fAxDkvDB5gIANidNfXQ",
+            "authorChannelId": {
+              "value": "UCyJ1fAxDkvDB5gIANidNfXQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 6,
+            "publishedAt": "2020-08-20T10:45:02Z",
+            "updatedAt": "2020-08-20T10:45:02Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "Q5STbdukBqSF6SaBDCZCrIA9wpA",
+      "id": "UgwSMurLP5j7bcC2_RR4AaABAg",
+      "snippet": {
+        "videoId": "aWO7Nb-q7dI",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "YDVslSWz8wEDp7tMEMHQJzxKh6Y",
+          "id": "UgwSMurLP5j7bcC2_RR4AaABAg",
+          "snippet": {
+            "videoId": "aWO7Nb-q7dI",
+            "textDisplay": "Molto bello questo Samsung Galaxy Tab S7+, a mio avviso migliore dell&#39;iPad, anche come qualità prezzo.",
+            "textOriginal": "Molto bello questo Samsung Galaxy Tab S7+, a mio avviso migliore dell'iPad, anche come qualità prezzo.",
+            "authorDisplayName": "marco nexus",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJxbVaY9smYtcG6W4JOSnsMezmCjOSLrjjy_SXvw=s48-c-k-c0xffffffff-no-rj-mo",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCArxzdROUQ-h4vVDGKDhMfA",
+            "authorChannelId": {
+              "value": "UCArxzdROUQ-h4vVDGKDhMfA"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 24,
+            "publishedAt": "2020-08-20T14:27:53Z",
+            "updatedAt": "2020-08-20T14:27:53Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 4,
+        "isPublic": true
+      },
+      "replies": {
+        "comments": [
+          {
+            "kind": "youtube#comment",
+            "etag": "FjLXJOQlvJBgN-sgUUoAehOJKXQ",
+            "id": "UgwSMurLP5j7bcC2_RR4AaABAg.9C_pi7epxEY9EtFUNm17ht",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "@Fabian Gherca si va di flash drive",
+              "textOriginal": "@Fabian Gherca si va di flash drive",
+              "parentId": "UgwSMurLP5j7bcC2_RR4AaABAg",
+              "authorDisplayName": "Salvatore Giaquinto",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJyjownoFxc0uQaZLkBVWk0MMeC0rf3LI6hbUBfTNg=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UC569KcWX_J1_RgVXUm47rmA",
+              "authorChannelId": {
+                "value": "UC569KcWX_J1_RgVXUm47rmA"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-10-16T20:30:09Z",
+              "updatedAt": "2020-10-16T20:30:09Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "7_HhelPVbmjrHMYdI_mQdZ3_5CU",
+            "id": "UgwSMurLP5j7bcC2_RR4AaABAg.9C_pi7epxEY9DQorHEG1os",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "@Alessio Musu vedresti la differenza con l&#39;apple pencil, la magic keyboard e magari un&#39;espansione di memoria, che nell&#39;ipad pro costerebbe molto di piú che nel tab s7+ 🙃",
+              "textOriginal": "@Alessio Musu vedresti la differenza con l'apple pencil, la magic keyboard e magari un'espansione di memoria, che nell'ipad pro costerebbe molto di piú che nel tab s7+ 🙃",
+              "parentId": "UgwSMurLP5j7bcC2_RR4AaABAg",
+              "authorDisplayName": "Fabian Gherca",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJzKDoi18YzdE6UJH0xrmDnvev4EeM15FVfDdvpoLQ=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCDAT3QqfDVi2quKCdz6X9nA",
+              "authorChannelId": {
+                "value": "UCDAT3QqfDVi2quKCdz6X9nA"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 1,
+              "publishedAt": "2020-09-10T13:39:23Z",
+              "updatedAt": "2020-09-10T13:39:23Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "YEpYSgoz-qmKJXJzMN6sHsLW-xw",
+            "id": "UgwSMurLP5j7bcC2_RR4AaABAg.9C_pi7epxEY9CeqkjSp6AV",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "Non vedo molta differenza di prezzo rispetto ad iPad Pro. Comunque Samsung con la nuova app note sta andando nella direzione giusta.",
+              "textOriginal": "Non vedo molta differenza di prezzo rispetto ad iPad Pro. Comunque Samsung con la nuova app note sta andando nella direzione giusta.",
+              "parentId": "UgwSMurLP5j7bcC2_RR4AaABAg",
+              "authorDisplayName": "Alessio Musu",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJzAQqj2SzgdaElauHtj6Yum0kYB30sioK-fNNlr=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCAgVU9czTXgvxRgqxztdEKw",
+              "authorChannelId": {
+                "value": "UCAgVU9czTXgvxRgqxztdEKw"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-08-22T13:13:11Z",
+              "updatedAt": "2020-08-22T13:13:11Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "oqpbFAoEeJ57FSQzNzOvyh9pcGA",
+            "id": "UgwSMurLP5j7bcC2_RR4AaABAg.9C_pi7epxEY9CcWjMJEnWr",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "Beh, SAMSUNG ha anche meno spese nel realizzarli... non deve costruirsi un sistema operativo ma deve semplicemente customizzare un OS preconfezionato da Google, non deve progettarsi il SoC ma deve semplicemente inserire il SoC Snapdragon preconfezionato da Qualcomm... dietro ci sono lavori di progettazione completamente differenti... anche per quello Samsung ha costi più accessibili (oltre a dover comunque riconquistare un mercato che, per il mondo Android, è praticamente condannato a morte da anni, quindi per riprendere, di certo non può partire con prezzi esagerati)",
+              "textOriginal": "Beh, SAMSUNG ha anche meno spese nel realizzarli... non deve costruirsi un sistema operativo ma deve semplicemente customizzare un OS preconfezionato da Google, non deve progettarsi il SoC ma deve semplicemente inserire il SoC Snapdragon preconfezionato da Qualcomm... dietro ci sono lavori di progettazione completamente differenti... anche per quello Samsung ha costi più accessibili (oltre a dover comunque riconquistare un mercato che, per il mondo Android, è praticamente condannato a morte da anni, quindi per riprendere, di certo non può partire con prezzi esagerati)",
+              "parentId": "UgwSMurLP5j7bcC2_RR4AaABAg",
+              "authorDisplayName": "Marco Donatelli",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJxJrt6ejchv1gDgyJyyrm551I9fkdI_lc6JgQ=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCjNfrNfsNlP973j_Nf9nnNw",
+              "authorChannelId": {
+                "value": "UCjNfrNfsNlP973j_Nf9nnNw"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-08-21T15:31:00Z",
+              "updatedAt": "2020-08-21T15:31:00Z"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "fcSKXrVMzl-Ejk6xlQSydEiW0CI",
+      "id": "UgyZOG3V631CDZSTcCZ4AaABAg",
+      "snippet": {
+        "videoId": "aWO7Nb-q7dI",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "COOqReuXdlmf93eGQdGpk1kLdDE",
+          "id": "UgyZOG3V631CDZSTcCZ4AaABAg",
+          "snippet": {
+            "videoId": "aWO7Nb-q7dI",
+            "textDisplay": "Ipad (con pencil e smart keyboard) però ha un costo pari a un PC di buon livello.",
+            "textOriginal": "Ipad (con pencil e smart keyboard) però ha un costo pari a un PC di buon livello.",
+            "authorDisplayName": "Poli Positivi",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJyo42JHMPThBJL_5Zo_J4weECCt1gVfoQu6MAyO=s48-c-k-c0xffffffff-no-rj-mo",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCWfwoq4HH8CcThU9JceEK_A",
+            "authorChannelId": {
+              "value": "UCWfwoq4HH8CcThU9JceEK_A"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 68,
+            "publishedAt": "2020-08-20T10:58:40Z",
+            "updatedAt": "2020-08-20T10:58:40Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 21,
+        "isPublic": true
+      },
+      "replies": {
+        "comments": [
+          {
+            "kind": "youtube#comment",
+            "etag": "v9Yfh8Y5Hkg4idtYLMc0vwaS-3A",
+            "id": "UgyZOG3V631CDZSTcCZ4AaABAg.9C_SllL9ZM19Cc8fifM-Am",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "Thersicore76 grazie capitan ovvio, io avevo scritto che era più potente solo di alcuni pc, non di tutti...",
+              "textOriginal": "Thersicore76 grazie capitan ovvio, io avevo scritto che era più potente solo di alcuni pc, non di tutti...",
+              "parentId": "UgyZOG3V631CDZSTcCZ4AaABAg",
+              "authorDisplayName": "montax",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJxghBIxKSsIVvBfqQWfFN0GS9-q1v-GRTuiL-vjxw=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCU9CVYsrRTlZ_h8EG2wLi0g",
+              "authorChannelId": {
+                "value": "UCU9CVYsrRTlZ_h8EG2wLi0g"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-08-21T12:00:48Z",
+              "updatedAt": "2020-08-21T12:01:49Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "2aWjt1AjvQiaDkmN6UTw3SwyndA",
+            "id": "UgyZOG3V631CDZSTcCZ4AaABAg.9C_SllL9ZM19Cc5uiPs4CQ",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "@Thersicore76 No ma infatti, a me gli schermini non piacciono però alla fine si riescono a usare tranquillamente. Per la mia postazione ho un monitor 32 pollici per dire",
+              "textOriginal": "@Thersicore76 No ma infatti, a me gli schermini non piacciono però alla fine si riescono a usare tranquillamente. Per la mia postazione ho un monitor 32 pollici per dire",
+              "parentId": "UgyZOG3V631CDZSTcCZ4AaABAg",
+              "authorDisplayName": "Gabriele Giustizieri",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJwgqUSlvow7_04rGIo0lY2rpQ_XL8l_IpoMrRLXDQ=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UC-O3vJYy1c7MaH2QSwp7sOQ",
+              "authorChannelId": {
+                "value": "UC-O3vJYy1c7MaH2QSwp7sOQ"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-08-21T11:36:38Z",
+              "updatedAt": "2020-08-21T11:36:38Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "7_oY52Z4bXs0KiHiOSvR9-g5yyo",
+            "id": "UgyZOG3V631CDZSTcCZ4AaABAg.9C_SllL9ZM19Cc5FW-Wtmq",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "@Gabriele Giustizieri Quando inizi ad avere una certa età, andare a vedere video su uno schermo da 24&quot; o 30&quot; è tutta un&#39;altra cosa. Ma anche il dover usare la tastiera non è ancora comodo nei Tablet. Occupa molto spazio. Non per nulla in tutti i video che ho visto di produttività su iPad Pro, hanno sempre la tastiera e il Mouse... Non certo per mostrare che si possono connettere al Device... ma perché sono fondamentali. Un Tablet resterò sempre un ibrido. Lo vede bene nella case studenti in Giappone, dove la zona salotto diventa zona letto e zona studio, visto che hanno un ingresso e una stanza, quindi spazio pari a zero.",
+              "textOriginal": "@Gabriele Giustizieri Quando inizi ad avere una certa età, andare a vedere video su uno schermo da 24\" o 30\" è tutta un'altra cosa. Ma anche il dover usare la tastiera non è ancora comodo nei Tablet. Occupa molto spazio. Non per nulla in tutti i video che ho visto di produttività su iPad Pro, hanno sempre la tastiera e il Mouse... Non certo per mostrare che si possono connettere al Device... ma perché sono fondamentali. Un Tablet resterò sempre un ibrido. Lo vede bene nella case studenti in Giappone, dove la zona salotto diventa zona letto e zona studio, visto che hanno un ingresso e una stanza, quindi spazio pari a zero.",
+              "parentId": "UgyZOG3V631CDZSTcCZ4AaABAg",
+              "authorDisplayName": "Thersicore76",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJwxK4KG3cFU84lmlvjzN_LM6xe0WFjqds1EWA=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCwTFaBljcguadD_iHebhl6Q",
+              "authorChannelId": {
+                "value": "UCwTFaBljcguadD_iHebhl6Q"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-08-21T11:30:52Z",
+              "updatedAt": "2020-08-21T11:30:52Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "C7pKx4uDEScwkLydFgSnLrSORQI",
+            "id": "UgyZOG3V631CDZSTcCZ4AaABAg.9C_SllL9ZM19Cc4misuMzu",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "@montax Certo, come no. Un iPad più potente di CERTI PC, non di tutti.\u003cbr /\u003eNon è certo più potente di un iMac Pro, o di un Mac Pro. Ne mai lo sarà. Non per nulla è trapelata una sorta di Road Map per il passaggio ai processore ARM. Le versioni PRO dei prodotti Apple saranno gli ultimi ad essere aggiornati. Primo per far trovare le App professioni che servono già un po &quot;rodate&quot;... E secondo perché Apple non ha ancora presentato il suo Processore ARM che monterà sui prodotti Consumer... Figurarsi su quelli PRO.\u003cbr /\u003eAlcuni siti sono dubbiosi che riescano a fare un salto generazionale in un paio di anni, presentato delle differenze rilevante come ci sono tra un Intel e uno Xeon. Tanto che alcuni pensano che per i primi tempi, essendo comunque prodotti da Desktop che non anno problemi di comuni eunegegiti, potrebbero mettere più di una CPU in modo da avere la stessa NETTA differenza di prestazioni tra un banale iMac e un iMac Pro e un Mac Pro.",
+              "textOriginal": "@montax Certo, come no. Un iPad più potente di CERTI PC, non di tutti.\nNon è certo più potente di un iMac Pro, o di un Mac Pro. Ne mai lo sarà. Non per nulla è trapelata una sorta di Road Map per il passaggio ai processore ARM. Le versioni PRO dei prodotti Apple saranno gli ultimi ad essere aggiornati. Primo per far trovare le App professioni che servono già un po \"rodate\"... E secondo perché Apple non ha ancora presentato il suo Processore ARM che monterà sui prodotti Consumer... Figurarsi su quelli PRO.\nAlcuni siti sono dubbiosi che riescano a fare un salto generazionale in un paio di anni, presentato delle differenze rilevante come ci sono tra un Intel e uno Xeon. Tanto che alcuni pensano che per i primi tempi, essendo comunque prodotti da Desktop che non anno problemi di comuni eunegegiti, potrebbero mettere più di una CPU in modo da avere la stessa NETTA differenza di prestazioni tra un banale iMac e un iMac Pro e un Mac Pro.",
+              "parentId": "UgyZOG3V631CDZSTcCZ4AaABAg",
+              "authorDisplayName": "Thersicore76",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJwxK4KG3cFU84lmlvjzN_LM6xe0WFjqds1EWA=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCwTFaBljcguadD_iHebhl6Q",
+              "authorChannelId": {
+                "value": "UCwTFaBljcguadD_iHebhl6Q"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-08-21T11:26:48Z",
+              "updatedAt": "2020-08-21T11:26:48Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "nOnH4gGBtMs9sQMjEVQ9kXvjsGg",
+            "id": "UgyZOG3V631CDZSTcCZ4AaABAg.9C_SllL9ZM19CanjLXjJyE",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "@montax se ios introducesse un vero multitasking, o una modalità alla dex, sarebbe la morte del mercato, perchè diventerebbe una sorta di surface(vorrei tanta vederla una cosa del genere)",
+              "textOriginal": "@montax se ios introducesse un vero multitasking, o una modalità alla dex, sarebbe la morte del mercato, perchè diventerebbe una sorta di surface(vorrei tanta vederla una cosa del genere)",
+              "parentId": "UgyZOG3V631CDZSTcCZ4AaABAg",
+              "authorDisplayName": "Francesco Caputo",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJwLmHFMMiLGS9HlKbW9tSw8JcPVTFRB276jGpYY=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCnP9j_imLGf6Az2xxy9USOw",
+              "authorChannelId": {
+                "value": "UCnP9j_imLGf6Az2xxy9USOw"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-08-20T23:29:49Z",
+              "updatedAt": "2020-08-20T23:29:49Z"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "NVi_E9GZlF3ibNwtHzA6xVWIh5Q",
+      "id": "Ugw8DM2qmate7zli2gB4AaABAg",
+      "snippet": {
+        "videoId": "aWO7Nb-q7dI",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "1_uGLlfrobc7VdYDGT-YuqdTgK4",
+          "id": "Ugw8DM2qmate7zli2gB4AaABAg",
+          "snippet": {
+            "videoId": "aWO7Nb-q7dI",
+            "textDisplay": "Devo ammette che sta volta Samsung è stata bravissima se solo facesse una penna simile a quella di Apple sarebbe ottima anche per i disegnatori",
+            "textOriginal": "Devo ammette che sta volta Samsung è stata bravissima se solo facesse una penna simile a quella di Apple sarebbe ottima anche per i disegnatori",
+            "authorDisplayName": "THOMAS L.T.E",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJzG5ckIDBUXV5EQvWRFFN2gUM20vsUHxk6Nuw=s48-c-k-c0xffffffff-no-rj-mo",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCauPriLmbMXh5UzFXC5Imog",
+            "authorChannelId": {
+              "value": "UCauPriLmbMXh5UzFXC5Imog"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 59,
+            "publishedAt": "2020-08-20T10:57:35Z",
+            "updatedAt": "2020-08-20T10:57:35Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 17,
+        "isPublic": true
+      },
+      "replies": {
+        "comments": [
+          {
+            "kind": "youtube#comment",
+            "etag": "fr0UZiG7dyGyoiihaTJTjLmu7cI",
+            "id": "Ugw8DM2qmate7zli2gB4AaABAg.9C_SdrNBR__9E05FPQvzEk",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "La s pen è fatta dalla Wacom è già fantastica così. Il problema non è hardware sono le apps che non supportano il tilt e altre funzioni della s pen. È sempre quello il problema di Android.. la qualità delle apps di media è inferiore rispetto a iOS.",
+              "textOriginal": "La s pen è fatta dalla Wacom è già fantastica così. Il problema non è hardware sono le apps che non supportano il tilt e altre funzioni della s pen. È sempre quello il problema di Android.. la qualità delle apps di media è inferiore rispetto a iOS.",
+              "parentId": "Ugw8DM2qmate7zli2gB4AaABAg",
+              "authorDisplayName": "Fira Gamwich",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJzoHqVXXywFQ36FqLfYK8elcCRPkRmIIBQLVB8=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCohzGiOL1wa-8a3kfxrJg4g",
+              "authorChannelId": {
+                "value": "UCohzGiOL1wa-8a3kfxrJg4g"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-09-25T01:03:16Z",
+              "updatedAt": "2020-09-25T01:03:16Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "t7qkMzBWDSKBn20ehIz-FlRkRRE",
+            "id": "Ugw8DM2qmate7zli2gB4AaABAg.9C_SdrNBR__9Cc6c5DMkrl",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "@The Loller interessante. Grazie.",
+              "textOriginal": "@The Loller interessante. Grazie.",
+              "parentId": "Ugw8DM2qmate7zli2gB4AaABAg",
+              "authorDisplayName": "gunther744",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJxZh9SAuq5kAfkUK78_4E_1TpK3rTmHRPr03Q=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCuJN6Rl-5FyYBFU0bH3Fxrw",
+              "authorChannelId": {
+                "value": "UCuJN6Rl-5FyYBFU0bH3Fxrw"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-08-21T11:42:49Z",
+              "updatedAt": "2020-08-21T11:42:49Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "hnggoInEvYbyGN6nOM7z_DppWjk",
+            "id": "Ugw8DM2qmate7zli2gB4AaABAg.9C_SdrNBR__9Cc5o6a0UBX",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "@The Loller Concordo. Ho finito di provata questa mattina su un Tab S4. E&#39; identica alla controparte Desktop. Se la lanci in modalità DEX, sembra di lavorare su uno &quot;Tavoletta Con Schermo&quot;. Rimane però il &quot;feed back scivoloso&quot;  della Penna. Forse proverò una penna alternativa. Dicono benne della Penna Compatibile delle Steadler. Inoltre non avendo i pulsanti, che il programma non sembra sfruttare (ma devo guardare bene) evito di attivare e disattivare l&#39;Air Command ogni volta che mi serve o mi da fastidio.",
+              "textOriginal": "@The Loller Concordo. Ho finito di provata questa mattina su un Tab S4. E' identica alla controparte Desktop. Se la lanci in modalità DEX, sembra di lavorare su uno \"Tavoletta Con Schermo\". Rimane però il \"feed back scivoloso\"  della Penna. Forse proverò una penna alternativa. Dicono benne della Penna Compatibile delle Steadler. Inoltre non avendo i pulsanti, che il programma non sembra sfruttare (ma devo guardare bene) evito di attivare e disattivare l'Air Command ogni volta che mi serve o mi da fastidio.",
+              "parentId": "Ugw8DM2qmate7zli2gB4AaABAg",
+              "authorDisplayName": "Thersicore76",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJwxK4KG3cFU84lmlvjzN_LM6xe0WFjqds1EWA=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCwTFaBljcguadD_iHebhl6Q",
+              "authorChannelId": {
+                "value": "UCwTFaBljcguadD_iHebhl6Q"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-08-21T11:35:44Z",
+              "updatedAt": "2020-08-21T11:35:44Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "YihMpPJkpBUOMlZ38R4twZTU5XI",
+            "id": "Ugw8DM2qmate7zli2gB4AaABAg.9C_SdrNBR__9Cc4kZOivFh",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "@THOMAS L.T.E si, quel confort che descrivi con Apple Pencil io la chiamo ergonomia. Anch&#39;io ho l&#39;S6 e non ci penso nemmeno a cambiarlo con il 7+ perché le differenze tra i due modelli sono talmente minime che non spendo più di 500 euro per averle. Certo dipende molto da quanto uno è  ricco, l&#39;uso che ne fa e gli scenari economico che prospetta per sé nell&#39;immediato futuro...",
+              "textOriginal": "@THOMAS L.T.E si, quel confort che descrivi con Apple Pencil io la chiamo ergonomia. Anch'io ho l'S6 e non ci penso nemmeno a cambiarlo con il 7+ perché le differenze tra i due modelli sono talmente minime che non spendo più di 500 euro per averle. Certo dipende molto da quanto uno è  ricco, l'uso che ne fa e gli scenari economico che prospetta per sé nell'immediato futuro...",
+              "parentId": "Ugw8DM2qmate7zli2gB4AaABAg",
+              "authorDisplayName": "gunther744",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJxZh9SAuq5kAfkUK78_4E_1TpK3rTmHRPr03Q=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCuJN6Rl-5FyYBFU0bH3Fxrw",
+              "authorChannelId": {
+                "value": "UCuJN6Rl-5FyYBFU0bH3Fxrw"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 1,
+              "publishedAt": "2020-08-21T11:26:30Z",
+              "updatedAt": "2020-08-21T11:26:30Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "Z5wO64VCNn7fjin0eOhtf3DcN-w",
+            "id": "Ugw8DM2qmate7zli2gB4AaABAg.9C_SdrNBR__9Cbu1Wlo8uv",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "@The Loller e chi ha detto il contrario",
+              "textOriginal": "@The Loller e chi ha detto il contrario",
+              "parentId": "Ugw8DM2qmate7zli2gB4AaABAg",
+              "authorDisplayName": "THOMAS L.T.E",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJzG5ckIDBUXV5EQvWRFFN2gUM20vsUHxk6Nuw=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCauPriLmbMXh5UzFXC5Imog",
+              "authorChannelId": {
+                "value": "UCauPriLmbMXh5UzFXC5Imog"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-08-21T09:44:06Z",
+              "updatedAt": "2020-08-21T09:44:06Z"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "g2oxyybkhhN4zIBj2njFZ0oNrQU",
+      "id": "UgzlmdvqDQmuta_Bf_d4AaABAg",
+      "snippet": {
+        "videoId": "aWO7Nb-q7dI",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "LN5N-jlSwkj2_oj5D1GI4ksJjUQ",
+          "id": "UgzlmdvqDQmuta_Bf_d4AaABAg",
+          "snippet": {
+            "videoId": "aWO7Nb-q7dI",
+            "textDisplay": "Il confronto delle penne secondo me non si doveva fare... Samsung la penna la include nella confezione del tablet, invece la apple pencil la devi compare",
+            "textOriginal": "Il confronto delle penne secondo me non si doveva fare... Samsung la penna la include nella confezione del tablet, invece la apple pencil la devi compare",
+            "authorDisplayName": "_Bergamo_06 _",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJzrc_URBZgAToPWV6DWANdoOLNP64snZ6iXIKfoHA=s48-c-k-c0xffffffff-no-rj-mo",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCdcYcQ-9DpCSxP_WAu35cCg",
+            "authorChannelId": {
+              "value": "UCdcYcQ-9DpCSxP_WAu35cCg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 158,
+            "publishedAt": "2020-08-20T10:48:58Z",
+            "updatedAt": "2020-08-20T10:48:58Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 23,
+        "isPublic": true
+      },
+      "replies": {
+        "comments": [
+          {
+            "kind": "youtube#comment",
+            "etag": "Q2Wjmj_IT_ccGB-0qTXbrdbK0m4",
+            "id": "UgzlmdvqDQmuta_Bf_d4AaABAg.9C_RekhFhVd9DcLUe9zAFE",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "Su Ipad con quella penna ci lavori se sei un grafico, su Samsung no.",
+              "textOriginal": "Su Ipad con quella penna ci lavori se sei un grafico, su Samsung no.",
+              "parentId": "UgzlmdvqDQmuta_Bf_d4AaABAg",
+              "authorDisplayName": "Eugio",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJxuvac54THDxrlgDk30KXx_IQpx4O9fUEfekXYMUQ=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCSIndsRwPkqfHklSVsYSmHQ",
+              "authorChannelId": {
+                "value": "UCSIndsRwPkqfHklSVsYSmHQ"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-09-15T10:24:08Z",
+              "updatedAt": "2020-09-15T10:24:08Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "9LX8QX-VwgaWNJylR74-Yk9LnhE",
+            "id": "UgzlmdvqDQmuta_Bf_d4AaABAg.9C_RekhFhVd9CxfOHThsg-",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "@Tommaso Pasotti Samsung strinse un accordo con Wacom per avere la sua tecnologia sulla Serie Note.\u003cbr /\u003eQuando produsse i primi Tablet Note, come Note 10.1&quot; e poi Note 12.2&quot; Pro, rimase con quella tecnologia.\u003cbr /\u003eLa &quot;Morte&quot; dei Tablet Android e l&#39;abbandono di Google nel creare linee guida per i programmi che potessero girare con una interfaccia decente in orizzontale, gli ha un po tagliato le gambe. Praticamente tutti i Tablet di Samsung dopo Note 2014 vengono visti in verticale, come un &quot;gigantesco&quot; Smartphone... Cosa che valeva anche per gli iPad.\u003cbr /\u003eSamsung con l&#39;introduzione della Modalità DEX ha bypassato alcune limitazioni dell&#39;interfaccia e dei programmi Android.\u003cbr /\u003eNon ci sarebbe voluto molto prima che Samsung unisse in un unico prodotto quanto di meglio aveva prodotto: lo schermo dei Galaxy Tab Pro, la penna di Wacom e una interfaccia Stile Desktop. Ed ecco il Tab S7+.\u003cbr /\u003eCopiato? Casomai è Apple che ha &quot;copiato&quot;, ma non ha potuto avere la stessa tecnologia di Samsung. La penna di Samsung si ricarica per avere le funzioni BT. Le penna di Apple si ricarica per poter funzionare. C&#39;&#39;è una differenza abissale. Se ti si scarica la penna di Samsung la sui lo stesso senza &quot;Inutili Gestures&quot;. Se ti si scarica la Penna di Apple non la usi. Una usa il pannello di Wacom. L&#39;altro la connessione BT.",
+              "textOriginal": "@Tommaso Pasotti Samsung strinse un accordo con Wacom per avere la sua tecnologia sulla Serie Note.\nQuando produsse i primi Tablet Note, come Note 10.1\" e poi Note 12.2\" Pro, rimase con quella tecnologia.\nLa \"Morte\" dei Tablet Android e l'abbandono di Google nel creare linee guida per i programmi che potessero girare con una interfaccia decente in orizzontale, gli ha un po tagliato le gambe. Praticamente tutti i Tablet di Samsung dopo Note 2014 vengono visti in verticale, come un \"gigantesco\" Smartphone... Cosa che valeva anche per gli iPad.\nSamsung con l'introduzione della Modalità DEX ha bypassato alcune limitazioni dell'interfaccia e dei programmi Android.\nNon ci sarebbe voluto molto prima che Samsung unisse in un unico prodotto quanto di meglio aveva prodotto: lo schermo dei Galaxy Tab Pro, la penna di Wacom e una interfaccia Stile Desktop. Ed ecco il Tab S7+.\nCopiato? Casomai è Apple che ha \"copiato\", ma non ha potuto avere la stessa tecnologia di Samsung. La penna di Samsung si ricarica per avere le funzioni BT. Le penna di Apple si ricarica per poter funzionare. C''è una differenza abissale. Se ti si scarica la penna di Samsung la sui lo stesso senza \"Inutili Gestures\". Se ti si scarica la Penna di Apple non la usi. Una usa il pannello di Wacom. L'altro la connessione BT.",
+              "parentId": "UgzlmdvqDQmuta_Bf_d4AaABAg",
+              "authorDisplayName": "Thersicore76",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJwxK4KG3cFU84lmlvjzN_LM6xe0WFjqds1EWA=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCwTFaBljcguadD_iHebhl6Q",
+              "authorChannelId": {
+                "value": "UCwTFaBljcguadD_iHebhl6Q"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 1,
+              "publishedAt": "2020-08-29T20:39:26Z",
+              "updatedAt": "2020-08-29T20:39:26Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "8lfc7mFy0lmTidZYJDKZpMPUCts",
+            "id": "UgzlmdvqDQmuta_Bf_d4AaABAg.9C_RekhFhVd9CxeD94xLq2",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "@Vincenzo Prisco Perché non puoi comprare una penna migliore? Ce ne sono di compatibili.\u003cbr /\u003e\u003cbr /\u003eIl discorso è similare a chi si compra un Galaxy Top di Gamma, e &quot;Amante della Musica&quot; dice che gli auricolari dell&#39;AKG fanno schifo. Meglio Bose, o altro... e spendono 150 euro in auricolari, o cuffie.\u003cbr /\u003e\u003cbr /\u003eChi si compra un iPad senza penna è perché non gli serve.\u003cbr /\u003eChi si accontenta della penna di Samsung è perché gli sta bene quella. la usare solo per prendere appunti e fine, non per disegno.\u003cbr /\u003eI professionisti usano schermi delle Wacom, le Cintiq da 24&quot; a salire. Non si accontentano di un Tablet. In rete ci sono molti professionisti che &quot;pubblicizzano Apple&quot;, mostrando come possano disegnare a che con un Tablet. Ma poi finita la &quot;Pubblicità&quot; tornato ai loro Strumenti Professionali.\u003cbr /\u003eE comunque è inutile che ci girate intorno: fino a meno di 15 giorni fa senza un programma come Clip Studio Paint i programmi su Android e Apple per il disegno erano limitatissimi nelle funzioni. \u003cbr /\u003ePraticamente a me preoccupava che questo programma che uso su Mac, con la rivoluzione delle prossime CPU sarebbe stato abbandonato... E invece eccolo che girà già sotto una CPU ARM... E di rallentamenti neppure l&#39;ombra. Su un Tab S4 addirittura. Maschere di livello, nessuno limite nella creazioni delle tavole, ecc...UN VERO PROGRAMMA DESKTOP che gira su un TABLET. Il resto sono scimmiottature.",
+              "textOriginal": "@Vincenzo Prisco Perché non puoi comprare una penna migliore? Ce ne sono di compatibili.\n\nIl discorso è similare a chi si compra un Galaxy Top di Gamma, e \"Amante della Musica\" dice che gli auricolari dell'AKG fanno schifo. Meglio Bose, o altro... e spendono 150 euro in auricolari, o cuffie.\n\nChi si compra un iPad senza penna è perché non gli serve.\nChi si accontenta della penna di Samsung è perché gli sta bene quella. la usare solo per prendere appunti e fine, non per disegno.\nI professionisti usano schermi delle Wacom, le Cintiq da 24\" a salire. Non si accontentano di un Tablet. In rete ci sono molti professionisti che \"pubblicizzano Apple\", mostrando come possano disegnare a che con un Tablet. Ma poi finita la \"Pubblicità\" tornato ai loro Strumenti Professionali.\nE comunque è inutile che ci girate intorno: fino a meno di 15 giorni fa senza un programma come Clip Studio Paint i programmi su Android e Apple per il disegno erano limitatissimi nelle funzioni. \nPraticamente a me preoccupava che questo programma che uso su Mac, con la rivoluzione delle prossime CPU sarebbe stato abbandonato... E invece eccolo che girà già sotto una CPU ARM... E di rallentamenti neppure l'ombra. Su un Tab S4 addirittura. Maschere di livello, nessuno limite nella creazioni delle tavole, ecc...UN VERO PROGRAMMA DESKTOP che gira su un TABLET. Il resto sono scimmiottature.",
+              "parentId": "UgzlmdvqDQmuta_Bf_d4AaABAg",
+              "authorDisplayName": "Thersicore76",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJwxK4KG3cFU84lmlvjzN_LM6xe0WFjqds1EWA=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCwTFaBljcguadD_iHebhl6Q",
+              "authorChannelId": {
+                "value": "UCwTFaBljcguadD_iHebhl6Q"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 1,
+              "publishedAt": "2020-08-29T20:29:10Z",
+              "updatedAt": "2020-08-29T20:29:10Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "MFOcpENH5S-vPF2gosjSaTqU_-E",
+            "id": "UgzlmdvqDQmuta_Bf_d4AaABAg.9C_RekhFhVd9Cxd9QzvXiH",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "@hypercube Bha... dipende.\u003cbr /\u003eUna Penna di Samsung è più corta di quasi 1.5 cm rispetto ad una normale penna a pulsante.\u003cbr /\u003ePenna a pulsante che viene usata molto spesso dagli artisti.\u003cbr /\u003eMa la tecnologia nelle S-Pen di Samsung è quella di Wacom.\u003cbr /\u003e\u003cbr /\u003ePerò stranamente chi è un professionista del digitale si ritrova per le mani penne di Wacom o della &quot;concorrenza&quot; che sono del tutto differenti da una normale matita.\u003cbr /\u003eLe penne di Wacom per Cintiq e in generale quelle per Tavolette con Schermo, hanno la parte terminale molto larga... Credo per poter fare sentire l&#39;inclinazione dello strumento.\u003cbr /\u003e\u003cbr /\u003eAlcuni professionisti con un iPad ho visto mettere una sorta di impugnatura più larga sulla penna di Apple, forse come me, si sono abituati ad avere una certa impugnatura.\u003cbr /\u003e\u003cbr /\u003eIo sinceramente la &quot;prima&quot; volta che usai una Penna Wacom ebbi una strana sensazione. Sensazione che adesso è del tutto passata. Anzi, ad usare una penna di Apple o una penna di Samsung, mi trovo &quot;male&quot;.\u003cbr /\u003e\u003cbr /\u003eHo visto comunque che ci sono penne alternative, sia per Apple che per Samsung: per Samsung con tecnologia Wacom c&#39;è quella della Steadler. Per 25 euro. Dimensioni come quelle di una normale matita... forse di poco più spesse.\u003cbr /\u003eSe Apple non ti regala nulla, tanto vale considerare un esborso &quot;quasi obbligatorio&quot; anche per Samsung. Che comunque per prendere appunti va più che bene. Al massimo ci possono essere limiti per il Disegno.",
+              "textOriginal": "@hypercube Bha... dipende.\nUna Penna di Samsung è più corta di quasi 1.5 cm rispetto ad una normale penna a pulsante.\nPenna a pulsante che viene usata molto spesso dagli artisti.\nMa la tecnologia nelle S-Pen di Samsung è quella di Wacom.\n\nPerò stranamente chi è un professionista del digitale si ritrova per le mani penne di Wacom o della \"concorrenza\" che sono del tutto differenti da una normale matita.\nLe penne di Wacom per Cintiq e in generale quelle per Tavolette con Schermo, hanno la parte terminale molto larga... Credo per poter fare sentire l'inclinazione dello strumento.\n\nAlcuni professionisti con un iPad ho visto mettere una sorta di impugnatura più larga sulla penna di Apple, forse come me, si sono abituati ad avere una certa impugnatura.\n\nIo sinceramente la \"prima\" volta che usai una Penna Wacom ebbi una strana sensazione. Sensazione che adesso è del tutto passata. Anzi, ad usare una penna di Apple o una penna di Samsung, mi trovo \"male\".\n\nHo visto comunque che ci sono penne alternative, sia per Apple che per Samsung: per Samsung con tecnologia Wacom c'è quella della Steadler. Per 25 euro. Dimensioni come quelle di una normale matita... forse di poco più spesse.\nSe Apple non ti regala nulla, tanto vale considerare un esborso \"quasi obbligatorio\" anche per Samsung. Che comunque per prendere appunti va più che bene. Al massimo ci possono essere limiti per il Disegno.",
+              "parentId": "UgzlmdvqDQmuta_Bf_d4AaABAg",
+              "authorDisplayName": "Thersicore76",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJwxK4KG3cFU84lmlvjzN_LM6xe0WFjqds1EWA=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCwTFaBljcguadD_iHebhl6Q",
+              "authorChannelId": {
+                "value": "UCwTFaBljcguadD_iHebhl6Q"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 1,
+              "publishedAt": "2020-08-29T20:19:55Z",
+              "updatedAt": "2020-08-29T20:19:55Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "cf6HhFcpRHXDt5FZJCn4blXPdhE",
+            "id": "UgzlmdvqDQmuta_Bf_d4AaABAg.9C_RekhFhVd9CcTFRZUeg_",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "@Tommaso Pasotti Sisi, però adesso facciamo vedere ios 14 a tali spettatori vediamo se la pensano ancora così",
+              "textOriginal": "@Tommaso Pasotti Sisi, però adesso facciamo vedere ios 14 a tali spettatori vediamo se la pensano ancora così",
+              "parentId": "UgzlmdvqDQmuta_Bf_d4AaABAg",
+              "authorDisplayName": "Operatore Google",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJwOUQOIQelga-N8b_gnGev4zb_uYdwHIHq0_6mN=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCOYoOnyvII1rNa3Uh4jnNhw",
+              "authorChannelId": {
+                "value": "UCOYoOnyvII1rNa3Uh4jnNhw"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-08-21T15:00:34Z",
+              "updatedAt": "2020-08-21T15:00:34Z"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "WetzbWPsdGgX4_wJuf4D8GMZimw",
+      "id": "UgwdDagPEkRnNuMG3nR4AaABAg",
+      "snippet": {
+        "videoId": "aWO7Nb-q7dI",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "cVCZvWwGfMgAPzNOqR20ytOdrCI",
+          "id": "UgwdDagPEkRnNuMG3nR4AaABAg",
+          "snippet": {
+            "videoId": "aWO7Nb-q7dI",
+            "textDisplay": "Un infarto al &quot;BENE AMICI!&quot;",
+            "textOriginal": "Un infarto al \"BENE AMICI!\"",
+            "authorDisplayName": "Kristian Dentuto",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJyabmMIpv_91-No3YLSkrj5N3WYBv6kpKPP-0NMFg=s48-c-k-c0xffffffff-no-rj-mo",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCgZVJxyWvTst9I2QVZ7N7FQ",
+            "authorChannelId": {
+              "value": "UCgZVJxyWvTst9I2QVZ7N7FQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 6,
+            "publishedAt": "2020-08-20T14:47:38Z",
+            "updatedAt": "2020-08-20T14:47:38Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "FwF32lH4FnBX9yQBAZB2tv3qUQI",
+      "id": "UgzGaCxi4dtzC0Auv-x4AaABAg",
+      "snippet": {
+        "videoId": "aWO7Nb-q7dI",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "F_3dcGbzBZyzwgCoTHYhwQzFQFc",
+          "id": "UgzGaCxi4dtzC0Auv-x4AaABAg",
+          "snippet": {
+            "videoId": "aWO7Nb-q7dI",
+            "textDisplay": "Da quanto che la aspettavo questa recensione!",
+            "textOriginal": "Da quanto che la aspettavo questa recensione!",
+            "authorDisplayName": "gabriele gg",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJz0lk7zqpRjPpuroBsHlmpKR5Ztorw28uhtJnAszQ=s48-c-k-c0xffffffff-no-rj-mo",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCiWQxY8Bo14_sxdqA1GjT5w",
+            "authorChannelId": {
+              "value": "UCiWQxY8Bo14_sxdqA1GjT5w"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 3,
+            "publishedAt": "2020-08-20T11:05:10Z",
+            "updatedAt": "2020-08-20T11:05:10Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "N53tLO8zijMkh84nNaChxacCcqw",
+      "id": "UgxoYgrWzCoWqGY0r-N4AaABAg",
+      "snippet": {
+        "videoId": "aWO7Nb-q7dI",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "7L4doxOFRIP6Rl1BTu9Zp44SthU",
+          "id": "UgxoYgrWzCoWqGY0r-N4AaABAg",
+          "snippet": {
+            "videoId": "aWO7Nb-q7dI",
+            "textDisplay": "ma questo s7+ a questo prezzo è fantastico",
+            "textOriginal": "ma questo s7+ a questo prezzo è fantastico",
+            "authorDisplayName": "Armando Martino",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJxaR3-DEfszS3C2OhXqC3z8dhLCn_IwXKV9m1lx=s48-c-k-c0xffffffff-no-rj-mo",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCEGoUjZBUiqYm68eHTWxSjw",
+            "authorChannelId": {
+              "value": "UCEGoUjZBUiqYm68eHTWxSjw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 17,
+            "publishedAt": "2020-08-20T10:49:09Z",
+            "updatedAt": "2020-08-20T10:49:09Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "jsKuR4lAAi72W2b5knMGoz0Y0Uw",
+      "id": "UgwWihABR77d7brz1f54AaABAg",
+      "snippet": {
+        "videoId": "aWO7Nb-q7dI",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "HEME3lpUGqXj_3kL68R_zUsfjiY",
+          "id": "UgwWihABR77d7brz1f54AaABAg",
+          "snippet": {
+            "videoId": "aWO7Nb-q7dI",
+            "textDisplay": "Va &#39; detto però che la Apple Pencil è venduta separatamente al modico prezzo di 135 euro!",
+            "textOriginal": "Va ' detto però che la Apple Pencil è venduta separatamente al modico prezzo di 135 euro!",
+            "authorDisplayName": "massimo463",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJwIwJdTX4RIgU0cxo9RrpCb72PP32g7wNuS3g=s48-c-k-c0xffffffff-no-rj-mo",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCu9WpCPoBNFAROMX08CcS3Q",
+            "authorChannelId": {
+              "value": "UCu9WpCPoBNFAROMX08CcS3Q"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 11,
+            "publishedAt": "2020-08-20T15:16:53Z",
+            "updatedAt": "2020-08-20T15:16:53Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "GczzcQnZ0fbRn12Mm8lH2XcmOxU",
+      "id": "UgyTwZfUSazUjX5eEJJ4AaABAg",
+      "snippet": {
+        "videoId": "aWO7Nb-q7dI",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "1vJpa6iQZo1peYIxfJcv42T0FUs",
+          "id": "UgyTwZfUSazUjX5eEJJ4AaABAg",
+          "snippet": {
+            "videoId": "aWO7Nb-q7dI",
+            "textDisplay": "Ma nessuno che parla delle applicazioni Android non ottimizzate?",
+            "textOriginal": "Ma nessuno che parla delle applicazioni Android non ottimizzate?",
+            "authorDisplayName": "Sergio Artale",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJxY9gbSw87uLsS7u85parl3-C-55ive0XhQnu1xmA=s48-c-k-c0xffffffff-no-rj-mo",
+            "authorChannelUrl": "http://www.youtube.com/channel/UC0mrTp-Ve-2qZZqhp0314Kg",
+            "authorChannelId": {
+              "value": "UC0mrTp-Ve-2qZZqhp0314Kg"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 11,
+            "publishedAt": "2020-08-21T08:11:44Z",
+            "updatedAt": "2020-08-21T08:11:44Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 4,
+        "isPublic": true
+      },
+      "replies": {
+        "comments": [
+          {
+            "kind": "youtube#comment",
+            "etag": "2JiQBiQwrNgZGAfalRhu8yPCqvs",
+            "id": "UgyTwZfUSazUjX5eEJJ4AaABAg.9CbjSwWKzig9EdOSJG5L65",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "Davide Re assolutamente vero!",
+              "textOriginal": "Davide Re assolutamente vero!",
+              "parentId": "UgyTwZfUSazUjX5eEJJ4AaABAg",
+              "authorDisplayName": "Sergio Artale",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJxY9gbSw87uLsS7u85parl3-C-55ive0XhQnu1xmA=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UC0mrTp-Ve-2qZZqhp0314Kg",
+              "authorChannelId": {
+                "value": "UC0mrTp-Ve-2qZZqhp0314Kg"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-10-10T16:40:40Z",
+              "updatedAt": "2020-10-10T16:40:40Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "7z68ejNk3LALDvToP-zs9tN9iXE",
+            "id": "UgyTwZfUSazUjX5eEJJ4AaABAg.9CbjSwWKzig9DuI5xIYXdr",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "Nessuno parla delle app non previste per iPad e del loro ridicolo adattamento ?????",
+              "textOriginal": "Nessuno parla delle app non previste per iPad e del loro ridicolo adattamento ?????",
+              "parentId": "UgyTwZfUSazUjX5eEJJ4AaABAg",
+              "authorDisplayName": "Davide Re",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJwbPEBA2TMMmEqK-Pa_Twk30WW3ponbraN4jNpkYA=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCjEchleUcpOMrLyx6nxzyqA",
+              "authorChannelId": {
+                "value": "UCjEchleUcpOMrLyx6nxzyqA"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 1,
+              "publishedAt": "2020-09-22T09:40:53Z",
+              "updatedAt": "2020-09-22T09:40:53Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "y6XaLzInN3kwaUMuQEbar_w0RiI",
+            "id": "UgyTwZfUSazUjX5eEJJ4AaABAg.9CbjSwWKzig9CmD98qZt4k",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "Sergio Artale \u003cbr /\u003eSono ottimizzate . Non capisco perché tutti dicono il contrario.",
+              "textOriginal": "Sergio Artale \nSono ottimizzate . Non capisco perché tutti dicono il contrario.",
+              "parentId": "UgyTwZfUSazUjX5eEJJ4AaABAg",
+              "authorDisplayName": "idk",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJxL-f1kxSdu16kajykCy1eU_7MhKLfzzRyzQA=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCPZWPBxzVWonWlzmT0s_YcQ",
+              "authorChannelId": {
+                "value": "UCPZWPBxzVWonWlzmT0s_YcQ"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 2,
+              "publishedAt": "2020-08-25T09:52:19Z",
+              "updatedAt": "2020-08-25T09:52:19Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "ogHiZ_DG38JFfLyyOLCjcaTmXls",
+            "id": "UgyTwZfUSazUjX5eEJJ4AaABAg.9CbjSwWKzig9CkQqdTHD2B",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "Dipende da che app",
+              "textOriginal": "Dipende da che app",
+              "parentId": "UgyTwZfUSazUjX5eEJJ4AaABAg",
+              "authorDisplayName": "Miki Mosky",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJxXMxk46VOK8-gClvbHL8k6k-nDDF74spXTeBUEyg=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCCFmFUICR_Td_q5TIS9SINg",
+              "authorChannelId": {
+                "value": "UCCFmFUICR_Td_q5TIS9SINg"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-08-24T17:13:30Z",
+              "updatedAt": "2020-08-24T17:13:30Z"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "6iCHKWiwRbifyhJbfFEa3MrRfo4",
+      "id": "UgzeiXH044zWqNzB0jx4AaABAg",
+      "snippet": {
+        "videoId": "aWO7Nb-q7dI",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "fNMi21hBVoiuP5C_Ey5ZwjSQN-o",
+          "id": "UgzeiXH044zWqNzB0jx4AaABAg",
+          "snippet": {
+            "videoId": "aWO7Nb-q7dI",
+            "textDisplay": "Finalmente un bel tablet android",
+            "textOriginal": "Finalmente un bel tablet android",
+            "authorDisplayName": "Luca Iennaco",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJy5tl6DrAHuBuTghHUSfylfeK7bLXd9bX8pm87Z4A=s48-c-k-c0xffffffff-no-rj-mo",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCpAT-Xt_i5GdKtMt3DqFS1A",
+            "authorChannelId": {
+              "value": "UCpAT-Xt_i5GdKtMt3DqFS1A"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 4,
+            "publishedAt": "2020-08-20T11:49:28Z",
+            "updatedAt": "2020-08-20T11:49:28Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "VNb5sBgEIucnCDx9KkhmMn77QCI",
+      "id": "UgzrPKwwMyGBqv4S44d4AaABAg",
+      "snippet": {
+        "videoId": "aWO7Nb-q7dI",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "u-2zoIPTMkkHzr-hNxDgP0WsxAw",
+          "id": "UgzrPKwwMyGBqv4S44d4AaABAg",
+          "snippet": {
+            "videoId": "aWO7Nb-q7dI",
+            "textDisplay": "Io la cosa che non capisco e perché mettere lo snapdragon 865+ sul tab s7+ e non metterlo sui note 20??",
+            "textOriginal": "Io la cosa che non capisco e perché mettere lo snapdragon 865+ sul tab s7+ e non metterlo sui note 20??",
+            "authorDisplayName": "Giuseppe Prisco",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJy8qLO9Sk7eccno0SUgGuUux6hR2euqh6VxPA=s48-c-k-c0xffffffff-no-rj-mo",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCT1oj7wzNsHgdcokW0tut6A",
+            "authorChannelId": {
+              "value": "UCT1oj7wzNsHgdcokW0tut6A"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 14,
+            "publishedAt": "2020-08-20T12:48:37Z",
+            "updatedAt": "2020-08-20T12:48:37Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 7,
+        "isPublic": true
+      },
+      "replies": {
+        "comments": [
+          {
+            "kind": "youtube#comment",
+            "etag": "h0q2O7RqSWyZqvf-4Y5PbtWd6j0",
+            "id": "UgzrPKwwMyGBqv4S44d4AaABAg.9C_eM7PxAVu9CrAm1Ka3-D",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "@tiziwind Non è facile trovarlo",
+              "textOriginal": "@tiziwind Non è facile trovarlo",
+              "parentId": "UgzrPKwwMyGBqv4S44d4AaABAg",
+              "authorDisplayName": "Gabriele Giustizieri",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJwgqUSlvow7_04rGIo0lY2rpQ_XL8l_IpoMrRLXDQ=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UC-O3vJYy1c7MaH2QSwp7sOQ",
+              "authorChannelId": {
+                "value": "UC-O3vJYy1c7MaH2QSwp7sOQ"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-08-27T08:07:45Z",
+              "updatedAt": "2020-08-27T08:07:45Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "NLxy7Y6BfPn8xPhZolk4eNO_O5I",
+            "id": "UgzrPKwwMyGBqv4S44d4AaABAg.9C_eM7PxAVu9CrAU1G5E7c",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "@Gabriele Giustizieri basta prendere il note con lo snapdragon 😁",
+              "textOriginal": "@Gabriele Giustizieri basta prendere il note con lo snapdragon 😁",
+              "parentId": "UgzrPKwwMyGBqv4S44d4AaABAg",
+              "authorDisplayName": "tiziwind",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJxyxLYky_NnRor3N974tNT5izKjpOHiH29FtA=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCAfqundTt_Q2b8HyAm-yJgQ",
+              "authorChannelId": {
+                "value": "UCAfqundTt_Q2b8HyAm-yJgQ"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-08-27T08:05:09Z",
+              "updatedAt": "2020-08-27T08:05:09Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "gwirD4XMEz5uudY6mCNa_fMguZA",
+            "id": "UgzrPKwwMyGBqv4S44d4AaABAg.9C_eM7PxAVu9CoTAtmGUzu",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "Giuseppe Basile uno di android world ha dimostrato che quella delle reti non sviluppate fosse una balla da parte di Samsung.",
+              "textOriginal": "Giuseppe Basile uno di android world ha dimostrato che quella delle reti non sviluppate fosse una balla da parte di Samsung.",
+              "parentId": "UgzrPKwwMyGBqv4S44d4AaABAg",
+              "authorDisplayName": "The Loller",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJxLyoWtflEJHgYpO39Ky2q1ZIrcOFmBrjv485rK=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCDZt3YwO9qv7ug42ZM-eAVg",
+              "authorChannelId": {
+                "value": "UCDZt3YwO9qv7ug42ZM-eAVg"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 0,
+              "publishedAt": "2020-08-26T06:50:50Z",
+              "updatedAt": "2020-08-26T06:50:50Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "AZG5f6szd_vO3525mPkAOjs1hWQ",
+            "id": "UgzrPKwwMyGBqv4S44d4AaABAg.9C_eM7PxAVu9CeQJnjYAVd",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "Io la so, ed è una scemenza, che è quella che le reti non sono sviluppate come nelle altri parti del mondo. Ma secondo me la questione è un&#39;altra: usano noi europei come tester",
+              "textOriginal": "Io la so, ed è una scemenza, che è quella che le reti non sono sviluppate come nelle altri parti del mondo. Ma secondo me la questione è un'altra: usano noi europei come tester",
+              "parentId": "UgzrPKwwMyGBqv4S44d4AaABAg",
+              "authorDisplayName": "Giuseppe Basile",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJwbxPQw_Tq-utJJK0QDyOYNA2xBR9zG4RSLQQ=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCy9vhHD6nof7pXFOjvDpjIw",
+              "authorChannelId": {
+                "value": "UCy9vhHD6nof7pXFOjvDpjIw"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 1,
+              "publishedAt": "2020-08-22T09:13:26Z",
+              "updatedAt": "2020-08-22T09:13:26Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "gjS9v7bgKLziLQixadWjlWQ6-2w",
+            "id": "UgzrPKwwMyGBqv4S44d4AaABAg.9C_eM7PxAVu9CcXR956A8J",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "No, la cosa che è più bella è &quot;perché non mettere Exynos&quot; dentro questo tablet... perché sarebbe andato un disastro sicuramente! ;-) Ecco perché scelta Qualcomm, difatti va bene!",
+              "textOriginal": "No, la cosa che è più bella è \"perché non mettere Exynos\" dentro questo tablet... perché sarebbe andato un disastro sicuramente! ;-) Ecco perché scelta Qualcomm, difatti va bene!",
+              "parentId": "UgzrPKwwMyGBqv4S44d4AaABAg",
+              "authorDisplayName": "Marco Donatelli",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJxJrt6ejchv1gDgyJyyrm551I9fkdI_lc6JgQ=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCjNfrNfsNlP973j_Nf9nnNw",
+              "authorChannelId": {
+                "value": "UCjNfrNfsNlP973j_Nf9nnNw"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 1,
+              "publishedAt": "2020-08-21T15:37:07Z",
+              "updatedAt": "2020-08-21T15:37:26Z"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "FrlKa4U_hVDC8kbw32MMwFzsZQ8",
+      "id": "UgzA00-T0H7MjayYJFJ4AaABAg",
+      "snippet": {
+        "videoId": "aWO7Nb-q7dI",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "H15jqIqDmLjlqWjTlQFaJkqfcio",
+          "id": "UgzA00-T0H7MjayYJFJ4AaABAg",
+          "snippet": {
+            "videoId": "aWO7Nb-q7dI",
+            "textDisplay": "In realtà clip studio ad ogni nuovo account regala 6 mesi, è il tempo che si impiega per capire come si usa",
+            "textOriginal": "In realtà clip studio ad ogni nuovo account regala 6 mesi, è il tempo che si impiega per capire come si usa",
+            "authorDisplayName": "Mario De Luca",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJxxct_5RCOUT92SXRXwEhrHUOAEhnarYCQ8uQ=s48-c-k-c0xffffffff-no-rj-mo",
+            "authorChannelUrl": "http://www.youtube.com/channel/UC4avFxakKo7x-bcIy9ap0dQ",
+            "authorChannelId": {
+              "value": "UC4avFxakKo7x-bcIy9ap0dQ"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 2,
+            "publishedAt": "2020-08-21T10:31:11Z",
+            "updatedAt": "2020-08-21T10:31:11Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 0,
+        "isPublic": true
+      }
+    },
+    {
+      "kind": "youtube#commentThread",
+      "etag": "pXl1yEP-FliQUb6pDf3FTDXdDjQ",
+      "id": "UgxDdv1XcojuE0krBhx4AaABAg",
+      "snippet": {
+        "videoId": "aWO7Nb-q7dI",
+        "topLevelComment": {
+          "kind": "youtube#comment",
+          "etag": "ycYMDAMuWuz8CYiIRZZmroLtuiI",
+          "id": "UgxDdv1XcojuE0krBhx4AaABAg",
+          "snippet": {
+            "videoId": "aWO7Nb-q7dI",
+            "textDisplay": "La SPen e&#39; inclusa nel prezzo.....",
+            "textOriginal": "La SPen e' inclusa nel prezzo.....",
+            "authorDisplayName": "KKB1976",
+            "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJwl4XxphNLS3V41KBRTR_l02bQRrKBQnmb3bFGz=s48-c-k-c0xffffffff-no-rj-mo",
+            "authorChannelUrl": "http://www.youtube.com/channel/UCQCrU3ZpEnMCCQ12ROfr8Kw",
+            "authorChannelId": {
+              "value": "UCQCrU3ZpEnMCCQ12ROfr8Kw"
+            },
+            "canRate": true,
+            "viewerRating": "none",
+            "likeCount": 26,
+            "publishedAt": "2020-08-20T11:18:19Z",
+            "updatedAt": "2020-08-20T11:18:19Z"
+          }
+        },
+        "canReply": true,
+        "totalReplyCount": 6,
+        "isPublic": true
+      },
+      "replies": {
+        "comments": [
+          {
+            "kind": "youtube#comment",
+            "etag": "BUofkSTC4YWUXE3aZni9tlMO6CI",
+            "id": "UgxDdv1XcojuE0krBhx4AaABAg.9C_V0ij6GHO9Cn9CFm3deA",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "@Onion tech beh se lo usi per il disegno è un&#39;altro discorso! Comunque certo ogni sistema ha pro e contro io non sono di parte ma su ios non si possono gestire bene i file e mi da troppo fastidio, se un giorno lo rendessero più funzionale come android allora sarebbe la svolta e al contrario io è ottimizzato meglio, poi essendo sia processore che software di casa apple sono ottimizzati perfettamente tra loro, vanno molto bene e consumano molto meno, però come ho detto prima io ha delle mancanze e delle limitazioni troppo grandi e che per me  sono fondamentali",
+              "textOriginal": "@Onion tech beh se lo usi per il disegno è un'altro discorso! Comunque certo ogni sistema ha pro e contro io non sono di parte ma su ios non si possono gestire bene i file e mi da troppo fastidio, se un giorno lo rendessero più funzionale come android allora sarebbe la svolta e al contrario io è ottimizzato meglio, poi essendo sia processore che software di casa apple sono ottimizzati perfettamente tra loro, vanno molto bene e consumano molto meno, però come ho detto prima io ha delle mancanze e delle limitazioni troppo grandi e che per me  sono fondamentali",
+              "parentId": "UgxDdv1XcojuE0krBhx4AaABAg",
+              "authorDisplayName": "Rick C-137",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJzu9JmHy-X6Q853OLGhtk0dBzYHrVkQ10J_MTov=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCh_PIjxoxwM-SzOu3pQJKnw",
+              "authorChannelId": {
+                "value": "UCh_PIjxoxwM-SzOu3pQJKnw"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 1,
+              "publishedAt": "2020-08-25T18:37:01Z",
+              "updatedAt": "2020-08-25T18:37:01Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "DqAPx1SRu2QnF_W0Dq0puTcwGOE",
+            "id": "UgxDdv1XcojuE0krBhx4AaABAg.9C_V0ij6GHO9CmkR18c2HT",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "@Rick C-137 Evidentemente abbiamo obbiettivi diversi, infatti io iPad lo uso per il disegno, fatto sta che adoro ios in generale, visto che per tutto quello che devo fare è perfetto. Poi se devo divertirmi ho il mio vecchio samsung che è il muletto perfetto. Ovviamente ogni sistema operativo ha pro e contro, ed ammetto che android sotto certi punti di vista può superare ios, e vice versa. Ognuno usa ciò con cui si trova bene.",
+              "textOriginal": "@Rick C-137 Evidentemente abbiamo obbiettivi diversi, infatti io iPad lo uso per il disegno, fatto sta che adoro ios in generale, visto che per tutto quello che devo fare è perfetto. Poi se devo divertirmi ho il mio vecchio samsung che è il muletto perfetto. Ovviamente ogni sistema operativo ha pro e contro, ed ammetto che android sotto certi punti di vista può superare ios, e vice versa. Ognuno usa ciò con cui si trova bene.",
+              "parentId": "UgxDdv1XcojuE0krBhx4AaABAg",
+              "authorDisplayName": "Onion tech",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJxCfJLnnhUH92pkdC_z-D_i5xKsh7eM4WtTTVln7Q=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCpMLedTaHrvsvZORhPqHqwA",
+              "authorChannelId": {
+                "value": "UCpMLedTaHrvsvZORhPqHqwA"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 1,
+              "publishedAt": "2020-08-25T14:51:51Z",
+              "updatedAt": "2020-08-25T14:51:51Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "q727ZjHtjW2l932jvrGYgpovvWg",
+            "id": "UgxDdv1XcojuE0krBhx4AaABAg.9C_V0ij6GHO9CmfFPQHa6j",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "@Onion tech ma non dire dai! Sul fatto che la apple pencil sia meglio ok ma è solo meglio per il fatto che legge l&#39;inclinazione perché per il resto sono identiche! Io ho preso ipad pro 2020 e dopo 2 settimane ho fatto il reso perché è assurdo che un dispositivo del genere sia così limitato, ma di sicuro l&#39;avessi tenuto non avrei mai speso quei soldi per la penna! Almeno Samsung te la mette in confezione! Come ha detto gale sul fatto del disegno artistico ipad e la pencil sono superiori e non lo metto in dubbio ma per il resto no! Per prendere appunti, scrivere note e fare cose normali la s-pen è fantastica! Io ho il note 20 ultra che ha la stessa penna ma più piccola e posso dirti che è fantastica! Ha anche cose in piu della pencil... poi come ho detto prima se devi disegnare che fai l&#39;illustratore ovviamente non prendi ne il note ne il tab di Samsung ma per il resto è molto meglio! Io sono contento di aver reso ipad pro e aver aspettato perché ora mi arriva tab s7+ che è nettamente superiore (sulla quotidianità, multimedialità, condivisione file ecc) io non disegno quindi è perfetto e risparmio 500€ circa!",
+              "textOriginal": "@Onion tech ma non dire dai! Sul fatto che la apple pencil sia meglio ok ma è solo meglio per il fatto che legge l'inclinazione perché per il resto sono identiche! Io ho preso ipad pro 2020 e dopo 2 settimane ho fatto il reso perché è assurdo che un dispositivo del genere sia così limitato, ma di sicuro l'avessi tenuto non avrei mai speso quei soldi per la penna! Almeno Samsung te la mette in confezione! Come ha detto gale sul fatto del disegno artistico ipad e la pencil sono superiori e non lo metto in dubbio ma per il resto no! Per prendere appunti, scrivere note e fare cose normali la s-pen è fantastica! Io ho il note 20 ultra che ha la stessa penna ma più piccola e posso dirti che è fantastica! Ha anche cose in piu della pencil... poi come ho detto prima se devi disegnare che fai l'illustratore ovviamente non prendi ne il note ne il tab di Samsung ma per il resto è molto meglio! Io sono contento di aver reso ipad pro e aver aspettato perché ora mi arriva tab s7+ che è nettamente superiore (sulla quotidianità, multimedialità, condivisione file ecc) io non disegno quindi è perfetto e risparmio 500€ circa!",
+              "parentId": "UgxDdv1XcojuE0krBhx4AaABAg",
+              "authorDisplayName": "Rick C-137",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJzu9JmHy-X6Q853OLGhtk0dBzYHrVkQ10J_MTov=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCh_PIjxoxwM-SzOu3pQJKnw",
+              "authorChannelId": {
+                "value": "UCh_PIjxoxwM-SzOu3pQJKnw"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 1,
+              "publishedAt": "2020-08-25T14:06:34Z",
+              "updatedAt": "2020-08-25T14:06:34Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "qtfMY8OjrbEjGNlQNP0rlsBSv90",
+            "id": "UgxDdv1XcojuE0krBhx4AaABAg.9C_V0ij6GHO9Cme2dCFblX",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "@Rick C-137 No aspetta, forse non ci siamo capiti, sono possessore di Ipad, e dopo aver provato s-pen, posso dire che la apple pencil giustifica il prezzo esorbitante, mentre s-pen pare un clone cinese. Invece per la tastiera ti do ragione, 400€ sono un furto.",
+              "textOriginal": "@Rick C-137 No aspetta, forse non ci siamo capiti, sono possessore di Ipad, e dopo aver provato s-pen, posso dire che la apple pencil giustifica il prezzo esorbitante, mentre s-pen pare un clone cinese. Invece per la tastiera ti do ragione, 400€ sono un furto.",
+              "parentId": "UgxDdv1XcojuE0krBhx4AaABAg",
+              "authorDisplayName": "Onion tech",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJxCfJLnnhUH92pkdC_z-D_i5xKsh7eM4WtTTVln7Q=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCpMLedTaHrvsvZORhPqHqwA",
+              "authorChannelId": {
+                "value": "UCpMLedTaHrvsvZORhPqHqwA"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 1,
+              "publishedAt": "2020-08-25T13:56:05Z",
+              "updatedAt": "2020-08-25T13:56:05Z"
+            }
+          },
+          {
+            "kind": "youtube#comment",
+            "etag": "F_RYFMWhstMPNxlw9WcEyys6Hwc",
+            "id": "UgxDdv1XcojuE0krBhx4AaABAg.9C_V0ij6GHO9CmPwzT15bd",
+            "snippet": {
+              "videoId": "aWO7Nb-q7dI",
+              "textDisplay": "@Onion tech pensa che quella di apple costa 140€! Sono pazzi! E la cover tastiera 400€",
+              "textOriginal": "@Onion tech pensa che quella di apple costa 140€! Sono pazzi! E la cover tastiera 400€",
+              "parentId": "UgxDdv1XcojuE0krBhx4AaABAg",
+              "authorDisplayName": "Rick C-137",
+              "authorProfileImageUrl": "https://yt3.ggpht.com/a/AATXAJzu9JmHy-X6Q853OLGhtk0dBzYHrVkQ10J_MTov=s48-c-k-c0xffffffff-no-rj-mo",
+              "authorChannelUrl": "http://www.youtube.com/channel/UCh_PIjxoxwM-SzOu3pQJKnw",
+              "authorChannelId": {
+                "value": "UCh_PIjxoxwM-SzOu3pQJKnw"
+              },
+              "canRate": true,
+              "viewerRating": "none",
+              "likeCount": 1,
+              "publishedAt": "2020-08-25T11:44:06Z",
+              "updatedAt": "2020-08-25T11:44:06Z"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

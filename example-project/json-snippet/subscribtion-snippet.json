@@ -1,0 +1,167 @@
+{
+  "kind": "youtube#SubscriptionListResponse",
+  "etag": "4XTtp42iA0ouvRRCgVOjMvhCsi4",
+  "nextPageToken": "CAUQAA",
+  "pageInfo": {
+    "totalResults": 18,
+    "resultsPerPage": 5
+  },
+  "items": [
+    {
+      "kind": "youtube#subscription",
+      "etag": "9gHmnr8RazGqFvS7DvMguY9Feuo",
+      "id": "wwo1XfID-Cthhr5m0KZOnRyykZXNT8B_txjmTALSeYI",
+      "snippet": {
+        "publishedAt": "2016-04-24T09:28:26Z",
+        "title": "Moto.it",
+        "description": "Moto.it - online il quotidiano della moto.\r\nProve, interviste ai piloti, articoli di costume, attualità e sport (MotoGP, Superbike, Motocross).",
+        "resourceId": {
+          "kind": "youtube#channel",
+          "channelId": "UCmIIBhzBfzoAt51zqdun_6g"
+        },
+        "channelId": "UCAKmHKqyGiPQg9n_Cp43yjQ",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-cQQBzoZj73k/AAAAAAAAAAI/AAAAAAAAAAA/3uB6GBCwkQs/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-cQQBzoZj73k/AAAAAAAAAAI/AAAAAAAAAAA/3uB6GBCwkQs/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-cQQBzoZj73k/AAAAAAAAAAI/AAAAAAAAAAA/3uB6GBCwkQs/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }
+      },
+      "contentDetails": {
+        "totalItemCount": 3046,
+        "newItemCount": 0,
+        "activityType": "all"
+      }
+    },
+    {
+      "kind": "youtube#subscription",
+      "etag": "kDt2e3az3U97PTXT961ZVQT7AjA",
+      "id": "wwo1XfID-Cthhr5m0KZOncMbh4yOnYb-jpVItIsvsO8",
+      "snippet": {
+        "publishedAt": "2020-02-28T19:11:27.675000Z",
+        "title": "Piergiorgio Odifreddi",
+        "description": "",
+        "resourceId": {
+          "kind": "youtube#channel",
+          "channelId": "UCIFzRzE8ne8_vxdrCm0w_Cg"
+        },
+        "channelId": "UCAKmHKqyGiPQg9n_Cp43yjQ",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-ri0VxKYpCJA/AAAAAAAAAAI/AAAAAAAAAAA/zjrW9xKn_MY/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-ri0VxKYpCJA/AAAAAAAAAAI/AAAAAAAAAAA/zjrW9xKn_MY/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-ri0VxKYpCJA/AAAAAAAAAAI/AAAAAAAAAAA/zjrW9xKn_MY/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }
+      },
+      "contentDetails": {
+        "totalItemCount": 456,
+        "newItemCount": 0,
+        "activityType": "all"
+      }
+    },
+    {
+      "kind": "youtube#subscription",
+      "etag": "dX28A7ghY3nW6EIozOgJU2un0Ec",
+      "id": "wwo1XfID-Cthhr5m0KZOnSsD6nsw9miXmFE0vhBRk-Q",
+      "snippet": {
+        "publishedAt": "2020-03-22T21:28:07.741000Z",
+        "title": "Rivista Motociclismo",
+        "description": "Il canale di Motociclismo, dal 1914 la rivista di moto più diffusa al mondo.",
+        "resourceId": {
+          "kind": "youtube#channel",
+          "channelId": "UCqtb3ZyYYO_ZE-BEX3bpYeg"
+        },
+        "channelId": "UCAKmHKqyGiPQg9n_Cp43yjQ",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-vvSzL8iE00c/AAAAAAAAAAI/AAAAAAAAAAA/F2WaExTii8I/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-vvSzL8iE00c/AAAAAAAAAAI/AAAAAAAAAAA/F2WaExTii8I/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-vvSzL8iE00c/AAAAAAAAAAI/AAAAAAAAAAA/F2WaExTii8I/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }
+      },
+      "contentDetails": {
+        "totalItemCount": 1913,
+        "newItemCount": 0,
+        "activityType": "all"
+      }
+    },
+    {
+      "kind": "youtube#subscription",
+      "etag": "OQ5Mzviv3h2gBw4v3OqkSuKjVJc",
+      "id": "wwo1XfID-Cthhr5m0KZOnco3Q5m9og-m7LXVrYO5TSI",
+      "snippet": {
+        "publishedAt": "2019-05-01T22:39:21.191000Z",
+        "title": "Davide Cironi",
+        "description": "The most popular Italian program among the motorsport, vintage cars and old-timey stories' enthusiasts. The rules are simple: not much talking, no doubtful songs, leaving the cars talking. Davide Cironi's Drive Experience wants to remember what has been forgotten and wants to teach those who wasn't there what they missed. This doesn't mean the past is the only topic, actually the program talks in the same way about the present and the future. We draw from the great Elders and their stories so we can take a cue from them and keep on living our love for the sports car. Lastly there are them, the cars, with their infinite shades and souls, which are driven by Davide who tries to get us taste from the passenger seat.",
+        "resourceId": {
+          "kind": "youtube#channel",
+          "channelId": "UCsD9nSAjE6uq1EPYlCORS9w"
+        },
+        "channelId": "UCAKmHKqyGiPQg9n_Cp43yjQ",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-0H--67raO1U/AAAAAAAAAAI/AAAAAAAAAAA/ndzpzcmTb74/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-0H--67raO1U/AAAAAAAAAAI/AAAAAAAAAAA/ndzpzcmTb74/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-0H--67raO1U/AAAAAAAAAAI/AAAAAAAAAAA/ndzpzcmTb74/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }
+      },
+      "contentDetails": {
+        "totalItemCount": 278,
+        "newItemCount": 0,
+        "activityType": "all"
+      }
+    },
+    {
+      "kind": "youtube#subscription",
+      "etag": "_P6yxglIVtT9zFawGSyt_mNS8w8",
+      "id": "wwo1XfID-Cthhr5m0KZOnXGh-6dphXR02HjVcbhklcI",
+      "snippet": {
+        "publishedAt": "2019-12-08T19:05:46.479000Z",
+        "title": "icarustheflier1",
+        "description": "Recensioni, Tutorial sia tecnici che non. Informatica. Aeromodellismo dinamico, volo. Automobili,  Armi da fuoco, sia corte che lunghe; orologi. Nautica, vela. Viaggi. Cucina, ricette classiche e innovative. Pizza, sia Verace Campana che in teglia. Action-camera e test. Chili Hot Pepper, peperoncini in ogni loro declinazione: dagli affascinanti quanto micidiali Chinenses, fino ai più tranquilli Annuum. Penne stilografiche: da sempre le mie preferite.\nSe ti piacciono i miei contenuti, al fine di renderli maggiormente fruibili ad un più ampio bacino di utenti, TI CHIEDO LA CORTESIA DI ISCRIVERTI AL MIO CANALE. GRAZIE. ;)\nMi manca il tempo per rispondere ai commenti, ma talvolta lo faccio. Non è per disinteresse, ma per oggettive impossibilità inerenti al tempo necessario per evadere  le richieste. I tutorial e le recensioni nel mio canale sono pensati per esser d'aiuto così alla prima visione. Risolvere ogni caso specifico, diverrebbe un lavoro. :)",
+        "resourceId": {
+          "kind": "youtube#channel",
+          "channelId": "UCMFwPYpy22fez4UwXTg4xwQ"
+        },
+        "channelId": "UCAKmHKqyGiPQg9n_Cp43yjQ",
+        "thumbnails": {
+          "default": {
+            "url": "https://yt3.ggpht.com/-mdRs_MY2aJ8/AAAAAAAAAAI/AAAAAAAAAAA/Id6sZsFSZw8/s88-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "medium": {
+            "url": "https://yt3.ggpht.com/-mdRs_MY2aJ8/AAAAAAAAAAI/AAAAAAAAAAA/Id6sZsFSZw8/s240-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          },
+          "high": {
+            "url": "https://yt3.ggpht.com/-mdRs_MY2aJ8/AAAAAAAAAAI/AAAAAAAAAAA/Id6sZsFSZw8/s800-c-k-no-mo-rj-c0xffffff/photo.jpg"
+          }
+        }
+      },
+      "contentDetails": {
+        "totalItemCount": 440,
+        "newItemCount": 0,
+        "activityType": "all"
+      }
+    }
+  ]
+}
+

@@ -14,15 +14,13 @@ class LinearRegressor (
   val elasticNetParam: Double
 ) extends Serializable {
 
-
-
   def execute()  {
     val spark = SparkSession
       .builder()
       .appName("Linear Regression")
       .master("local[*]")
       .getOrCreate()
-    
+
     import spark.implicits._
     val data = spark
       .sparkContext
@@ -36,11 +34,13 @@ class LinearRegressor (
         (y, Vectors.dense(xs))
       })
     
+
     val colNames = Seq("y", "x")
     val df = data.toDF(colNames: _*)
     df.show
+
     // //split into Training and Test set
-    val splittedDf = df.randomSplit(Array(.5, .5))
+    val splittedDf = df.randomSplit(Array(.7, .3))
     val trainingDf = splittedDf(0)
     val testDf = splittedDf(1)
 
@@ -58,8 +58,8 @@ class LinearRegressor (
 
     val evaluator = new RegressionEvaluator()
       .setMetricName("rmse")
-      .setLabelCol("y")
-      .setPredictionCol("prediction")
+      .setLabelCol("y") // input column containing the actual labels
+      .setPredictionCol("prediction") // column containing the predictions of your model 
 
     val cv = new CrossValidator()
       .setEstimator(lir)

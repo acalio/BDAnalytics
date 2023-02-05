@@ -1,0 +1,1162 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "app-test",
+        "directory": "/home/antonio/git/youtube-spark/kafka-producer",
+        "workspaceDir": "/home/antonio/git/youtube-spark/kafka-producer",
+        "sources": [
+            "/home/antonio/git/youtube-spark/kafka-producer/src/test/scala",
+            "/home/antonio/git/youtube-spark/kafka-producer/src/test/scala-2.12",
+            "/home/antonio/git/youtube-spark/kafka-producer/src/test/scala-2",
+            "/home/antonio/git/youtube-spark/kafka-producer/src/test/java",
+            "/home/antonio/git/youtube-spark/kafka-producer/target/scala-2.12/src_managed/test"
+        ],
+        "dependencies": [
+            "app"
+        ],
+        "classpath": [
+            "/home/antonio/git/youtube-spark/kafka-producer/.bloop/app/scala-2.12/classes",
+            "/home/antonio/git/youtube-spark/kafka-producer/lib/data-api-1.0T.jar",
+            "/home/antonio/.sbt/boot/scala-2.12.12/lib/scala-library.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.2.2/scalatest_2.12-3.2.2.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/0.9.28/logback-classic-0.9.28.jar",
+            "/home/antonio/.cache/coursier/v1/https/packages.confluent.io/maven/org/apache/kafka/kafka-clients/5.5.1-ccs/kafka-clients-5.5.1-ccs.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.11.2/jackson-databind-2.11.2.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/apis/google-api-services-youtube/v3-rev222-1.25.0/google-api-services-youtube-v3-rev222-1.25.0.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/avro/avro/1.10.0/avro-1.10.0.jar",
+            "/home/antonio/.cache/coursier/v1/https/packages.confluent.io/maven/io/confluent/kafka-avro-serializer/5.5.1/kafka-avro-serializer-5.5.1.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/rogach/scallop_2.12/3.5.1/scallop_2.12-3.5.1.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-core_2.12/3.2.2/scalatest-core_2.12-3.2.2.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-featurespec_2.12/3.2.2/scalatest-featurespec_2.12-3.2.2.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-flatspec_2.12/3.2.2/scalatest-flatspec_2.12-3.2.2.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-freespec_2.12/3.2.2/scalatest-freespec_2.12-3.2.2.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-funsuite_2.12/3.2.2/scalatest-funsuite_2.12-3.2.2.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-funspec_2.12/3.2.2/scalatest-funspec_2.12-3.2.2.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-propspec_2.12/3.2.2/scalatest-propspec_2.12-3.2.2.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-refspec_2.12/3.2.2/scalatest-refspec_2.12-3.2.2.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-wordspec_2.12/3.2.2/scalatest-wordspec_2.12-3.2.2.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-diagrams_2.12/3.2.2/scalatest-diagrams_2.12-3.2.2.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-matchers-core_2.12/3.2.2/scalatest-matchers-core_2.12-3.2.2.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-shouldmatchers_2.12/3.2.2/scalatest-shouldmatchers_2.12-3.2.2.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-mustmatchers_2.12/3.2.2/scalatest-mustmatchers_2.12-3.2.2.jar",
+            "/home/antonio/.sbt/boot/scala-2.12.12/lib/scala-reflect.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/0.9.28/logback-core-0.9.28.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/luben/zstd-jni/1.4.4-7/zstd-jni-1.4.4-7.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/lz4/lz4-java/1.7.1/lz4-java-1.7.1.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.7.3/snappy-java-1.1.7.3.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.11.2/jackson-annotations-2.11.2.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.11.2/jackson-core-2.11.2.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/api-client/google-api-client/1.25.0/google-api-client-1.25.0.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar",
+            "/home/antonio/.cache/coursier/v1/https/packages.confluent.io/maven/io/confluent/kafka-schema-serializer/5.5.1/kafka-schema-serializer-5.5.1.jar",
+            "/home/antonio/.cache/coursier/v1/https/packages.confluent.io/maven/io/confluent/kafka-schema-registry-client/5.5.1/kafka-schema-registry-client-5.5.1.jar",
+            "/home/antonio/.cache/coursier/v1/https/packages.confluent.io/maven/io/confluent/common-config/5.5.1/common-config-5.5.1.jar",
+            "/home/antonio/.cache/coursier/v1/https/packages.confluent.io/maven/io/confluent/common-utils/5.5.1/common-utils-5.5.1.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-compatible/3.2.2/scalatest-compatible-3.2.2.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.2.2/scalactic_2.12-3.2.2.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.2.0/scala-xml_2.12-1.2.0.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/oauth-client/google-oauth-client/1.25.0/google-oauth-client-1.25.0.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client-jackson2/1.25.0/google-http-client-jackson2-1.25.0.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/20.0/guava-20.0.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/ws/rs/javax.ws.rs-api/2.1.1/javax.ws.rs-api-2.1.1.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-common/2.30/jersey-common-2.30.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/io/swagger/swagger-annotations/1.6.0/swagger-annotations-1.6.0.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client/1.25.0/google-http-client-1.25.0.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6/jakarta.ws.rs-api-2.1.6.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/jakarta.inject/2.6.1/jakarta.inject-2.6.1.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.3/osgi-resource-locator-1.0.3.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar",
+            "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.jar"
+        ],
+        "out": "/home/antonio/git/youtube-spark/kafka-producer/.bloop/app",
+        "classesDir": "/home/antonio/git/youtube-spark/kafka-producer/.bloop/app/scala-2.12/test-classes",
+        "resources": [
+            "/home/antonio/git/youtube-spark/kafka-producer/src/test/resources",
+            "/home/antonio/git/youtube-spark/kafka-producer/target/scala-2.12/resource_managed/test"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.12.12",
+            "options": [
+                
+            ],
+            "jars": [
+                "/home/antonio/.sbt/boot/scala-2.12.12/lib/scala-xml_2.12.jar",
+                "/home/antonio/.sbt/boot/scala-2.12.12/lib/jansi.jar",
+                "/home/antonio/.sbt/boot/scala-2.12.12/lib/scala-library.jar",
+                "/home/antonio/.sbt/boot/scala-2.12.12/lib/scala-compiler.jar",
+                "/home/antonio/.sbt/boot/scala-2.12.12/lib/jline.jar",
+                "/home/antonio/.sbt/boot/scala-2.12.12/lib/scala-reflect.jar"
+            ],
+            "analysis": "/home/antonio/git/youtube-spark/kafka-producer/target/streams/test/bloopAnalysisOut/_global/streams/inc_compile_2.12.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/usr/lib/jvm/java-11-openjdk-11.0.8.10-2.fc32.x86_64",
+                "options": [
+                    "-Duser.dir=/home/antonio/git/youtube-spark/kafka-producer"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.12",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/antonio/.sbt/boot/scala-2.12.12/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.12/scala-library-2.12.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-classic",
+                    "version": "0.9.28",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "logback-classic",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/0.9.28/logback-classic-0.9.28.jar"
+                        },
+                        {
+                            "name": "logback-classic",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-classic/0.9.28/logback-classic-0.9.28-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.kafka",
+                    "name": "kafka-clients",
+                    "version": "5.5.1-ccs",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "kafka-clients",
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "3ac1cbc72db4b0c57038a7a196d5f413d767ae68"
+                            },
+                            "path": "/home/antonio/.cache/coursier/v1/https/packages.confluent.io/maven/org/apache/kafka/kafka-clients/5.5.1-ccs/kafka-clients-5.5.1-ccs.jar"
+                        },
+                        {
+                            "name": "kafka-clients",
+                            "classifier": "sources",
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "8a55c1d03f426e765f9004ee55d0b817ec362993"
+                            },
+                            "path": "/home/antonio/.cache/coursier/v1/https/packages.confluent.io/maven/org/apache/kafka/kafka-clients/5.5.1-ccs/kafka-clients-5.5.1-ccs-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-databind",
+                    "version": "2.11.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-databind",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.11.2/jackson-databind-2.11.2.jar"
+                        },
+                        {
+                            "name": "jackson-databind",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.11.2/jackson-databind-2.11.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.apis",
+                    "name": "google-api-services-youtube",
+                    "version": "v3-rev222-1.25.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "google-api-services-youtube",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/apis/google-api-services-youtube/v3-rev222-1.25.0/google-api-services-youtube-v3-rev222-1.25.0.jar"
+                        },
+                        {
+                            "name": "google-api-services-youtube",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/apis/google-api-services-youtube/v3-rev222-1.25.0/google-api-services-youtube-v3-rev222-1.25.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.avro",
+                    "name": "avro",
+                    "version": "1.10.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "avro",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/avro/avro/1.10.0/avro-1.10.0.jar"
+                        },
+                        {
+                            "name": "avro",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/avro/avro/1.10.0/avro-1.10.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.confluent",
+                    "name": "kafka-avro-serializer",
+                    "version": "5.5.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "kafka-avro-serializer",
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "e5998aab50d8b89d82eaddf7d844769f78f0066e"
+                            },
+                            "path": "/home/antonio/.cache/coursier/v1/https/packages.confluent.io/maven/io/confluent/kafka-avro-serializer/5.5.1/kafka-avro-serializer-5.5.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.rogach",
+                    "name": "scallop_2.12",
+                    "version": "3.5.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scallop_2.12",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/rogach/scallop_2.12/3.5.1/scallop_2.12-3.5.1.jar"
+                        },
+                        {
+                            "name": "scallop_2.12",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/rogach/scallop_2.12/3.5.1/scallop_2.12-3.5.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.qos.logback",
+                    "name": "logback-core",
+                    "version": "0.9.28",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "logback-core",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/0.9.28/logback-core-0.9.28.jar"
+                        },
+                        {
+                            "name": "logback-core",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/qos/logback/logback-core/0.9.28/logback-core-0.9.28-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-api",
+                    "version": "1.7.30",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-api",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.github.luben",
+                    "name": "zstd-jni",
+                    "version": "1.4.4-7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "zstd-jni",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/luben/zstd-jni/1.4.4-7/zstd-jni-1.4.4-7.jar"
+                        },
+                        {
+                            "name": "zstd-jni",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/luben/zstd-jni/1.4.4-7/zstd-jni-1.4.4-7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.lz4",
+                    "name": "lz4-java",
+                    "version": "1.7.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "lz4-java",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/lz4/lz4-java/1.7.1/lz4-java-1.7.1.jar"
+                        },
+                        {
+                            "name": "lz4-java",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/lz4/lz4-java/1.7.1/lz4-java-1.7.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.xerial.snappy",
+                    "name": "snappy-java",
+                    "version": "1.1.7.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "snappy-java",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.7.3/snappy-java-1.1.7.3.jar"
+                        },
+                        {
+                            "name": "snappy-java",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/xerial/snappy/snappy-java/1.1.7.3/snappy-java-1.1.7.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-annotations",
+                    "version": "2.11.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-annotations",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.11.2/jackson-annotations-2.11.2.jar"
+                        },
+                        {
+                            "name": "jackson-annotations",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.11.2/jackson-annotations-2.11.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.fasterxml.jackson.core",
+                    "name": "jackson-core",
+                    "version": "2.11.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jackson-core",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.11.2/jackson-core-2.11.2.jar"
+                        },
+                        {
+                            "name": "jackson-core",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-core/2.11.2/jackson-core-2.11.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.api-client",
+                    "name": "google-api-client",
+                    "version": "1.25.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "google-api-client",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/api-client/google-api-client/1.25.0/google-api-client-1.25.0.jar"
+                        },
+                        {
+                            "name": "google-api-client",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/api-client/google-api-client/1.25.0/google-api-client-1.25.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.commons",
+                    "name": "commons-compress",
+                    "version": "1.20",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-compress",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-compress/1.20/commons-compress-1.20.jar"
+                        },
+                        {
+                            "name": "commons-compress",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/commons/commons-compress/1.20/commons-compress-1.20-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.confluent",
+                    "name": "kafka-schema-serializer",
+                    "version": "5.5.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "kafka-schema-serializer",
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "ded000597fec9208209643211a13b463c67eb6de"
+                            },
+                            "path": "/home/antonio/.cache/coursier/v1/https/packages.confluent.io/maven/io/confluent/kafka-schema-serializer/5.5.1/kafka-schema-serializer-5.5.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.confluent",
+                    "name": "kafka-schema-registry-client",
+                    "version": "5.5.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "kafka-schema-registry-client",
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "a0583bbe64968928d20cbf6bebff44259ea810ec"
+                            },
+                            "path": "/home/antonio/.cache/coursier/v1/https/packages.confluent.io/maven/io/confluent/kafka-schema-registry-client/5.5.1/kafka-schema-registry-client-5.5.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.confluent",
+                    "name": "common-config",
+                    "version": "5.5.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "common-config",
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "ec1e5be64c3b3cf8adeb838a1fe22759433f994c"
+                            },
+                            "path": "/home/antonio/.cache/coursier/v1/https/packages.confluent.io/maven/io/confluent/common-config/5.5.1/common-config-5.5.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.confluent",
+                    "name": "common-utils",
+                    "version": "5.5.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "common-utils",
+                            "checksum": {
+                                "type": "sha1",
+                                "digest": "96d0c4dcce8eee1234c781db3c3420de02c1ae3e"
+                            },
+                            "path": "/home/antonio/.cache/coursier/v1/https/packages.confluent.io/maven/io/confluent/common-utils/5.5.1/common-utils-5.5.1.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.oauth-client",
+                    "name": "google-oauth-client",
+                    "version": "1.25.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "google-oauth-client",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/oauth-client/google-oauth-client/1.25.0/google-oauth-client-1.25.0.jar"
+                        },
+                        {
+                            "name": "google-oauth-client",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/oauth-client/google-oauth-client/1.25.0/google-oauth-client-1.25.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.http-client",
+                    "name": "google-http-client-jackson2",
+                    "version": "1.25.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "google-http-client-jackson2",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client-jackson2/1.25.0/google-http-client-jackson2-1.25.0.jar"
+                        },
+                        {
+                            "name": "google-http-client-jackson2",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client-jackson2/1.25.0/google-http-client-jackson2-1.25.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.guava",
+                    "name": "guava",
+                    "version": "20.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "guava",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/20.0/guava-20.0.jar"
+                        },
+                        {
+                            "name": "guava",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/guava/guava/20.0/guava-20.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "javax.ws.rs",
+                    "name": "javax.ws.rs-api",
+                    "version": "2.1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "javax.ws.rs-api",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/ws/rs/javax.ws.rs-api/2.1.1/javax.ws.rs-api-2.1.1.jar"
+                        },
+                        {
+                            "name": "javax.ws.rs-api",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/javax/ws/rs/javax.ws.rs-api/2.1.1/javax.ws.rs-api-2.1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.jersey.core",
+                    "name": "jersey-common",
+                    "version": "2.30",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jersey-common",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-common/2.30/jersey-common-2.30.jar"
+                        },
+                        {
+                            "name": "jersey-common",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/jersey/core/jersey-common/2.30/jersey-common-2.30-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.swagger",
+                    "name": "swagger-annotations",
+                    "version": "1.6.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "swagger-annotations",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/io/swagger/swagger-annotations/1.6.0/swagger-annotations-1.6.0.jar"
+                        },
+                        {
+                            "name": "swagger-annotations",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/io/swagger/swagger-annotations/1.6.0/swagger-annotations-1.6.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.http-client",
+                    "name": "google-http-client",
+                    "version": "1.25.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "google-http-client",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client/1.25.0/google-http-client-1.25.0.jar"
+                        },
+                        {
+                            "name": "google-http-client",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/http-client/google-http-client/1.25.0/google-http-client-1.25.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.code.findbugs",
+                    "name": "jsr305",
+                    "version": "3.0.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jsr305",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar"
+                        },
+                        {
+                            "name": "jsr305",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.sun.activation",
+                    "name": "jakarta.activation",
+                    "version": "1.2.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.activation",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar"
+                        },
+                        {
+                            "name": "jakarta.activation",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jakarta.ws.rs",
+                    "name": "jakarta.ws.rs-api",
+                    "version": "2.1.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.ws.rs-api",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6/jakarta.ws.rs-api-2.1.6.jar"
+                        },
+                        {
+                            "name": "jakarta.ws.rs-api",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/ws/rs/jakarta.ws.rs-api/2.1.6/jakarta.ws.rs-api-2.1.6-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "jakarta.annotation",
+                    "name": "jakarta.annotation-api",
+                    "version": "1.3.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.annotation-api",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5.jar"
+                        },
+                        {
+                            "name": "jakarta.annotation-api",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/jakarta/annotation/jakarta.annotation-api/1.3.5/jakarta.annotation-api-1.3.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.hk2.external",
+                    "name": "jakarta.inject",
+                    "version": "2.6.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.inject",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/jakarta.inject/2.6.1/jakarta.inject-2.6.1.jar"
+                        },
+                        {
+                            "name": "jakarta.inject",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/external/jakarta.inject/2.6.1/jakarta.inject-2.6.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.glassfish.hk2",
+                    "name": "osgi-resource-locator",
+                    "version": "1.0.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "osgi-resource-locator",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.3/osgi-resource-locator-1.0.3.jar"
+                        },
+                        {
+                            "name": "osgi-resource-locator",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/glassfish/hk2/osgi-resource-locator/1.0.3/osgi-resource-locator-1.0.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.httpcomponents",
+                    "name": "httpclient",
+                    "version": "4.5.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "httpclient",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar"
+                        },
+                        {
+                            "name": "httpclient",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.j2objc",
+                    "name": "j2objc-annotations",
+                    "version": "1.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "j2objc-annotations",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar"
+                        },
+                        {
+                            "name": "j2objc-annotations",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.apache.httpcomponents",
+                    "name": "httpcore",
+                    "version": "4.4.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "httpcore",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar"
+                        },
+                        {
+                            "name": "httpcore",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-logging",
+                    "name": "commons-logging",
+                    "version": "1.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-logging",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2.jar"
+                        },
+                        {
+                            "name": "commons-logging",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-logging/commons-logging/1.2/commons-logging-1.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "commons-codec",
+                    "name": "commons-codec",
+                    "version": "1.10",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "commons-codec",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10.jar"
+                        },
+                        {
+                            "name": "commons-codec",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/commons-codec/commons-codec/1.10/commons-codec-1.10-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.12.12",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/antonio/.sbt/boot/scala-2.12.12/lib/scala-library.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.12/scala-library-2.12.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.12.12",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "/home/antonio/.sbt/boot/scala-2.12.12/lib/scala-reflect.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.12/scala-reflect-2.12.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest_2.12",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest_2.12",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.2.2/scalatest_2.12-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest_2.12",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.2.2/scalatest_2.12-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-core_2.12",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-core_2.12",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-core_2.12/3.2.2/scalatest-core_2.12-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-core_2.12",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-core_2.12/3.2.2/scalatest-core_2.12-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-featurespec_2.12",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-featurespec_2.12",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-featurespec_2.12/3.2.2/scalatest-featurespec_2.12-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-featurespec_2.12",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-featurespec_2.12/3.2.2/scalatest-featurespec_2.12-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-flatspec_2.12",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-flatspec_2.12",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-flatspec_2.12/3.2.2/scalatest-flatspec_2.12-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-flatspec_2.12",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-flatspec_2.12/3.2.2/scalatest-flatspec_2.12-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-freespec_2.12",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-freespec_2.12",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-freespec_2.12/3.2.2/scalatest-freespec_2.12-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-freespec_2.12",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-freespec_2.12/3.2.2/scalatest-freespec_2.12-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-funsuite_2.12",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-funsuite_2.12",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-funsuite_2.12/3.2.2/scalatest-funsuite_2.12-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-funsuite_2.12",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-funsuite_2.12/3.2.2/scalatest-funsuite_2.12-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-funspec_2.12",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-funspec_2.12",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-funspec_2.12/3.2.2/scalatest-funspec_2.12-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-funspec_2.12",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-funspec_2.12/3.2.2/scalatest-funspec_2.12-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-propspec_2.12",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-propspec_2.12",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-propspec_2.12/3.2.2/scalatest-propspec_2.12-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-propspec_2.12",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-propspec_2.12/3.2.2/scalatest-propspec_2.12-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-refspec_2.12",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-refspec_2.12",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-refspec_2.12/3.2.2/scalatest-refspec_2.12-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-refspec_2.12",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-refspec_2.12/3.2.2/scalatest-refspec_2.12-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-wordspec_2.12",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-wordspec_2.12",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-wordspec_2.12/3.2.2/scalatest-wordspec_2.12-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-wordspec_2.12",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-wordspec_2.12/3.2.2/scalatest-wordspec_2.12-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-diagrams_2.12",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-diagrams_2.12",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-diagrams_2.12/3.2.2/scalatest-diagrams_2.12-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-diagrams_2.12",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-diagrams_2.12/3.2.2/scalatest-diagrams_2.12-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-matchers-core_2.12",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-matchers-core_2.12",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-matchers-core_2.12/3.2.2/scalatest-matchers-core_2.12-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-matchers-core_2.12",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-matchers-core_2.12/3.2.2/scalatest-matchers-core_2.12-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-shouldmatchers_2.12",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-shouldmatchers_2.12",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-shouldmatchers_2.12/3.2.2/scalatest-shouldmatchers_2.12-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-shouldmatchers_2.12",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-shouldmatchers_2.12/3.2.2/scalatest-shouldmatchers_2.12-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-mustmatchers_2.12",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-mustmatchers_2.12",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-mustmatchers_2.12/3.2.2/scalatest-mustmatchers_2.12-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-mustmatchers_2.12",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-mustmatchers_2.12/3.2.2/scalatest-mustmatchers_2.12-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalatest",
+                    "name": "scalatest-compatible",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalatest-compatible",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-compatible/3.2.2/scalatest-compatible-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalatest-compatible",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalatest/scalatest-compatible/3.2.2/scalatest-compatible-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalactic",
+                    "name": "scalactic_2.12",
+                    "version": "3.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalactic_2.12",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.2.2/scalactic_2.12-3.2.2.jar"
+                        },
+                        {
+                            "name": "scalactic_2.12",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.2.2/scalactic_2.12-3.2.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-xml_2.12",
+                    "version": "1.2.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-xml_2.12",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.2.0/scala-xml_2.12-1.2.0.jar"
+                        },
+                        {
+                            "name": "scala-xml_2.12",
+                            "classifier": "sources",
+                            "path": "/home/antonio/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.2.0/scala-xml_2.12-1.2.0-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "test"
+        ]
+    }
+}

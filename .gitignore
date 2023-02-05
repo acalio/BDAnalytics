@@ -1,6 +1,6 @@
 advanced-examples
 basic-examples
-data
+data_
 flume
 intro-to-graphx
 intro-to-spark-streaming
@@ -11,7 +11,8 @@ spark-sql
 spark-streaming
 youtube-basic-example
 youtube-example
-img
+img_
 target/
 .metals/
 project/
+*.org
